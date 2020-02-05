@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: ff8a0393414b0e44c9dd646a21b64038
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 1 l
+    100002: 1 r
+    100004: 2 l
+    100006: 2 l_end
+    100008: 2 r
+    100010: 2 r_end
+    100012: Bone
+    100014: Bone.001
+    100016: Bone.001_end
+    100018: breast.L
+    100020: breast.L_end
+    100022: breast.R
+    100024: breast.R_end
+    100026: face
+    100028: forearm.L
+    100030: forearm.R
+    100032: Hand l
+    100034: Hand r
+    100036: heel.02.L
+    100038: heel.02.L_end
+    100040: heel.02.R
+    100042: heel.02.R_end
+    100044: iktarget.L.002
+    100046: iktarget.L.002_end
+    100048: iktarget.R.002
+    100050: iktarget.R.002_end
+    100052: index 1.L
+    100054: index 1.R
+    100056: index 2 . L
+    100058: index 2 . L_end
+    100060: index 2 . R
+    100062: index 2 . R_end
+    100064: left eye
+    100066: 'left eye controller '
+    100068: left eye controller _end
+    100070: left eye_end
+    100072: 'main contoller '
+    100074: mid 1 . L
+    100076: mid 1 . R
+    100078: mid 2 . L
+    100080: mid 2 . L_end
+    100082: mid 2 . R
+    100084: mid 2 . R_end
+    100086: mixamo:BOE
+    100088: mixamo:l eye
+    100090: mixamo:r eye
+    100092: mouth
+    100094: mouth_end
+    100096: pelvis.L
+    100098: pelvis.L_end
+    100100: pelvis.R
+    100102: pelvis.R_end
+    100104: pinky  1 . L
+    100106: pinky  1 . R
+    100108: pinky 2 . L
+    100110: pinky 2 . L_end
+    100112: pinky 2 . R
+    100114: pinky 2 . R_end
+    100116: poltarget.L.002
+    100118: poltarget.L.002_end
+    100120: poltarget.R.002
+    100122: poltarget.R.002_end
+    100124: //RootNode
+    100126: right eye
+    100128: 'right eye controller '
+    100130: right eye controller _end
+    100132: right eye_end
+    100134: shoulder.L
+    100136: shoulder.R
+    100138: spine
+    100140: spine.001
+    100142: spine.002
+    100144: spine.003
+    100146: spine.004
+    100148: spine.005
+    100150: spine.006
+    100152: thigh.L
+    100154: thigh.L.001
+    100156: thigh.R
+    100158: thigh.R.001
+    100160: toe.L
+    100162: toe.L_end
+    100164: toe.R
+    100166: toe.R_end
+    100168: upper_arm.L
+    100170: upper_arm.L.001
+    100172: upper_arm.L.001_end
+    100174: upper_arm.R
+    100176: upper_arm.R.001
+    100178: upper_arm.R.001_end
+    400000: 1 l
+    400002: 1 r
+    400004: 2 l
+    400006: 2 l_end
+    400008: 2 r
+    400010: 2 r_end
+    400012: Bone
+    400014: Bone.001
+    400016: Bone.001_end
+    400018: breast.L
+    400020: breast.L_end
+    400022: breast.R
+    400024: breast.R_end
+    400026: face
+    400028: forearm.L
+    400030: forearm.R
+    400032: Hand l
+    400034: Hand r
+    400036: heel.02.L
+    400038: heel.02.L_end
+    400040: heel.02.R
+    400042: heel.02.R_end
+    400044: iktarget.L.002
+    400046: iktarget.L.002_end
+    400048: iktarget.R.002
+    400050: iktarget.R.002_end
+    400052: index 1.L
+    400054: index 1.R
+    400056: index 2 . L
+    400058: index 2 . L_end
+    400060: index 2 . R
+    400062: index 2 . R_end
+    400064: left eye
+    400066: 'left eye controller '
+    400068: left eye controller _end
+    400070: left eye_end
+    400072: 'main contoller '
+    400074: mid 1 . L
+    400076: mid 1 . R
+    400078: mid 2 . L
+    400080: mid 2 . L_end
+    400082: mid 2 . R
+    400084: mid 2 . R_end
+    400086: mixamo:BOE
+    400088: mixamo:l eye
+    400090: mixamo:r eye
+    400092: mouth
+    400094: mouth_end
+    400096: pelvis.L
+    400098: pelvis.L_end
+    400100: pelvis.R
+    400102: pelvis.R_end
+    400104: pinky  1 . L
+    400106: pinky  1 . R
+    400108: pinky 2 . L
+    400110: pinky 2 . L_end
+    400112: pinky 2 . R
+    400114: pinky 2 . R_end
+    400116: poltarget.L.002
+    400118: poltarget.L.002_end
+    400120: poltarget.R.002
+    400122: poltarget.R.002_end
+    400124: //RootNode
+    400126: right eye
+    400128: 'right eye controller '
+    400130: right eye controller _end
+    400132: right eye_end
+    400134: shoulder.L
+    400136: shoulder.R
+    400138: spine
+    400140: spine.001
+    400142: spine.002
+    400144: spine.003
+    400146: spine.004
+    400148: spine.005
+    400150: spine.006
+    400152: thigh.L
+    400154: thigh.L.001
+    400156: thigh.R
+    400158: thigh.R.001
+    400160: toe.L
+    400162: toe.L_end
+    400164: toe.R
+    400166: toe.R_end
+    400168: upper_arm.L
+    400170: upper_arm.L.001
+    400172: upper_arm.L.001_end
+    400174: upper_arm.R
+    400176: upper_arm.R.001
+    400178: upper_arm.R.001_end
+    2300000: mixamo:BOE
+    2300002: mixamo:l eye
+    2300004: mixamo:r eye
+    3300000: mixamo:BOE
+    3300002: mixamo:l eye
+    3300004: mixamo:r eye
+    4300000: mixamo:BOE
+    4300002: mixamo:r eye
+    4300004: mixamo:l eye
+    7400000: mixamo.com
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
