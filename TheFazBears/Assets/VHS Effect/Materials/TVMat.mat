@@ -39,7 +39,7 @@ Material:
     - hardScan: 0
     - maskDark: 0.69
     - maskLight: 0.67
-    - resScale: 0.3
+    - resScale: -1
     m_Colors:
     - _ScanLinesColor: {r: 0, g: 0, b: 0, a: 0}
     - warp: {r: 0, g: 0, b: 0, a: 0}
