@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
 	float speedSmoothVelocity;
 	float currentSpeed;
 	float velocityY;
+	
 
 	Animator animator;
 	Transform cameraT;
@@ -77,6 +78,7 @@ public class PlayerController : MonoBehaviour
 	void Jump()
 	{
 		if (footKinetic.isGrounded())
+
 		{
 			float jumpVelocity = Mathf.Sqrt(-2 * gravity * jumpHeight);
 			velocityY = jumpVelocity;
@@ -86,6 +88,7 @@ public class PlayerController : MonoBehaviour
 	float GetModifiedSmoothTime(float smoothTime)
 	{
 		if (footKinetic.isGrounded())
+
 		{
 			return smoothTime;
 		}
