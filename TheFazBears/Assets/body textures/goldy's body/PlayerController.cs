@@ -22,12 +22,14 @@ public class PlayerController : MonoBehaviour
 	Animator animator;
 	Transform cameraT;
 	CharacterController controller;
+	FootIK footKinetic;
 
 	void Start()
 	{
 		animator = GetComponent<Animator>();
 		cameraT = Camera.main.transform;
 		controller = GetComponent<CharacterController>();
+		footKinetic = GetComponent<FootIK>();
 	}
 
 	void Update()
@@ -66,16 +68,15 @@ public class PlayerController : MonoBehaviour
 		controller.Move(velocity * Time.deltaTime);
 		currentSpeed = new Vector2(controller.velocity.x, controller.velocity.z).magnitude;
 
-		if (controller.isGrounded)
+		if (footKinetic.isGrounded())
 		{
 			velocityY = 0;
 		}
-
 	}
 
 	void Jump()
 	{
-		if (controller.isGrounded)
+		if (footKinetic.isGrounded())
 		{
 			float jumpVelocity = Mathf.Sqrt(-2 * gravity * jumpHeight);
 			velocityY = jumpVelocity;
@@ -84,7 +85,7 @@ public class PlayerController : MonoBehaviour
 
 	float GetModifiedSmoothTime(float smoothTime)
 	{
-		if (controller.isGrounded)
+		if (footKinetic.isGrounded())
 		{
 			return smoothTime;
 		}
