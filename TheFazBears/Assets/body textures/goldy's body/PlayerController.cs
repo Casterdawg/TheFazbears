@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
 	float speedSmoothVelocity;
 	float currentSpeed;
 	float velocityY;
-	
 
 	Animator animator;
 	Transform cameraT;
@@ -76,7 +75,7 @@ public class PlayerController : MonoBehaviour
 
 	void Jump()
 	{
-		if (controller.isGrounded) Debug.Log(Physics.Raycast(transform.position, -Vector3.up, 0.28f));
+		if (controller.isGrounded)
 		{
 			float jumpVelocity = Mathf.Sqrt(-2 * gravity * jumpHeight);
 			velocityY = jumpVelocity;
@@ -85,7 +84,7 @@ public class PlayerController : MonoBehaviour
 
 	float GetModifiedSmoothTime(float smoothTime)
 	{
-		if (controller.isGrounded) 
+		if (controller.isGrounded)
 		{
 			return smoothTime;
 		}
