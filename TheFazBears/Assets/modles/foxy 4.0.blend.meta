@@ -89,6 +89,123 @@ ModelImporter:
     100166: toe_R
     100168: upper_arm_L
     100170: upper_arm_R
+    100172: breast.L
+    100174: breast.L_end
+    100176: breast.R
+    100178: breast.R_end
+    100180: con eye.l.001
+    100182: con eye.l.001_end
+    100184: con eye.r.001
+    100186: con eye.r.001_end
+    100188: Cube.001
+    100190: Cube.002
+    100192: ear.l
+    100194: ear.l.001
+    100196: ear.l.001_end
+    100198: ear.r
+    100200: ear.r.001
+    100202: ear.r.001_end
+    100204: eye l
+    100206: eye r
+    100208: eye.l
+    100210: eye.l_end
+    100212: eye.r
+    100214: eye.r_end
+    100216: foot.L
+    100218: foot.R
+    100220: forearm.L
+    100222: forearm.R
+    100224: 'foxy hair '
+    100226: foxy's tail
+    100228: foxys bod
+    100230: hand.L
+    100232: hand.L.001
+    100234: hand.L.002
+    100236: hand.L.002_end
+    100238: hand.L.004
+    100240: hand.L.005
+    100242: hand.L.006
+    100244: hand.L.007
+    100246: hand.L.007_end
+    100248: hand.L.008
+    100250: hand.L.010
+    100252: hand.L.010_end
+    100254: hand.L.011
+    100256: hand.L.011_end
+    100258: hand.L.012
+    100260: hand.R
+    100262: hand.R.001
+    100264: hand.R.002
+    100266: hand.R.002_end
+    100268: hand.R.004
+    100270: hand.R.005
+    100272: hand.R.006
+    100274: hand.R.007
+    100276: hand.R.007_end
+    100278: hand.R.008
+    100280: hand.R.010
+    100282: hand.R.010_end
+    100284: hand.R.011
+    100286: hand.R.011_end
+    100288: hand.R.012
+    100290: heel.02.L
+    100292: heel.02.L_end
+    100294: heel.02.R
+    100296: heel.02.R_end
+    100298: Hemi
+    100300: Hemi.001
+    100302: Hemi.002
+    100304: Hemi.003
+    100306: Hemi.004
+    100308: main eye con
+    100310: pelvis.L
+    100312: pelvis.L_end
+    100314: pelvis.R
+    100316: pelvis.R_end
+    100318: shin.L
+    100320: shin.R
+    100322: shoulder.L
+    100324: shoulder.L.001
+    100326: shoulder.L.002
+    100328: shoulder.L.005
+    100330: shoulder.L.006
+    100332: shoulder.L.008
+    100334: shoulder.L.009
+    100336: shoulder.L.009_end
+    100338: shoulder.L.010
+    100340: shoulder.L.010_end
+    100342: shoulder.L.011
+    100344: shoulder.L.011_end
+    100346: shoulder.R
+    100348: shoulder.R.001
+    100350: shoulder.R.002
+    100352: shoulder.R.005
+    100354: shoulder.R.006
+    100356: shoulder.R.008
+    100358: shoulder.R.009
+    100360: shoulder.R.009_end
+    100362: shoulder.R.010
+    100364: shoulder.R.010_end
+    100366: shoulder.R.011
+    100368: shoulder.R.011_end
+    100370: spine.001
+    100372: spine.002
+    100374: spine.003
+    100376: spine.004
+    100378: spine.005
+    100380: spine.006
+    100382: spine.007
+    100384: spine.009
+    100386: spine.009_end
+    100388: spine.010
+    100390: thigh.L
+    100392: thigh.R
+    100394: toe.L
+    100396: toe.L_end
+    100398: toe.R
+    100400: toe.R_end
+    100402: upper_arm.L
+    100404: upper_arm.R
     400000: breast_L
     400002: breast_R
     400004: con_eye_l_001
@@ -175,6 +292,123 @@ ModelImporter:
     400166: toe_R
     400168: upper_arm_L
     400170: upper_arm_R
+    400172: breast.L
+    400174: breast.L_end
+    400176: breast.R
+    400178: breast.R_end
+    400180: con eye.l.001
+    400182: con eye.l.001_end
+    400184: con eye.r.001
+    400186: con eye.r.001_end
+    400188: Cube.001
+    400190: Cube.002
+    400192: ear.l
+    400194: ear.l.001
+    400196: ear.l.001_end
+    400198: ear.r
+    400200: ear.r.001
+    400202: ear.r.001_end
+    400204: eye l
+    400206: eye r
+    400208: eye.l
+    400210: eye.l_end
+    400212: eye.r
+    400214: eye.r_end
+    400216: foot.L
+    400218: foot.R
+    400220: forearm.L
+    400222: forearm.R
+    400224: 'foxy hair '
+    400226: foxy's tail
+    400228: foxys bod
+    400230: hand.L
+    400232: hand.L.001
+    400234: hand.L.002
+    400236: hand.L.002_end
+    400238: hand.L.004
+    400240: hand.L.005
+    400242: hand.L.006
+    400244: hand.L.007
+    400246: hand.L.007_end
+    400248: hand.L.008
+    400250: hand.L.010
+    400252: hand.L.010_end
+    400254: hand.L.011
+    400256: hand.L.011_end
+    400258: hand.L.012
+    400260: hand.R
+    400262: hand.R.001
+    400264: hand.R.002
+    400266: hand.R.002_end
+    400268: hand.R.004
+    400270: hand.R.005
+    400272: hand.R.006
+    400274: hand.R.007
+    400276: hand.R.007_end
+    400278: hand.R.008
+    400280: hand.R.010
+    400282: hand.R.010_end
+    400284: hand.R.011
+    400286: hand.R.011_end
+    400288: hand.R.012
+    400290: heel.02.L
+    400292: heel.02.L_end
+    400294: heel.02.R
+    400296: heel.02.R_end
+    400298: Hemi
+    400300: Hemi.001
+    400302: Hemi.002
+    400304: Hemi.003
+    400306: Hemi.004
+    400308: main eye con
+    400310: pelvis.L
+    400312: pelvis.L_end
+    400314: pelvis.R
+    400316: pelvis.R_end
+    400318: shin.L
+    400320: shin.R
+    400322: shoulder.L
+    400324: shoulder.L.001
+    400326: shoulder.L.002
+    400328: shoulder.L.005
+    400330: shoulder.L.006
+    400332: shoulder.L.008
+    400334: shoulder.L.009
+    400336: shoulder.L.009_end
+    400338: shoulder.L.010
+    400340: shoulder.L.010_end
+    400342: shoulder.L.011
+    400344: shoulder.L.011_end
+    400346: shoulder.R
+    400348: shoulder.R.001
+    400350: shoulder.R.002
+    400352: shoulder.R.005
+    400354: shoulder.R.006
+    400356: shoulder.R.008
+    400358: shoulder.R.009
+    400360: shoulder.R.009_end
+    400362: shoulder.R.010
+    400364: shoulder.R.010_end
+    400366: shoulder.R.011
+    400368: shoulder.R.011_end
+    400370: spine.001
+    400372: spine.002
+    400374: spine.003
+    400376: spine.004
+    400378: spine.005
+    400380: spine.006
+    400382: spine.007
+    400384: spine.009
+    400386: spine.009_end
+    400388: spine.010
+    400390: thigh.L
+    400392: thigh.R
+    400394: toe.L
+    400396: toe.L_end
+    400398: toe.R
+    400400: toe.R_end
+    400402: upper_arm.L
+    400404: upper_arm.R
     2100000: foxy_eyebrow
     2100002: foxy_s_hair_
     2100004: foxy_s_tail
@@ -182,6 +416,12 @@ ModelImporter:
     2100008: foxy_s_body_
     2100010: FOXY_LEFT_EYE
     2100012: foxy_eye
+    2300000: Cube.002
+    2300002: eye l
+    2300004: eye r
+    3300000: Cube.002
+    3300002: eye l
+    3300004: eye r
     4300000: Cube_002
     4300002: foxy_hair_
     4300004: foxy_s_tail
@@ -189,8 +429,20 @@ ModelImporter:
     4300008: foxys_bod
     4300010: eye_l
     4300012: eye_r
+    4300014: Cube.002
+    4300016: eye r
+    4300018: eye l
+    4300020: 'foxy hair '
+    4300022: foxy's tail
+    4300024: Cube.001
+    4300026: foxys bod
     7400000: Default Take
     9500000: //RootNode
+    10800000: Hemi
+    10800002: Hemi.001
+    10800004: Hemi.002
+    10800006: Hemi.003
+    10800008: Hemi.004
     13700000: Cube_001
     13700002: Cube_002
     13700004: eye_l
@@ -198,6 +450,10 @@ ModelImporter:
     13700008: foxy_hair_
     13700010: foxy_s_tail
     13700012: foxys_bod
+    13700014: Cube.001
+    13700016: 'foxy hair '
+    13700018: foxy's tail
+    13700020: foxys bod
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

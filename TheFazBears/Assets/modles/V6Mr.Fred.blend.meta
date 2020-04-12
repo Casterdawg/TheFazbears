@@ -62,6 +62,89 @@ ModelImporter:
     100112: upper_arm_L
     100114: upper_arm_R
     100116: //RootNode
+    100118: Bone_end
+    100120: breast.L
+    100122: breast.L.001
+    100124: breast.L.001_end
+    100126: breast.L_end
+    100128: breast.R
+    100130: breast.R.001
+    100132: breast.R.001_end
+    100134: breast.R_end
+    100136: control leg.l
+    100138: control leg.l_end
+    100140: control leg.r
+    100142: control leg.r_end
+    100144: Cube.000
+    100146: Cube.001
+    100148: Cube.003
+    100150: eye con.l
+    100152: eye con.l_end
+    100154: eye con.r
+    100156: eye con.r_end
+    100158: eye l
+    100160: eye l_end
+    100162: eye r
+    100164: eye r_end
+    100166: foot.L
+    100168: foot.R
+    100170: forearm.L
+    100172: forearm.L.001
+    100174: forearm.L.002
+    100176: forearm.L.003
+    100178: forearm.L.004
+    100180: forearm.L.005
+    100182: forearm.L.005_end
+    100184: forearm.L.006
+    100186: forearm.L.006_end
+    100188: forearm.L.007
+    100190: forearm.L.007_end
+    100192: forearm.L.008
+    100194: forearm.L.008_end
+    100196: forearm.R
+    100198: forearm.R.001
+    100200: forearm.R.002
+    100202: forearm.R.003
+    100204: forearm.R.004
+    100206: forearm.R.005
+    100208: forearm.R.005_end
+    100210: forearm.R.006
+    100212: forearm.R.006_end
+    100214: forearm.R.007
+    100216: forearm.R.007_end
+    100218: forearm.R.008
+    100220: forearm.R.008_end
+    100222: heel.02.L
+    100224: heel.02.L_end
+    100226: heel.02.R
+    100228: heel.02.R_end
+    100230: main eye control
+    100232: Mr.fred
+    100234: pelvis.L
+    100236: pelvis.L_end
+    100238: pelvis.R
+    100240: pelvis.R_end
+    100242: poll.l
+    100244: poll.l_end
+    100246: poll.r
+    100248: poll.r_end
+    100250: shin.L
+    100252: shin.R
+    100254: shoulder.L
+    100256: shoulder.R
+    100258: spine.001
+    100260: spine.002
+    100262: spine.003
+    100264: spine.005
+    100266: spine.006
+    100268: thigh.L
+    100270: thigh.R
+    100272: toe.L
+    100274: toe.L_end
+    100276: toe.R
+    100278: toe.R_end
+    100280: upper_arm.L
+    100282: upper_arm.R
     400000: Bone
     400002: breast_L
     400004: breast_L_001
@@ -121,14 +204,109 @@ ModelImporter:
     400112: upper_arm_L
     400114: upper_arm_R
     400116: //RootNode
+    400118: Bone_end
+    400120: breast.L
+    400122: breast.L.001
+    400124: breast.L.001_end
+    400126: breast.L_end
+    400128: breast.R
+    400130: breast.R.001
+    400132: breast.R.001_end
+    400134: breast.R_end
+    400136: control leg.l
+    400138: control leg.l_end
+    400140: control leg.r
+    400142: control leg.r_end
+    400144: Cube.000
+    400146: Cube.001
+    400148: Cube.003
+    400150: eye con.l
+    400152: eye con.l_end
+    400154: eye con.r
+    400156: eye con.r_end
+    400158: eye l
+    400160: eye l_end
+    400162: eye r
+    400164: eye r_end
+    400166: foot.L
+    400168: foot.R
+    400170: forearm.L
+    400172: forearm.L.001
+    400174: forearm.L.002
+    400176: forearm.L.003
+    400178: forearm.L.004
+    400180: forearm.L.005
+    400182: forearm.L.005_end
+    400184: forearm.L.006
+    400186: forearm.L.006_end
+    400188: forearm.L.007
+    400190: forearm.L.007_end
+    400192: forearm.L.008
+    400194: forearm.L.008_end
+    400196: forearm.R
+    400198: forearm.R.001
+    400200: forearm.R.002
+    400202: forearm.R.003
+    400204: forearm.R.004
+    400206: forearm.R.005
+    400208: forearm.R.005_end
+    400210: forearm.R.006
+    400212: forearm.R.006_end
+    400214: forearm.R.007
+    400216: forearm.R.007_end
+    400218: forearm.R.008
+    400220: forearm.R.008_end
+    400222: heel.02.L
+    400224: heel.02.L_end
+    400226: heel.02.R
+    400228: heel.02.R_end
+    400230: main eye control
+    400232: Mr.fred
+    400234: pelvis.L
+    400236: pelvis.L_end
+    400238: pelvis.R
+    400240: pelvis.R_end
+    400242: poll.l
+    400244: poll.l_end
+    400246: poll.r
+    400248: poll.r_end
+    400250: shin.L
+    400252: shin.R
+    400254: shoulder.L
+    400256: shoulder.R
+    400258: spine.001
+    400260: spine.002
+    400262: spine.003
+    400264: spine.005
+    400266: spine.006
+    400268: thigh.L
+    400270: thigh.R
+    400272: toe.L
+    400274: toe.L_end
+    400276: toe.R
+    400278: toe.R_end
+    400280: upper_arm.L
+    400282: upper_arm.R
     2100000: MR_FRED_BODY
     2100002: Mr_Fred_hat
     2100004: MR_FRED_EYE
+    2300000: Cube.000
+    2300002: Cube.001
+    2300004: Cube.003
+    2300006: Cylinder
+    3300000: Cube.000
+    3300002: Cube.001
+    3300004: Cube.003
+    3300006: Cylinder
     4300000: Mr_fred
     4300002: Cylinder
     4300004: Cube_001
     4300006: Cube_003
     4300008: Cube_000
+    4300010: Cube.001
+    4300012: Cube.000
+    4300014: Cube.003
+    4300016: Mr.fred
     7400000: Default Take
     9500000: //RootNode
     13700000: Cube_000
@@ -136,6 +314,7 @@ ModelImporter:
     13700004: Cube_003
     13700006: Cylinder
     13700008: Mr_fred
+    13700010: Mr.fred
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
