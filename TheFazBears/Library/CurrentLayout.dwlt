@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 32
+  controlID: 137
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -388,9 +388,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f6940000
-      m_LastClickedID: 38134
-      m_ExpandedIDs: c6d8ffffcae0ffffdefbffff8a930000
+      m_SelectedIDs: fe410000
+      m_LastClickedID: 16894
+      m_ExpandedIDs: 12f1ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -752,20 +752,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/faz
+    - Assets/body textures/goldy's body
   m_ViewMode: 1
   m_StartGridSize: 89
   m_LastFolders:
-  - Assets/faz
+  - Assets/body textures/goldy's body
   m_LastFoldersGridSize: 89
   m_LastProjectPath: C:\Users\13373\Documents\GitHub\TheFazbears\TheFazBears
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 127}
-    m_SelectedIDs: ba1d0000
-    m_LastClickedID: 7610
-    m_ExpandedIDs: 00000000700b00005a0c0000600c0000940c0000560e0000be120000ce1200007e14000012150000de1a0000ba1d00003c200000d4200000f4200000b4430000b6430000b8430000ba430000bc430000be43000000ca9a3b
+    m_SelectedIDs: 40320000
+    m_LastClickedID: 12864
+    m_ExpandedIDs: 0000000018290000022a0000082a00003c2a0000842b0000ec2f0000fc2f0000ac310000403200000c380000e83a00006a3d0000023e0000223e0000aa500000ac500000ae500000b0500000b2500000b450000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -793,7 +793,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000700b00005a0c0000600c0000940c0000560e0000be120000ce1200007e14000012150000de1a0000ba1d00003c200000d4200000f4200000b4430000b6430000b8430000ba430000bc430000be430000
+    m_ExpandedIDs: 0000000018290000022a0000082a00003c2a0000842b0000ec2f0000fc2f0000ac310000403200000c380000e83a00006a3d0000023e0000223e0000aa500000ac500000ae500000b0500000b2500000b4500000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
