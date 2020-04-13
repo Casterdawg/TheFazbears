@@ -66,11 +66,18 @@ public class PlayerController : MonoBehaviour
 		controller.Move(velocity * Time.deltaTime);
 		currentSpeed = new Vector2(controller.velocity.x, controller.velocity.z).magnitude;
 
+<<<<<<< HEAD
 		if (controller.isGrounded)
 		{
 			velocityY = 0;
 		}
 
+=======
+		if (footKinetic.isGrounded())
+		{
+			velocityY = 0;
+		}
+>>>>>>> parent of 60927e5... Fix for jump issue: velocityY was being reset to 0 by the Move method on Update of the player controller before LateUpdate was called on the FootIK script which determines whether the character is grounded by FootIK resulting is velocity getting reset to 0 by the playercontroller when a jump had been initiated. The code checks if this condition will occur as a reslt of Update on the player controller and forces the footIK to fixY for the ground plane proactivly if required preventing velocity Y from being reset if a jump had just been initiated.
 	}
 
 	void Jump()
