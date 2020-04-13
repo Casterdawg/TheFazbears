@@ -68,6 +68,7 @@ public class PlayerController : MonoBehaviour
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if (controller.isGrounded)
 		{
 			velocityY = 0;
@@ -76,11 +77,16 @@ public class PlayerController : MonoBehaviour
 =======
 =======
 >>>>>>> parent of 60927e5... Fix for jump issue: velocityY was being reset to 0 by the Move method on Update of the player controller before LateUpdate was called on the FootIK script which determines whether the character is grounded by FootIK resulting is velocity getting reset to 0 by the playercontroller when a jump had been initiated. The code checks if this condition will occur as a reslt of Update on the player controller and forces the footIK to fixY for the ground plane proactivly if required preventing velocity Y from being reset if a jump had just been initiated.
+=======
+>>>>>>> parent of 60927e5... Fix for jump issue: velocityY was being reset to 0 by the Move method on Update of the player controller before LateUpdate was called on the FootIK script which determines whether the character is grounded by FootIK resulting is velocity getting reset to 0 by the playercontroller when a jump had been initiated. The code checks if this condition will occur as a reslt of Update on the player controller and forces the footIK to fixY for the ground plane proactivly if required preventing velocity Y from being reset if a jump had just been initiated.
 		if (footKinetic.isGrounded())
 		{
 			velocityY = 0;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 60927e5... Fix for jump issue: velocityY was being reset to 0 by the Move method on Update of the player controller before LateUpdate was called on the FootIK script which determines whether the character is grounded by FootIK resulting is velocity getting reset to 0 by the playercontroller when a jump had been initiated. The code checks if this condition will occur as a reslt of Update on the player controller and forces the footIK to fixY for the ground plane proactivly if required preventing velocity Y from being reset if a jump had just been initiated.
+=======
 >>>>>>> parent of 60927e5... Fix for jump issue: velocityY was being reset to 0 by the Move method on Update of the player controller before LateUpdate was called on the FootIK script which determines whether the character is grounded by FootIK resulting is velocity getting reset to 0 by the playercontroller when a jump had been initiated. The code checks if this condition will occur as a reslt of Update on the player controller and forces the footIK to fixY for the ground plane proactivly if required preventing velocity Y from being reset if a jump had just been initiated.
 =======
 >>>>>>> parent of 60927e5... Fix for jump issue: velocityY was being reset to 0 by the Move method on Update of the player controller before LateUpdate was called on the FootIK script which determines whether the character is grounded by FootIK resulting is velocity getting reset to 0 by the playercontroller when a jump had been initiated. The code checks if this condition will occur as a reslt of Update on the player controller and forces the footIK to fixY for the ground plane proactivly if required preventing velocity Y from being reset if a jump had just been initiated.
