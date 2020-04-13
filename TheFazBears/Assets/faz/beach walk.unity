@@ -5315,7 +5315,7 @@ MonoBehaviour:
   rayMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  baseOffset: -0.03
+  baseOffset: 0
   alignSpeed: 5
   automaticFixY: 1
 --- !u!4 &1020082940 stripped

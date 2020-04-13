@@ -23,14 +23,12 @@ public class PlayerController : MonoBehaviour
 	Animator animator;
 	Transform cameraT;
 	CharacterController controller;
-	FootIK footKinetic;
 
 	void Start()
 	{
 		animator = GetComponent<Animator>();
 		cameraT = Camera.main.transform;
 		controller = GetComponent<CharacterController>();
-		footKinetic = GetComponent<FootIK>();
 	}
 
 	void Update()
@@ -69,22 +67,16 @@ public class PlayerController : MonoBehaviour
 		controller.Move(velocity * Time.deltaTime);
 		currentSpeed = new Vector2(controller.velocity.x, controller.velocity.z).magnitude;
 
-        // if vertical movement is positive and kinetic is set to auto update and it says it's grounded then
-        // it hasn't registered movement to notice character is off the ground so force FixY execution now
-        if ((velocityY > 0) && footKinetic.isGrounded() && footKinetic.automaticFixY)
-        {
-            footKinetic.FixY();
-        }
+		if (controller.isGrounded)
+		{
+			velocityY = 0;
+		}
 
-        if (footKinetic.isGrounded())
-        {
-            velocityY = 0;
-        }
-    }
+	}
 
 	void Jump()
 	{
-		if (footKinetic.isGrounded())
+		if (controller.isGrounded) Debug.Log(Physics.Raycast(transform.position, -Vector3.up, 0.28f));
 		{
 			float jumpVelocity = Mathf.Sqrt(-2 * gravity * jumpHeight);
 			velocityY = jumpVelocity;
@@ -93,7 +85,7 @@ public class PlayerController : MonoBehaviour
 
 	float GetModifiedSmoothTime(float smoothTime)
 	{
-		if (footKinetic.isGrounded())
+		if (controller.isGrounded) 
 		{
 			return smoothTime;
 		}
