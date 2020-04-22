@@ -1,10 +1,13 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
+<<<<<<< HEAD:Assets/body textures/goldy's body/PlayerController.cs
 	public Jump jumpInfo;
+=======
+
+>>>>>>> parent of 24729e9... jump fixed:TheFazBears/Assets/body textures/goldy's body/PlayerController.cs
 	public float walkSpeed = 2;
 	public float runSpeed = 6;
 	public float gravity = -12;
@@ -19,6 +22,7 @@ public class PlayerController : MonoBehaviour
 	float speedSmoothVelocity;
 	float currentSpeed;
 	float velocityY;
+	
 
 	Animator animator;
 	Transform cameraT;
@@ -48,8 +52,6 @@ public class PlayerController : MonoBehaviour
 		float animationSpeedPercent = ((running) ? currentSpeed / runSpeed : currentSpeed / walkSpeed * .5f);
 		animator.SetFloat("speedPercent", animationSpeedPercent, speedSmoothTime, Time.deltaTime);
 
-		
-
 	}
 
 	void Move(Vector2 inputDir, bool running)
@@ -78,17 +80,20 @@ public class PlayerController : MonoBehaviour
 
 	void Jump()
 	{
+<<<<<<< HEAD:Assets/body textures/goldy's body/PlayerController.cs
 		if (jumpInfo.TryJump())
+=======
+		if (controller.isGrounded) Debug.Log(Physics.Raycast(transform.position, -Vector3.up, 0.28f));
+>>>>>>> parent of 24729e9... jump fixed:TheFazBears/Assets/body textures/goldy's body/PlayerController.cs
 		{
 			float jumpVelocity = Mathf.Sqrt(-2 * gravity * jumpHeight);
 			velocityY = jumpVelocity;
 		}
 	}
 
-
 	float GetModifiedSmoothTime(float smoothTime)
 	{
-		if (controller.isGrounded)
+		if (controller.isGrounded) 
 		{
 			return smoothTime;
 		}
