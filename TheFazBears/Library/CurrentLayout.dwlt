@@ -388,9 +388,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: defbffff
+      m_SelectedIDs: ec4e0000
+      m_LastClickedID: 20204
+      m_ExpandedIDs: fce8ffffdefbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -445,9 +445,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -198.24274, y: 125.56348, z: 219.0104}
+    m_Target: {x: -56.3, y: 102.66652, z: 126.5}
     speed: 2
-    m_Value: {x: -198.24274, y: 125.56348, z: 219.0104}
+    m_Value: {x: -56.3, y: 102.66652, z: 126.5}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -479,9 +479,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.025461998, y: -0.80990756, z: 0.035255034, w: 0.5849432}
   m_Size:
-    m_Target: 1.385916
+    m_Target: 1.3859242
     speed: 2
-    m_Value: 1.385916
+    m_Value: 1.3859242
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -726,19 +726,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/faz
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 89
   m_LastFolders:
-  - Assets
+  - Assets/faz
   m_LastFoldersGridSize: 89
-  m_LastProjectPath: C:\Users\13373\Documents\GitHub\TheFazBears\TheFazBears
+  m_LastProjectPath: C:\Users\13373\Documents\GitHub\TheFazbears\TheFazBears
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 740b0000
-    m_LastClickedID: 2932
+    m_SelectedIDs: c61c0000
+    m_LastClickedID: 7366
     m_ExpandedIDs: 00000000740b0000ee0b0000f40b0000280c0000ea0d00005212000062120000661300001014000082140000ea1900006e1a0000c61c0000261f0000be1f0000de1f0000944d0000964d0000984d00009a4d00009c4d00009e4d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ec2900008028000050b20000022800003a2a0000f02a0000f42f0000ae4d00008e4e0000fe2f0000882800001c5d0000802a000072340000b6740000d8780000e6740000ce740000ec2a0000da6e0000fc270000ec780000527a0000ca280000785a0000fc5b00005c2c0000185a0000e0590000b2f2010084290000f42e0000042c0000142f0000a65a00000c2f00000a2f0000102f00008c280000a43000001833000044330000ee310000c42f00003e33000028290000982e0000082f0000b6300000042f0000d02f0000d05b0000882e0000762e00008e2a0000a22800008038000094270000902f0000ec0a00009e2800002030000036300000822900004c2a000000000000ec0e0000da1600009e1200009417000016150000580f0000cc1600009615000078140000a21600003e150000463400001a1c0000b2170000b015000014670000f0160000ca350000dc3900002c0c0000b00f0000f0170000380f00001e170000ee0e0000b01b0000b81b0000ce1c0000a82d0000d21b0000c00d0000480f00004c39000062280000ae3500005a350000bc2f0000aa00ffff500b00006e1000002e550000a8130000540b00000a140000f6150000ba170000ec1d0000521e0000c6150000a00d0000c4170000c415000026400000f43900004c0b00004e0b000036daffffe2150000fa150000da2d00000628000086400000281500002a1e0000b4150000d2150000d8150000da150000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -820,7 +820,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 89
   m_DirectoriesAreaWidth: 252
 --- !u!114 &18
 MonoBehaviour:
