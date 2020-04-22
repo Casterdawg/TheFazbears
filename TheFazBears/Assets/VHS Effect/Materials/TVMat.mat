@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TVMat
+  m_Shader: {fileID: 4800000, guid: 7b0ad82b412d9bd4b92afa659b8d9df4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e2075dbc8611f6648853bed2c0228745, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: c171d861cb5bf75408826b8f346946bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Intensity: 0.995
+    - _OffsetColor: 0.0108
+    - _OffsetDistortion: 2000
+    - _OffsetNoiseX: 0.35875344
+    - _OffsetNoiseY: -0.014733013
+    - _OffsetPosY: 0.026602268
+    - _ScanLines: 10
+    - hardPix: -2.54
+    - hardScan: 0
+    - maskDark: 0.69
+    - maskLight: 0.67
+    - resScale: -1
+    m_Colors:
+    - _ScanLinesColor: {r: 0, g: 0, b: 0, a: 0}
+    - warp: {r: 0, g: 0, b: 0, a: 0}

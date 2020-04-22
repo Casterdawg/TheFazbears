@@ -1,0 +1,731 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: goldy mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: metarig
+    m_Weight: 1
+  - m_Path: rig
+    m_Weight: 1
+  - m_Path: rig/root
+    m_Weight: 1
+  - m_Path: rig/root/MCH-foot_ik_root.L
+    m_Weight: 1
+  - m_Path: rig/root/MCH-foot_ik_root.L/MCH-foot_ik_root.L_end
+    m_Weight: 1
+  - m_Path: rig/root/MCH-foot_ik_root.R
+    m_Weight: 1
+  - m_Path: rig/root/MCH-foot_ik_root.R/MCH-foot_ik_root.R_end
+    m_Weight: 1
+  - m_Path: rig/root/MCH-hand_ik_root.L
+    m_Weight: 1
+  - m_Path: rig/root/MCH-hand_ik_root.L/MCH-hand_ik_root.L_end
+    m_Weight: 1
+  - m_Path: rig/root/MCH-hand_ik_root.R
+    m_Weight: 1
+  - m_Path: rig/root/MCH-hand_ik_root.R/MCH-hand_ik_root.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone/tounge
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone/tounge/tounge.002
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone/tounge/tounge.002/tounge.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone/tounge/tounge.002/tounge.001/tounge.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/fdsf
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/fdsf/eyeball.l
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/fdsf/eyeball.l/eyeball.l_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/fdsf/x.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/fdsf/x.001/x.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/fdsf/eyeball.l.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/fdsf/eyeball.l.001/eyeball.l.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/fdsf/eyeball.l.002
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/fdsf/eyeball.l.002/eyeball.l.002_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/scalebone.r
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/scalebone.r/eyeball.r
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/scalebone.r/eyeball.r/eyeball.r_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/scalebone.r/eyeball.r.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/scalebone.r/eyeball.r.001/eyeball.r.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/scalebone.r/x.002
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/scalebone.r/x.002/x.002_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/scalebone.r/eyeball.r.002
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/scalebone.r/eyeball.r.002/eyeball.r.002_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone.001/Bone.002
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone.001/Bone.002/Bone.002_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone.001/Bone.005
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone.001/Bone.005/Bone.005_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone.004
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone.004/Bone.004_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone.003
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Bone.003/Bone.003_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.001/DEF-hand.L.005
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.001/DEF-hand.L.005/DEF-hand.L.009
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.001/DEF-hand.L.005/DEF-hand.L.009/DEF-hand.L.010
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.001/DEF-hand.L.005/DEF-hand.L.009/DEF-hand.L.010/DEF-hand.L.010_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.002
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.002/DEF-hand.L.006
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.002/DEF-hand.L.006/DEF-hand.L.011
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.002/DEF-hand.L.006/DEF-hand.L.011/DEF-hand.L.011_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.003
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.003/DEF-hand.L.007
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.003/DEF-hand.L.007/DEF-hand.L.012
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.003/DEF-hand.L.007/DEF-hand.L.012/DEF-hand.L.012_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.004
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.004/DEF-hand.L.008
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.L/DEF-upper_arm.L/DEF-upper_arm.L.001/DEF-forearm.L/DEF-forearm.L.001/DEF-hand.L/DEF-hand.L.004/DEF-hand.L.008/DEF-hand.L.008_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.001/DEF-hand.R.005
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.001/DEF-hand.R.005/DEF-hand.R.009
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.001/DEF-hand.R.005/DEF-hand.R.009/DEF-hand.R.010
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.001/DEF-hand.R.005/DEF-hand.R.009/DEF-hand.R.010/DEF-hand.R.010_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.002
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.002/DEF-hand.R.006
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.002/DEF-hand.R.006/DEF-hand.R.011
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.002/DEF-hand.R.006/DEF-hand.R.011/DEF-hand.R.011_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.003
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.003/DEF-hand.R.007
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.003/DEF-hand.R.007/DEF-hand.R.012
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.003/DEF-hand.R.007/DEF-hand.R.012/DEF-hand.R.012_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.004
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.004/DEF-hand.R.008
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-shoulder.R/DEF-upper_arm.R/DEF-upper_arm.R.001/DEF-forearm.R/DEF-forearm.R.001/DEF-hand.R/DEF-hand.R.004/DEF-hand.R.008/DEF-hand.R.008_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/breast.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/breast.R/DEF-breast.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/breast.R/DEF-breast.R/DEF-breast.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/breast.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/breast.L/DEF-breast.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/breast.L/DEF-breast.L/DEF-breast.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/Bone.007
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-spine.001/DEF-spine.002/Bone.007/Bone.007_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-pelvis.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-pelvis.L/DEF-pelvis.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.L/shin.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.L/shin.L/Leftfoot
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.L/shin.L/Leftfoot/toe.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.L/shin.L/Leftfoot/toe.L/toe.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.L/shin.L/Leftfoot/heel.02.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.L/shin.L/Leftfoot/heel.02.L/heel.02.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-pelvis.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/DEF-pelvis.R/DEF-pelvis.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.R/shin.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.R/shin.R/Rightfoot
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.R/shin.R/Rightfoot/toe.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.R/shin.R/Rightfoot/toe.R/toe.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.R/shin.R/Rightfoot/heel.02.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/DEF-spine/thigh.R/shin.R/Rightfoot/heel.02.R/heel.02.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/chest
+    m_Weight: 1
+  - m_Path: rig/root/torso/chest/chest_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-pivot
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-pivot/tweak_spine.002
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-pivot/tweak_spine.002/ORG-spine.002
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-pivot/tweak_spine.002/ORG-spine.002/ORG-spine.002_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck/MCH-STR-neck
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck/MCH-STR-neck/MCH-spine.005
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck/MCH-STR-neck/MCH-spine.005/tweak_spine.005
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck/MCH-STR-neck/MCH-spine.005/tweak_spine.005/ORG-spine.005
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck/MCH-STR-neck/MCH-spine.005/tweak_spine.005/ORG-spine.005/ORG-spine.005_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck/MCH-ROT-head
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck/MCH-ROT-head/head
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck/MCH-ROT-head/head/ORG-spine.006
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck/MCH-ROT-head/head/ORG-spine.006/ORG-spine.006_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck/tweak_spine.004
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck/tweak_spine.004/ORG-spine.004
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-ROT-neck/neck/tweak_spine.004/ORG-spine.004/ORG-spine.004_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-WGT-chest
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/MCH-WGT-chest/MCH-WGT-chest_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/MCH-upper_arm_tweak.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/MCH-upper_arm_tweak.L/upper_arm_tweak.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/MCH-upper_arm_tweak.L/upper_arm_tweak.L/upper_arm_tweak.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/MCH-upper_arm_tweak.L.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/MCH-upper_arm_tweak.L.001/upper_arm_tweak.L.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/MCH-upper_arm_tweak.L.001/upper_arm_tweak.L.001/upper_arm_tweak.L.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/ORG-forearm.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/ORG-forearm.L/MCH-forearm_tweak.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/ORG-forearm.L/MCH-forearm_tweak.L/forearm_tweak.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/ORG-forearm.L/MCH-forearm_tweak.L/forearm_tweak.L/forearm_tweak.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/ORG-forearm.L/MCH-forearm_tweak.L.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/ORG-forearm.L/MCH-forearm_tweak.L.001/forearm_tweak.L.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/ORG-forearm.L/MCH-forearm_tweak.L.001/forearm_tweak.L.001/forearm_tweak.L.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/ORG-forearm.L/ORG-hand.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/ORG-forearm.L/ORG-hand.L/MCH-hand_tweak.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/ORG-forearm.L/ORG-hand.L/MCH-hand_tweak.L/hand_tweak.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/ORG-upper_arm.L/ORG-forearm.L/ORG-hand.L/MCH-hand_tweak.L/hand_tweak.L/hand_tweak.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/upper_arm_ik.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/upper_arm_ik.L/MCH-upper_arm_ik.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/upper_arm_ik.L/MCH-upper_arm_ik.L/MCH-upper_arm_ik.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/MCH-upper_arm_ik_stretch.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/MCH-upper_arm_ik_stretch.L/MCH-upper_arm_ik_stretch.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/upper_arm_fk.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/upper_arm_fk.L/forearm_fk.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/upper_arm_fk.L/forearm_fk.L/MCH-hand_fk.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/upper_arm_fk.L/forearm_fk.L/MCH-hand_fk.L/hand_fk.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/upper_arm_fk.L/forearm_fk.L/MCH-hand_fk.L/hand_fk.L/hand_fk.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/MCH-upper_arm_parent_socket.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/MCH-upper_arm_parent_socket.L/upper_arm_parent.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.L/MCH-upper_arm_parent.L/MCH-upper_arm_parent_socket.L/upper_arm_parent.L/upper_arm_parent.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/MCH-upper_arm_tweak.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/MCH-upper_arm_tweak.R/upper_arm_tweak.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/MCH-upper_arm_tweak.R/upper_arm_tweak.R/upper_arm_tweak.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/MCH-upper_arm_tweak.R.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/MCH-upper_arm_tweak.R.001/upper_arm_tweak.R.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/MCH-upper_arm_tweak.R.001/upper_arm_tweak.R.001/upper_arm_tweak.R.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/ORG-forearm.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/ORG-forearm.R/MCH-forearm_tweak.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/ORG-forearm.R/MCH-forearm_tweak.R/forearm_tweak.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/ORG-forearm.R/MCH-forearm_tweak.R/forearm_tweak.R/forearm_tweak.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/ORG-forearm.R/MCH-forearm_tweak.R.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/ORG-forearm.R/MCH-forearm_tweak.R.001/forearm_tweak.R.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/ORG-forearm.R/MCH-forearm_tweak.R.001/forearm_tweak.R.001/forearm_tweak.R.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/ORG-forearm.R/ORG-hand.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/ORG-forearm.R/ORG-hand.R/MCH-hand_tweak.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/ORG-forearm.R/ORG-hand.R/MCH-hand_tweak.R/hand_tweak.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/ORG-upper_arm.R/ORG-forearm.R/ORG-hand.R/MCH-hand_tweak.R/hand_tweak.R/hand_tweak.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/upper_arm_ik.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/upper_arm_ik.R/MCH-upper_arm_ik.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/upper_arm_ik.R/MCH-upper_arm_ik.R/MCH-upper_arm_ik.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/MCH-upper_arm_ik_stretch.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/MCH-upper_arm_ik_stretch.R/MCH-upper_arm_ik_stretch.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/upper_arm_fk.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/upper_arm_fk.R/forearm_fk.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/upper_arm_fk.R/forearm_fk.R/MCH-hand_fk.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/upper_arm_fk.R/forearm_fk.R/MCH-hand_fk.R/hand_fk.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/upper_arm_fk.R/forearm_fk.R/MCH-hand_fk.R/hand_fk.R/hand_fk.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/MCH-upper_arm_parent_socket.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/MCH-upper_arm_parent_socket.R/upper_arm_parent.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-shoulder.R/MCH-upper_arm_parent.R/MCH-upper_arm_parent_socket.R/upper_arm_parent.R/upper_arm_parent.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-breast.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-breast.L/ORG-breast.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-breast.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/ORG-breast.R/ORG-breast.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/shoulder.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/shoulder.L/shoulder.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/shoulder.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.002/MCH-spine.003/tweak_spine.003/ORG-spine.003/shoulder.R/shoulder.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-hand_ik_parent.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-hand_ik_parent.R/MCH-hand_ik_parent.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-hand_ik_parent.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-hand_ik_parent.L/MCH-hand_ik_parent.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/hips
+    m_Weight: 1
+  - m_Path: rig/root/torso/hips/Bone.006
+    m_Weight: 1
+  - m_Path: rig/root/torso/hips/Bone.006/Sphere.002
+    m_Weight: 1
+  - m_Path: rig/root/torso/hips/Bone.006/Bone.006_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/MCH-WGT-hips
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/MCH-WGT-hips/MCH-WGT-hips_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-pelvis.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-pelvis.L/ORG-pelvis.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-pelvis.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-pelvis.R/ORG-pelvis.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/MCH-thigh_tweak.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/MCH-thigh_tweak.L/MCH-thigh_tweak.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/MCH-thigh_tweak.L.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/MCH-thigh_tweak.L.001/MCH-thigh_tweak.L.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L/MCH-shin_tweak.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L/MCH-shin_tweak.L/MCH-shin_tweak.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L/MCH-shin_tweak.L.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L/MCH-shin_tweak.L.001/MCH-shin_tweak.L.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L/ORG-foot.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L/ORG-foot.L/ORG-heel.02.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L/ORG-foot.L/ORG-heel.02.L/ORG-heel.02.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L/ORG-foot.L/MCH-foot_tweak.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L/ORG-foot.L/MCH-foot_tweak.L/MCH-foot_tweak.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L/ORG-foot.L/MCH-toe.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L/ORG-foot.L/MCH-toe.L/ORG-toe.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.L/ORG-shin.L/ORG-foot.L/MCH-toe.L/ORG-toe.L/ORG-toe.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/MCH-thigh_tweak.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/MCH-thigh_tweak.R/MCH-thigh_tweak.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/MCH-thigh_tweak.R.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/MCH-thigh_tweak.R.001/MCH-thigh_tweak.R.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R/MCH-shin_tweak.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R/MCH-shin_tweak.R/MCH-shin_tweak.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R/MCH-shin_tweak.R.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R/MCH-shin_tweak.R.001/MCH-shin_tweak.R.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R/ORG-foot.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R/ORG-foot.R/ORG-heel.02.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R/ORG-foot.R/ORG-heel.02.R/ORG-heel.02.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R/ORG-foot.R/MCH-foot_tweak.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R/ORG-foot.R/MCH-foot_tweak.R/MCH-foot_tweak.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R/ORG-foot.R/MCH-toe.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R/ORG-foot.R/MCH-toe.R/ORG-toe.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/ORG-thigh.R/ORG-shin.R/ORG-foot.R/MCH-toe.R/ORG-toe.R/ORG-toe.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.L/MCH-thigh_ik.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.L/MCH-thigh_ik.L/MCH-thigh_ik.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.L/MCH-thigh_ik_stretch.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.L/MCH-thigh_ik_stretch.L/MCH-thigh_ik_stretch.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.L/MCH-foot_fk.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.L/MCH-foot_fk.L/MCH-foot_fk.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.L/MCH-thigh_parent_socket.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.L/MCH-thigh_parent_socket.L/MCH-thigh_parent_socket.L_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.R/MCH-thigh_ik.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.R/MCH-thigh_ik.R/MCH-thigh_ik.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.R/MCH-thigh_ik_stretch.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.R/MCH-thigh_ik_stretch.R/MCH-thigh_ik_stretch.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.R/MCH-foot_fk.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.R/MCH-foot_fk.R/MCH-foot_fk.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.R/MCH-thigh_parent_socket.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine/ORG-spine/MCH-thigh_parent.R/MCH-thigh_parent_socket.R/MCH-thigh_parent_socket.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine.001/ORG-spine.001
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-spine.001/MCH-spine/tweak_spine.001/ORG-spine.001/ORG-spine.001_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-foot_ik_parent.R
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-foot_ik_parent.R/MCH-foot_ik_parent.R_end
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-foot_ik_parent.L
+    m_Weight: 1
+  - m_Path: rig/root/torso/MCH-foot_ik_parent.L/MCH-foot_ik_parent.L_end
+    m_Weight: 1
+  - m_Path: rig/root/VIS_thigh_ik_pole.L
+    m_Weight: 1
+  - m_Path: rig/root/VIS_thigh_ik_pole.L/VIS_thigh_ik_pole.L_end
+    m_Weight: 1
+  - m_Path: rig/root/VIS_thigh_ik_pole.R
+    m_Weight: 1
+  - m_Path: rig/root/VIS_thigh_ik_pole.R/VIS_thigh_ik_pole.R_end
+    m_Weight: 1
+  - m_Path: rig/root/VIS_upper_arm_ik_pole.L
+    m_Weight: 1
+  - m_Path: rig/root/VIS_upper_arm_ik_pole.L/VIS_upper_arm_ik_pole.L_end
+    m_Weight: 1
+  - m_Path: rig/root/VIS_upper_arm_ik_pole.R
+    m_Weight: 1
+  - m_Path: rig/root/VIS_upper_arm_ik_pole.R/VIS_upper_arm_ik_pole.R_end
+    m_Weight: 1
+  - m_Path: rig/pol parget.r
+    m_Weight: 1
+  - m_Path: rig/pol parget.r/pol parget.r_end
+    m_Weight: 1
+  - m_Path: rig/pol parget.l
+    m_Weight: 1
+  - m_Path: rig/pol parget.l/pol parget.l_end
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_pole_ik_socket.R
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_pole_ik_socket.R/upper_arm_ik_target.R
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_pole_ik_socket.R/upper_arm_ik_target.R/upper_arm_ik_target.R_end
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_ik_socket.R
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_ik_socket.R/hand_ik.R
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_ik_socket.R/hand_ik.R/MCH-upper_arm_ik_target.R
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_ik_socket.R/hand_ik.R/MCH-upper_arm_ik_target.R/MCH-upper_arm_ik_target.R_end
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_pole_ik_socket.L
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_pole_ik_socket.L/upper_arm_ik_target.L
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_pole_ik_socket.L/upper_arm_ik_target.L/upper_arm_ik_target.L_end
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_ik_socket.L
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_ik_socket.L/hand_ik.L
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_ik_socket.L/hand_ik.L/MCH-upper_arm_ik_target.L
+    m_Weight: 1
+  - m_Path: rig/MCH-hand_ik_socket.L/hand_ik.L/MCH-upper_arm_ik_target.L/MCH-upper_arm_ik_target.L_end
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_pole_ik_socket.R
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_pole_ik_socket.R/MCH-foot_pole_ik_socket.R_end
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.R
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.R/MCH-heel.02_rock.R.001
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.R/MCH-heel.02_rock.R.001/MCH-heel.02_rock.R
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.R/MCH-heel.02_rock.R.001/MCH-heel.02_rock.R/MCH-heel.02_roll.R.001
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.R/MCH-heel.02_rock.R.001/MCH-heel.02_rock.R/MCH-heel.02_roll.R.001/MCH-heel.02_roll.R
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.R/MCH-heel.02_rock.R.001/MCH-heel.02_rock.R/MCH-heel.02_roll.R.001/MCH-heel.02_roll.R/MCH-heel.02_roll.R_end
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.R/MCH-thigh_ik_target.R
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.R/MCH-thigh_ik_target.R/MCH-thigh_ik_target.R_end
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_pole_ik_socket.L
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_pole_ik_socket.L/MCH-foot_pole_ik_socket.L_end
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.L
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.L/MCH-heel.02_rock.L.001
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.L/MCH-heel.02_rock.L.001/MCH-heel.02_rock.L
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.L/MCH-heel.02_rock.L.001/MCH-heel.02_rock.L/MCH-heel.02_roll.L.001
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.L/MCH-heel.02_rock.L.001/MCH-heel.02_rock.L/MCH-heel.02_roll.L.001/MCH-heel.02_roll.L
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.L/MCH-heel.02_rock.L.001/MCH-heel.02_rock.L/MCH-heel.02_roll.L.001/MCH-heel.02_roll.L/MCH-heel.02_roll.L_end
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.L/MCH-thigh_ik_target.L
+    m_Weight: 1
+  - m_Path: rig/MCH-foot_ik_socket.L/MCH-thigh_ik_target.L/MCH-thigh_ik_target.L_end
+    m_Weight: 1
+  - m_Path: rig/leg ik.r
+    m_Weight: 1
+  - m_Path: rig/leg ik.r/leg ik.r_end
+    m_Weight: 1
+  - m_Path: rig/leg ik.l
+    m_Weight: 1
+  - m_Path: rig/leg ik.l/leg ik.l_end
+    m_Weight: 1
+  - m_Path: rig/Bone.008
+    m_Weight: 1
+  - m_Path: rig/Bone.008/Bone.008_end
+    m_Weight: 1
+  - m_Path: goldy.001
+    m_Weight: 1
+  - m_Path: Sphere.005
+    m_Weight: 1
+  - m_Path: Sphere.006
+    m_Weight: 1
+  - m_Path: goldy
+    m_Weight: 1
+  - m_Path: HAT
+    m_Weight: 1
+  - m_Path: NOSE
+    m_Weight: 1
+  - m_Path: bow
+    m_Weight: 1
