@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/faz/Jr's room.unity
-  isLoaded: 1
-  isActive: 1
