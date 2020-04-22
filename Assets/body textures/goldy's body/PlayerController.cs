@@ -4,7 +4,7 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-	public jump colissionInfo;
+	public Jump jumpInfo;
 	public float walkSpeed = 2;
 	public float runSpeed = 6;
 	public float gravity = -12;
@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
 
 	void Jump()
 	{
-		if (jump.isGrounded)
+		if (jumpInfo.TryJump())
 		{
 			float jumpVelocity = Mathf.Sqrt(-2 * gravity * jumpHeight);
 			velocityY = jumpVelocity;

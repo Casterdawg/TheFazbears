@@ -446,6 +446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3681efd40ff1f3a4fbd7a163c7b9dff8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGrounded: 0
+  doubleJump: 0
 --- !u!54 &401480879
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -577,7 +579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eca74c170e8ef0408bec789f663b847, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colissionInfo: {fileID: 401480878}
+  jumpInfo: {fileID: 401480878}
   walkSpeed: 2
   runSpeed: 8
   gravity: -20
