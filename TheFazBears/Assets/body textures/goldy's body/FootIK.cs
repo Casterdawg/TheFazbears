@@ -53,7 +53,7 @@ public class FootIK : MonoBehaviour
         SetFootPosition(rHit, AvatarIKGoal.RightFoot, rightHeel.position, rNrm, rIKh, ref rIKw);
     }
 
-    void LateUpdate()
+    private void OnAnimatorMove()
     {
         if (automaticFixY)
             FixY();

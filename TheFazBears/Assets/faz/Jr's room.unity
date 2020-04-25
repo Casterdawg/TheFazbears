@@ -1685,7 +1685,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 0bf799794c098c8439bdd1f58d570e3d, type: 3}
       propertyPath: m_UpdateMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: 0bf799794c098c8439bdd1f58d570e3d, type: 3}
       propertyPath: m_Materials.Array.data[1]
