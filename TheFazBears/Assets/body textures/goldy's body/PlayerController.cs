@@ -81,13 +81,8 @@ public class PlayerController : MonoBehaviour
 		if (jumpInfo.TryJump())
 		{
 			float jumpVelocity = Mathf.Sqrt(-2 * gravity * jumpHeight);
-            // if we're still going up we need to add to increase the height
-            if(velocityY >= 0f)
-			    velocityY += jumpVelocity;
-            // otherwise we set the velocity to counteract our downwards momentum
-            else
-                velocityY = jumpVelocity;
-        }
+			velocityY = jumpVelocity;
+		}
 	}
 
 
