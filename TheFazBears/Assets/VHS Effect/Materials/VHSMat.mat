@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: VHSMat
-  m_Shader: {fileID: 4800000, guid: b7457420dda857c46907a3b3e95dd0b8, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7b0ad82b412d9bd4b92afa659b8d9df4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -71,15 +71,15 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Intensity: 0.713
+    - _Intensity: 0.995
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OffsetColor: 0.0108
-    - _OffsetDistortion: 1210
-    - _OffsetNoiseX: 0.22160394
-    - _OffsetNoiseY: -132.30008
-    - _OffsetPosY: 0.064
+    - _OffsetColor: 0.001
+    - _OffsetDistortion: 635
+    - _OffsetNoiseX: 0.08791023
+    - _OffsetNoiseY: -132.36182
+    - _OffsetPosY: 0.84089017
     - _Parallax: 0.02
     - _ScanLines: 10
     - _SmoothnessTextureChannel: 0
@@ -88,14 +88,14 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - _scanLines: 1
-    - hardPix: -2.71
+    - hardPix: -2
     - hardScan: 0
-    - maskDark: 1.35
+    - maskDark: 0.76
     - maskLight: 0
-    - resScale: 1
+    - resScale: -1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _ScanLinesColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - warp: {r: 0.03125, g: 0.04166, b: 0, a: 0}
+    - warp: {r: 0, g: 0, b: 0, a: 0}

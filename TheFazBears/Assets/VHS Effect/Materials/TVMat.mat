@@ -28,13 +28,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Intensity: 0.995
-    - _OffsetColor: 0.0108
-    - _OffsetDistortion: 2000
-    - _OffsetNoiseX: 0.35875344
-    - _OffsetNoiseY: -0.014733013
-    - _OffsetPosY: 0.026602268
-    - _ScanLines: 10
+    - _Intensity: 0.868
+    - _OffsetColor: 0.001
+    - _OffsetDistortion: 1349
+    - _OffsetNoiseX: 0.5939912
+    - _OffsetNoiseY: 3.222302
+    - _OffsetPosY: 0.1965568
+    - _ScanLines: 2.75
     - hardPix: -2.54
     - hardScan: 0
     - maskDark: 0.69

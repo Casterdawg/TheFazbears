@@ -11,7 +11,7 @@ public class ThirdPersonCamera : MonoBehaviour
 	public Vector2 pitchMinMax = new Vector2(-40, 85);
 	public float ScrollSensitvity = 2f;
 	public float ScrollDampening = 6f;
-	public float _CameraDistance = 10f;
+	public float _CameraDistance = 5f;
 	public float rotationSmoothTime = .12f;
 	Vector3 rotationSmoothVelocity;
 	Vector3 currentRotation;
@@ -48,7 +48,7 @@ public class ThirdPersonCamera : MonoBehaviour
 
 			this._CameraDistance += ScrollAmount * -1f;
 
-			this._CameraDistance = Mathf.Clamp(this._CameraDistance, 1.5f, 6f);
+			this._CameraDistance = Mathf.Clamp(this._CameraDistance, 1.5f, 4f);
 		}
 	}
 
