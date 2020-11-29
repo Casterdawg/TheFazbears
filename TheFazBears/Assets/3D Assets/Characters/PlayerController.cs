@@ -29,12 +29,6 @@ public class PlayerController : MonoBehaviour
 
 	private int jumpCount = 0;
 
-	//public Camera moveCamera;
-
-	//public GravityPower toggle;
-
-	//private bool aiming;
-
 	void Start()
 	{
 		animator = GetComponent<Animator>();
@@ -44,15 +38,6 @@ public class PlayerController : MonoBehaviour
 
 	void Update()
 	{
-		//if (Input.GetButton("Fire2"))
-		//{
-		//	aiming = true;
-		//}
-		//else if(!Input.GetButton("Fire2"))
-		//{
-		//	aiming = false;
-		//}
-
 
 		if (controller.isGrounded)
 		{
