@@ -4,35 +4,35 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 public class Grounded : State
 {
-    private GoldySC privateGoldy;
+    private PlayerStateController privateController;
 
-    public override void Enter(GoldySC goldy)
+    public override void Enter(PlayerStateController controller)
     {
-        Debug.Log("Walk started");
-        privateGoldy = goldy;
-        goldy.masterInput.Player.Aim.performed += AimPressed;
-        goldy.jumpCount = 0;
+        //Debug.Log("Walk started");
+        privateController = controller;
+        controller.masterInput.Player.Aim.performed += AimPressed;
+        controller.jumpCount = 0;
     }
 
-    public override void Update(GoldySC goldy)
+    public override void Update(PlayerStateController controller)
     {
-        goldy.Move();
-        float animationSpeedPercent = ((goldy.running) ? goldy.currentSpeed / goldy.runSpeed : goldy.currentSpeed / goldy.walkSpeed * .5f);
-        goldy.animator.SetFloat("speedPercent", animationSpeedPercent, goldy.speedSmoothTime, Time.deltaTime);
+        controller.Move();
+        float animationSpeedPercent = ((controller.running) ? controller.currentSpeed / controller.runSpeed : controller.currentSpeed / controller.walkSpeed * .5f);
+        controller.currentAnimator.SetFloat("speedPercent", animationSpeedPercent, controller.speedSmoothTime, Time.deltaTime);
 
-        if(goldy.player.isGrounded == false)
+        if(controller.currentController.isGrounded == false)
         {
-            goldy.SetState(new Airborn());
+            controller.SetState(new Airborn());
         }
     }
 
-    public override void Exit(GoldySC goldy)
+    public override void Exit(PlayerStateController controller)
     {
-        goldy.masterInput.Player.Aim.performed -= AimPressed;
+        controller.masterInput.Player.Aim.performed -= AimPressed;
     }
 
     private void AimPressed(InputAction.CallbackContext context)
     {
-        privateGoldy.SetState(new Aiming());
+        privateController.SetState(new Aiming());
     }
 }

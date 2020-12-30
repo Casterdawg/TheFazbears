@@ -30,7 +30,7 @@
                     "interactions": "Press(behavior=2)"
                 },
                 {
-                    "name": "Fire",
+                    "name": "AimAbility",
                     "type": "Button",
                     "id": "a48483d8-5224-42a2-9f83-a9a77377f509",
                     "expectedControlType": "Button",
@@ -81,6 +81,14 @@
                     "name": "Sprint",
                     "type": "Button",
                     "id": "423060db-e303-40c2-9999-4a4cb4697842",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Let Go",
+                    "type": "Button",
+                    "id": "41fbea40-d998-49b1-a989-80377045ce87",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -171,7 +179,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "MouseandKeyboard",
-                    "action": "Fire",
+                    "action": "AimAbility",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -238,6 +246,17 @@
                     "processors": "",
                     "groups": "MouseandKeyboard",
                     "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d9f64b0a-378f-40e1-8f99-e0cbe2656bd1",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseandKeyboard",
+                    "action": "Let Go",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

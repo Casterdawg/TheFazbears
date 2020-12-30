@@ -43,7 +43,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": ""Press(behavior=2)""
                 },
                 {
-                    ""name"": ""Fire"",
+                    ""name"": ""AimAbility"",
                     ""type"": ""Button"",
                     ""id"": ""a48483d8-5224-42a2-9f83-a9a77377f509"",
                     ""expectedControlType"": ""Button"",
@@ -94,6 +94,14 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""name"": ""Sprint"",
                     ""type"": ""Button"",
                     ""id"": ""423060db-e303-40c2-9999-4a4cb4697842"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Let Go"",
+                    ""type"": ""Button"",
+                    ""id"": ""41fbea40-d998-49b1-a989-80377045ce87"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -184,7 +192,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""MouseandKeyboard"",
-                    ""action"": ""Fire"",
+                    ""action"": ""AimAbility"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -253,6 +261,17 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""action"": ""Sprint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d9f64b0a-378f-40e1-8f99-e0cbe2656bd1"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""MouseandKeyboard"",
+                    ""action"": ""Let Go"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -281,13 +300,14 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
         m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
         m_Player_Aim = m_Player.FindAction("Aim", throwIfNotFound: true);
-        m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
+        m_Player_AimAbility = m_Player.FindAction("AimAbility", throwIfNotFound: true);
         m_Player_Ability = m_Player.FindAction("Ability", throwIfNotFound: true);
         m_Player_SwitchCharacter = m_Player.FindAction("SwitchCharacter", throwIfNotFound: true);
         m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_SwitchSkill = m_Player.FindAction("SwitchSkill", throwIfNotFound: true);
         m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
+        m_Player_LetGo = m_Player.FindAction("Let Go", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -340,13 +360,14 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Look;
     private readonly InputAction m_Player_Movement;
     private readonly InputAction m_Player_Aim;
-    private readonly InputAction m_Player_Fire;
+    private readonly InputAction m_Player_AimAbility;
     private readonly InputAction m_Player_Ability;
     private readonly InputAction m_Player_SwitchCharacter;
     private readonly InputAction m_Player_Interact;
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_SwitchSkill;
     private readonly InputAction m_Player_Sprint;
+    private readonly InputAction m_Player_LetGo;
     public struct PlayerActions
     {
         private @PlayerControls m_Wrapper;
@@ -354,13 +375,14 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         public InputAction @Look => m_Wrapper.m_Player_Look;
         public InputAction @Movement => m_Wrapper.m_Player_Movement;
         public InputAction @Aim => m_Wrapper.m_Player_Aim;
-        public InputAction @Fire => m_Wrapper.m_Player_Fire;
+        public InputAction @AimAbility => m_Wrapper.m_Player_AimAbility;
         public InputAction @Ability => m_Wrapper.m_Player_Ability;
         public InputAction @SwitchCharacter => m_Wrapper.m_Player_SwitchCharacter;
         public InputAction @Interact => m_Wrapper.m_Player_Interact;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
         public InputAction @SwitchSkill => m_Wrapper.m_Player_SwitchSkill;
         public InputAction @Sprint => m_Wrapper.m_Player_Sprint;
+        public InputAction @LetGo => m_Wrapper.m_Player_LetGo;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -379,9 +401,9 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Aim.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAim;
                 @Aim.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAim;
                 @Aim.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAim;
-                @Fire.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire;
-                @Fire.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire;
-                @Fire.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire;
+                @AimAbility.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAimAbility;
+                @AimAbility.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAimAbility;
+                @AimAbility.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAimAbility;
                 @Ability.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAbility;
                 @Ability.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAbility;
                 @Ability.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAbility;
@@ -400,6 +422,9 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Sprint.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSprint;
                 @Sprint.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSprint;
                 @Sprint.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSprint;
+                @LetGo.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLetGo;
+                @LetGo.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLetGo;
+                @LetGo.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLetGo;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -413,9 +438,9 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Aim.started += instance.OnAim;
                 @Aim.performed += instance.OnAim;
                 @Aim.canceled += instance.OnAim;
-                @Fire.started += instance.OnFire;
-                @Fire.performed += instance.OnFire;
-                @Fire.canceled += instance.OnFire;
+                @AimAbility.started += instance.OnAimAbility;
+                @AimAbility.performed += instance.OnAimAbility;
+                @AimAbility.canceled += instance.OnAimAbility;
                 @Ability.started += instance.OnAbility;
                 @Ability.performed += instance.OnAbility;
                 @Ability.canceled += instance.OnAbility;
@@ -434,6 +459,9 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Sprint.started += instance.OnSprint;
                 @Sprint.performed += instance.OnSprint;
                 @Sprint.canceled += instance.OnSprint;
+                @LetGo.started += instance.OnLetGo;
+                @LetGo.performed += instance.OnLetGo;
+                @LetGo.canceled += instance.OnLetGo;
             }
         }
     }
@@ -452,12 +480,13 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         void OnLook(InputAction.CallbackContext context);
         void OnMovement(InputAction.CallbackContext context);
         void OnAim(InputAction.CallbackContext context);
-        void OnFire(InputAction.CallbackContext context);
+        void OnAimAbility(InputAction.CallbackContext context);
         void OnAbility(InputAction.CallbackContext context);
         void OnSwitchCharacter(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnSwitchSkill(InputAction.CallbackContext context);
         void OnSprint(InputAction.CallbackContext context);
+        void OnLetGo(InputAction.CallbackContext context);
     }
 }

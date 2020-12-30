@@ -5,38 +5,49 @@ using UnityEngine.InputSystem;
 
 public class Aiming : State
 {
-    private GoldySC privateGoldy;
-    public override void Enter(GoldySC goldy)
+    private PlayerStateController privateController;
+    public override void Enter(PlayerStateController controller)
     {
-        privateGoldy = goldy;
-        Debug.Log("Aim started");
-        goldy.masterInput.Player.Aim.canceled += AimCanceled;
-        goldy.reticle.SetActive(true);
-        goldy.aimCam.SetActive(true);
+        privateController = controller;
+       // Debug.Log("Aim started");
+        controller.masterInput.Player.Aim.canceled += AimCanceled;
+        controller.masterInput.Player.AimAbility.performed += AbilityUsed;
+        controller.reticle.SetActive(true);
+        controller.aimCam.gameObject.SetActive(true);
+
     }
 
-    public override void Update(GoldySC goldy)
+    public override void Update(PlayerStateController controller)
     {
-        goldy.AimingMove();
+        controller.AimingMove();
 
-        float animationSpeedPercent = ((goldy.running) ? goldy.currentSpeed / goldy.runSpeed : goldy.currentSpeed / goldy.walkSpeed * .5f);
-        goldy.animator.SetFloat("speedPercent", animationSpeedPercent, goldy.speedSmoothTime, Time.deltaTime);
+        float animationSpeedPercent = ((controller.running) ? controller.currentSpeed / controller.runSpeed : controller.currentSpeed / controller.walkSpeed * .5f);
+        controller.currentAnimator.SetFloat("speedPercent", animationSpeedPercent, controller.speedSmoothTime, Time.deltaTime);
 
-        if (goldy.player.isGrounded == false)
+        if (controller.currentController.isGrounded == false)
         {
-            goldy.SetState(new Airborn());
+            controller.SetState(new Airborn());
         }
     }
 
-    public override void Exit(GoldySC goldy)
+    public override void Exit(PlayerStateController controller)
     {
-        goldy.masterInput.Player.Aim.canceled -= AimCanceled;
-        goldy.reticle.SetActive(false);
-        goldy.aimCam.SetActive(false);
+        controller.masterInput.Player.Aim.canceled -= AimCanceled;
+        controller.masterInput.Player.AimAbility.performed -= AbilityUsed;
+        controller.reticle.SetActive(false);
+        controller.aimCam.gameObject.SetActive(false);
+    }
+
+    private void AbilityUsed(InputAction.CallbackContext context)
+    {
+        //Debug.Log("Aim ability used");
+
+        privateController.currentAimAbility.enabled = true;
     }
 
     private void AimCanceled(InputAction.CallbackContext context)
     {
-        privateGoldy.SetState(new Grounded());
+        privateController.currentAimAbility.enabled = false;
+        privateController.SetState(new Grounded());
     }
 }

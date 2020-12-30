@@ -4,9 +4,9 @@ using UnityEngine;
 
 public abstract class AIState
 {
-    public abstract void Update(GoldySC goldy);
+    public abstract void Update(PlayerStateController goldy);
 
-    public virtual void Enter(GoldySC goldy) { }
+    public virtual void Enter(PlayerStateController goldy) { }
 
-    public virtual void Exit(GoldySC shareBear) { }
+    public virtual void Exit(PlayerStateController shareBear) { }
 }
