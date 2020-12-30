@@ -8,28 +8,19 @@ public class AbilityBase : MonoBehaviour
     {
         AbilityStart();
     }
-    public virtual void AbilityStart()
-    {
-        //Debug.Log("Ability started");
-    }
+    public virtual void AbilityStart(){}
 
     private void Update()
     {
         AbilityUpdate();
     }
 
-    public virtual void AbilityUpdate()
-    {
-       // Debug.Log("Update ability");
-    }
+    public virtual void AbilityUpdate(){}
 
     private void OnDisable()
     {
         AbilityEnd();
     }
 
-    public virtual void AbilityEnd()
-    {
-        //Debug.Log("Ability Ended");
-    }
+    public virtual void AbilityEnd(){}
 }

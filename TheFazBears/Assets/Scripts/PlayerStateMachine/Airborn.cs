@@ -33,7 +33,6 @@ public class Airborn : State
 
         if (currentPos.y < lastPos.y)
         {
-          //  Debug.Log("Falling");
             if (!player.isGoldy)
             {
                 Debug.Log("Check for ledge");
