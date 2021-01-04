@@ -5,14 +5,14 @@ using UnityEngine;
 public class VHSCanvasControl : MonoBehaviour {
 public VHS_Effect _vhs;
 	// Use this for initialization
-	void Start () {
+	//void Start () {
 		
-	}
+	//}
 	
 	// Update is called once per frame
-	void Update () {
+	//void Update () {
 		
-	}
+	//}
 
 	public void NoiseTexture(float f){
 

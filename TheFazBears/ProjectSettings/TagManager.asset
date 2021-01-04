@@ -8,6 +8,9 @@ TagManager:
   - Fire
   - Throwable
   - Ledge
+  - Enemy
+  - ElectricInteractable
+  - FireInteractable
   layers:
   - Default
   - TransparentFX

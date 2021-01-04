@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3239181085602050104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3239181085602050105}
+  - component: {fileID: 3239181085602050106}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3239181085602050105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3239181085602050104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3239181085602050106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3239181085602050104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b25889670ce2474891c9030dcf2653a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterControllGoldy: {fileID: 0}
+  goldyAnimator: {fileID: 0}
+  goldy: {fileID: 0}
+  goldyWalkSpeed: 2
+  goldyRunSpeed: 6
+  goldyGravity: -12
+  goldyJumpValue: 10
+  goldyJumpLimit: 0
+  gravityPower: {fileID: 0}
+  electrictyPower: {fileID: 0}
+  characterControllFoxy: {fileID: 0}
+  foxyAnimator: {fileID: 0}
+  foxy: {fileID: 0}
+  foxyWalkSpeedy: 4
+  foxyRunSpeed: 12
+  foxyGravity: -6
+  foxyJumpValue: 20
+  fireBallPower: {fileID: 0}
+  twirlPower: {fileID: 0}
+  ledgeCheckX: {fileID: 0}
+  ledgeCheckY: {fileID: 0}
+  freeLookCam: {fileID: 0}
+  foxyLookPoint: {fileID: 0}
+  goldyLookPoint: {fileID: 0}
+  currentAimAbility: {fileID: 0}
+  currentAbility: {fileID: 0}
+  currentController: {fileID: 0}
+  idleController: {fileID: 0}
+  currentAnimator: {fileID: 0}
+  walkSpeed: 2
+  runSpeed: 6
+  gravity: -20
+  idleGravity: 0
+  turnSmoothTime: 0.1
+  turnSmoothVelocity: 0
+  speedSmoothTime: 0.1
+  speedSmoothVelocity: 0
+  currentSpeed: 0
+  velocityY: 0
+  jumpFallOff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0048217773
+      value: 1.0047302
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.9822914
+      value: 0.0023603737
+      inSlope: -0.21211739
+      outSlope: -0.21211739
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14258972
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  jumpMultiplier: 8
+  isJumping: 0
+  running: 0
+  aiming: 0
+  isGoldy: 1
+  canSwitchChar: 1
+  jumpCount: 0
+  camTransform: {fileID: 0}
+  reticle: {fileID: 0}
+  aimCam: {fileID: 0}
+  mouseSense: 0
+  mouseSmoothTime: 0.03
