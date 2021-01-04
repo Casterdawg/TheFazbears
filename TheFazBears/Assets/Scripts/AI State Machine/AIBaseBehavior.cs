@@ -8,15 +8,50 @@ public class AIBaseBehavior : MonoBehaviour
 {
     public AIState currentState;
 
-    private void FixedUpdate()
-    {
-        UpdateAI();
-    }
+    //private void FixedUpdate()
+    //{
+    //    UpdateAI();
+    //}
 
-    private void UpdateAI() 
+    public void UpdateAI() 
     {
         currentState.Update(this);
     }
+
+    public virtual void OnElectricuted()
+    {
+
+    }
+
+    public virtual void OnSmacked()
+    {
+
+    }
+
+    public virtual void OnFireBallHit()
+    {
+
+    }
+
+    public virtual void ProjectileCollision()
+    {
+
+    }
+
+
+    public virtual void InteractionManager(string action)
+    {
+        switch (action)
+        {
+            case "Electricute":
+
+                break;
+
+            //case ""
+        }
+    }
+
+
 
     public void SetState(AIState state)
     {

@@ -12,10 +12,21 @@ public class SimpleFollowAI : AIBaseBehavior
     public Transform foxyPosition;
 
 
+    private RaycastHit hit;
+
+
+    public bool unMasked = false;
+
     private void Start()
     {
         SetState(new Idle());
-    } 
+    }
+
+
+   public void Electricuted()
+    {
+
+    }
 
 
 }
