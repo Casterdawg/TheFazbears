@@ -8,9 +8,14 @@ using UnityEngine.AI;
 /// </summary>
 public class SimpleFollowAI : AIBaseBehavior
 {
+    public Transform goldyPosition;
+    public Transform foxyPosition;
+
 
     private void Start()
     {
         SetState(new Idle());
     } 
+
+
 }

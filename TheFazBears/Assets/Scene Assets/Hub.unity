@@ -1463,6 +1463,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19ef6bb159934d24ca02cb9c4e9f2cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goldyPosition: {fileID: 0}
+  foxyPosition: {fileID: 0}
 --- !u!195 &2014038512
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2033,12 +2035,12 @@ PrefabInstance:
     - target: {fileID: 380367896353651017, guid: cd58714136a8a394cb9f439524e01973,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000001641968
+      value: 0.000000016419676
       objectReference: {fileID: 0}
     - target: {fileID: 380367896353651017, guid: cd58714136a8a394cb9f439524e01973,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000005143322
+      value: -0.000000005143321
       objectReference: {fileID: 0}
     - target: {fileID: 380367896854827616, guid: cd58714136a8a394cb9f439524e01973,
         type: 3}
@@ -2113,12 +2115,12 @@ PrefabInstance:
     - target: {fileID: 380367896949243877, guid: cd58714136a8a394cb9f439524e01973,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000016510283
+      value: 0.000000016510285
       objectReference: {fileID: 0}
     - target: {fileID: 380367896949243877, guid: cd58714136a8a394cb9f439524e01973,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000004844597
+      value: -0.0000000048445976
       objectReference: {fileID: 0}
     - target: {fileID: 380367896949928810, guid: cd58714136a8a394cb9f439524e01973,
         type: 3}
@@ -4949,12 +4951,12 @@ PrefabInstance:
     - target: {fileID: 2435770305141981172, guid: ad1d33bb1a9703f46bee92a1b713735e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000003283936
+      value: 0.000000032839356
       objectReference: {fileID: 0}
     - target: {fileID: 2435770305141981172, guid: ad1d33bb1a9703f46bee92a1b713735e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000010286644
+      value: -0.000000010286643
       objectReference: {fileID: 0}
     - target: {fileID: 2435770305141981172, guid: ad1d33bb1a9703f46bee92a1b713735e,
         type: 3}
@@ -6226,6 +6228,11 @@ PrefabInstance:
         type: 3}
       propertyPath: foxyJumpValue
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3239181085602050106, guid: f97993e17fa9f2b4daa67dc45fdafd50,
+        type: 3}
+      propertyPath: mouseSense
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f97993e17fa9f2b4daa67dc45fdafd50, type: 3}
