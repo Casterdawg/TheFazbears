@@ -12,13 +12,16 @@ public class SimpleFollowAI : AIBaseBehavior
     public Transform foxyPosition;
 
 
-    private RaycastHit hit;
 
+    private RaycastHit hit;
+    private NavMeshAgent agent;
 
     public bool unMasked = false;
 
     private void Start()
     {
+        agent = GetComponent<NavMeshAgent>();
+
         SetState(new Idle());
     }
 

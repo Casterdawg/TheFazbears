@@ -25,7 +25,7 @@ public class FireBallCollider : MonoBehaviour
         //This if statement will check to see if the fireball has interated with an interactable object
         if (collision.gameObject.CompareTag("FireInteractable"))
         {
-            Debug.Log("Fireball interactable used");
+            collision.gameObject.GetComponent<InteractionBase>().OnInteracted();
         }
 
         //Cancel the invoked method mentioned earlier since it is no longer needed

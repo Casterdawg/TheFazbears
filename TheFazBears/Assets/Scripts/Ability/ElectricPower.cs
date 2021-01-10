@@ -34,7 +34,7 @@ public class ElectricPower : AbilityBase
             }
             if(hit.collider.CompareTag("ElectricInteractable"))
             {
-                Debug.Log("Electric interable used");
+                hit.collider.GetComponent<InteractionBase>().OnInteracted();
             }
         }
 

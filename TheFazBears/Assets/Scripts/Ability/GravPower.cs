@@ -17,7 +17,9 @@ public class GravPower : AbilityBase
     //Establish connection to the playercontroller, this is used for enabling/disabling input listeners
     public PlayerStateController player;
     //The playercamers current position, used to determine what direction you shoot the gravity object
-    public Transform cam;
+    public Transform camPos;
+
+    public Camera cam;
 
     //The gravity object being effected
     private GameObject target;
@@ -27,6 +29,8 @@ public class GravPower : AbilityBase
     private RaycastHit hit;
     //The forward vector used to ensure that the raycast detects the object in the right direction
     private Vector3 forward;
+
+    //private Ray ray;
 
 
     public override void AbilityStart()
@@ -42,12 +46,22 @@ public class GravPower : AbilityBase
     private void GravSetUp()
     {
         //Obtain the forward vector for that frame to get the direction the raycast will go.
-        forward = cam.TransformDirection(Vector3.forward);
+        forward = camPos.TransformDirection(Vector3.forward);
+
+        //Debug.DrawRay(cam.transform.position, forward * abilityRange, Color.red, 1000);
 
         //Test to see if the raycast hit any object while also testing to see if the object that was hit has the propper tag
-        if (Physics.Raycast(cam.transform.position, forward, out hit, abilityRange)
+        if (Physics.Raycast(camPos.transform.position, forward, out hit, abilityRange)
             && hit.transform.CompareTag("Throwable"))
         {
+           // Debug.Log("Throwabled found");
+            //If the gravity object can be interacted with, then activate the interaction
+            if (hit.collider.TryGetComponent(out InteractionBase interaction))
+            {
+                interaction.OnInteracted();
+                Debug.Log("Interactable found");
+            }
+
             //If all of these things return true in the if statement, then populate variables for future use, reset the objects velocity, make sure the object isn't impacted by gravity anymore.
             target = hit.transform.gameObject;
             targetRig = target.GetComponent<Rigidbody>();
@@ -66,7 +80,7 @@ public class GravPower : AbilityBase
 
     public override void AbilityUpdate()
     {
-        base.AbilityUpdate();
+            base.AbilityUpdate();
         //If the target isn't null, then suspend the object at the float point
         if (target != null)
             target.transform.position = Vector3.MoveTowards(target.transform.position, floatPoint.position, 0.3f);
