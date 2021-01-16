@@ -60,6 +60,7 @@ public class GravPower : AbilityBase
             {
                 interaction.OnInteracted();
                 Debug.Log("Interactable found");
+                hit.rigidbody.useGravity = false;
             }
 
             //If all of these things return true in the if statement, then populate variables for future use, reset the objects velocity, make sure the object isn't impacted by gravity anymore.

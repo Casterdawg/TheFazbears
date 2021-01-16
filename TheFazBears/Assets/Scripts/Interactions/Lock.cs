@@ -21,5 +21,7 @@ public class Lock : InteractionBase
         rig.constraints = RigidbodyConstraints.None;
 
         door.constraints = RigidbodyConstraints.None;
+
+        rig.useGravity = true;
     }
 }

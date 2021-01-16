@@ -5,19 +5,20 @@ using UnityEngine;
 //This state will be used when the AI chases the player
 public class Chase : AIState
 {
-    public override void Enter(AIBaseBehavior AI)
+    public override void Enter(FollowAI AI)
     {
         base.Enter(AI);
 
         Debug.Log("The AI is chasing the player");
+        AI.CheckPlayers();
     }
 
-    public override void Update(AIBaseBehavior AI)
+    public override void Update(FollowAI AI)
     {
-
+        AI.Move();
     }
 
-    public override void Exit(AIBaseBehavior AI)
+    public override void Exit(FollowAI AI)
     {
         base.Exit(AI);
     }

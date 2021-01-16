@@ -20,9 +20,9 @@ public class TwirlAttack : AbilityBase
 
         if (Physics.Raycast(transform.position, forward, out hit, hitRange))
         {
-            if (hit.collider.CompareTag("Enemy"))
+            if (hit.collider.TryGetComponent(out FollowAI AI))
             {
-                Debug.Log("Hit Enemy!");
+                AI.OnSmacked();
             }
         }
 

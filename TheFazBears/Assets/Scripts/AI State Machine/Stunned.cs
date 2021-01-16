@@ -5,19 +5,19 @@ using UnityEngine;
 //This state will be used when the AI attacks the player
 public class Stunned : AIState
 {
-    public override void Enter(AIBaseBehavior AI)
+    public override void Enter(FollowAI AI)
     {
         base.Enter(AI);
 
-        Debug.Log("The AI is attacking");
+        Debug.Log("The AI is stunned");
     }
 
-    public override void Update(AIBaseBehavior AI)
+    public override void Update(FollowAI AI)
     {
 
     }
 
-    public override void Exit(AIBaseBehavior AI)
+    public override void Exit(FollowAI AI)
     {
         base.Exit(AI);
     }

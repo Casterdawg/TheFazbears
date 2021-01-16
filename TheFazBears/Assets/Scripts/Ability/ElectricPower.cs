@@ -28,9 +28,9 @@ public class ElectricPower : AbilityBase
         //Produce a raycast that will check for enemies of interactables
         if(Physics.Raycast(transform.position, forward, out hit, stunRange))
         {
-            if(hit.collider.CompareTag("Enemy"))
+            if(hit.collider.TryGetComponent(out FollowAI AI))
             {
-                Debug.Log("Stunned Enemy!");
+                AI.OnElectricuted();
             }
             if(hit.collider.CompareTag("ElectricInteractable"))
             {
