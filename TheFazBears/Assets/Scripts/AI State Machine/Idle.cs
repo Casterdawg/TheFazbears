@@ -10,11 +10,13 @@ public class Idle : AIState
         base.Enter(AI);
 
         Debug.Log("The AI is idle");
+        AI.agent.isStopped = true;
+
     }
 
     public override void Update(FollowAI AI)
     {
-
+        AI.RayCastCheckForPlayers();
     }
 
     public override void Exit(FollowAI AI)

@@ -6,7 +6,7 @@ public class Propane : MonoBehaviour
 {
     private Rigidbody rig;
 
-    private readonly float neededSpeed = 3f;
+    private readonly float neededSpeed = 2f;
 
     private readonly float explosionRadius = 4;
     private readonly float explosionPower = 300;
@@ -50,6 +50,7 @@ public class Propane : MonoBehaviour
 
             if (hit.TryGetComponent(out FollowAI AI))
             {
+                this.tag = "Untagged";
                 AI.OnExploded();
             }
         }

@@ -15,9 +15,11 @@ public class FollowAI : MonoBehaviour
     private GameObject mask;
 
     public GameObject axe;
+    private Rigidbody axeRig;
 
-    private Ray playerDetectionCone;
-
+    private Vector3 forward;
+    private readonly float coneRadius = 3;
+    private readonly float maxDistance = 10;
 
     public Transform goldy;
     public Transform foxy;
@@ -25,8 +27,19 @@ public class FollowAI : MonoBehaviour
 
     private float distanceToGoldy;
     private float distanceToFoxy;
+    private float distanceToTarget;
+    private readonly float distanceToAttack = 2;
+    private readonly float distanceToIdle = 20;
 
-    private NavMeshAgent agent;
+    private int distaceCount = 0;
+    private int timeToIdle = 20;
+    private readonly float timeToUpdate = 0.5f;
+
+    private float explosionForce = 10;
+    private float explosionRadius = 5;
+    private float upwardForce = 5;
+
+    public NavMeshAgent agent;
 
     private void Awake()
     {
@@ -34,15 +47,36 @@ public class FollowAI : MonoBehaviour
 
         agent = GetComponent<NavMeshAgent>();
 
+        axeRig = axe.GetComponent<Rigidbody>();
+
         SetState(new Idle());
+
+        StartCoroutine(DelayedUpdate());
     }
 
-    private void FixedUpdate()
+    private IEnumerator DelayedUpdate()
     {
-        currentState.Update(this);
+        while (true)
+        {
+            currentState.Update(this);
+            yield return new WaitForSeconds(timeToUpdate);
+        }
     }
 
-    public void CheckPlayers()
+    public void RayCastCheckForPlayers()
+    {
+        forward = transform.TransformDirection(Vector3.forward);
+
+        if(Physics.SphereCast(transform.position, coneRadius, forward, out RaycastHit hit, maxDistance))
+        {
+            if(hit.collider.CompareTag("Player"))
+            {
+                SetState(new Chase());
+            }
+        }
+    }
+
+    public void CheckClosestPlayer()
     {
         distanceToFoxy = Vector3.Distance(foxy.position, transform.position);
 
@@ -58,65 +92,114 @@ public class FollowAI : MonoBehaviour
         }
     }
 
+     
+
+    public void CheckDistance()
+    {
+        distanceToTarget = Vector3.Distance(transform.position, currentTarget.position);
+
+        if(distanceToTarget <= distanceToAttack && currentState.ToString() == "Chase")
+        {
+            SetState(new Attack());
+        }
+        else if (distanceToTarget >= distanceToAttack && currentState.ToString() == "Attack")
+        {
+            SetState(new Chase());
+        }
+        
+        
+        if (distanceToTarget >= distanceToIdle)
+        {
+            distaceCount++;
+        }
+        else
+        {
+            distaceCount = 0;
+        }
+
+        if(distaceCount >= timeToIdle)
+        {
+            SetState(new Idle());
+        }
+        
+    }
+
     public void Move()
     {
-
         agent.SetDestination(currentTarget.position);
     }
 
     public void BuzzSawHit()
     {
         Debug.Log("BuzzSaw hit");
-        unmasked = true;
-        mask.SetActive(false);
-
-        SetState(new Stunned());
+        Unmask();
     }
 
     public void OnExploded()
     {
         Debug.Log("Exploded");
-        unmasked = true;
-        mask.SetActive(false);
+        Unmask();
+    }
 
-        SetState(new Stunned());
+    private void Unmask()
+    {
+        if (!unmasked)
+        {
+            unmasked = true;
+            mask.SetActive(false);
+            axeRig.constraints = RigidbodyConstraints.None;
+            axe.tag = "Throwable";
+            axe.transform.parent = null;
+            axeRig.AddExplosionForce(explosionForce, transform.position, explosionRadius, upwardForce);
+
+            SetState(new Stunned());
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.collider.CompareTag("Throwable"))
+        {
+            DeathCheck();
+        }
     }
 
     public void OnElectricuted()
     {
         Debug.Log("Electricuted");
+        StunCheck();
+    }
+
+    public void OnSmacked()
+    {
+        Debug.Log("Smacked");
+        DeathCheck();
+    }
+
+    public void OnFireBallHit()
+    {
+        Debug.Log("Hit by fireball");
+        StunCheck();
+    }
+
+    private void StunCheck()
+    {
         if (unmasked)
         {
             SetState(new Stunned());
         }
     }
 
-    public void OnSmacked()
+    private void DeathCheck()
     {
-        Debug.Log("Smacked");
-
         if (currentState.ToString() == "Stunned")
         {
             SetState(new Die());
         }
     }
 
-    public void OnFireBallHit()
-    {
-        Debug.Log("Hit by fireball");
-
-        if (unmasked)
-        {
-            SetState(new Stunned());
-        }
-
-    }
-
     public void SetState(AIState state)
     {
-
-        //if (currentState.ToString() != "Die")
-        //{
         if (currentState != null)
         {
             currentState.Exit(this);
@@ -133,13 +216,16 @@ public class FollowAI : MonoBehaviour
         {
             currentState.Enter(this);
         }
-        //}
+    }
 
-       // Debug.Log(currentState.ToString());
+    private void EndStun()
+    {
+        SetState(new Chase());
     }
 
     public void Destroy()
     {
+        Destroy(axe);
         Destroy(gameObject);
     }
 }

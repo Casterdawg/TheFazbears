@@ -10,15 +10,18 @@ public class Attack : AIState
         base.Enter(AI);
 
         Debug.Log("The AI is attacking");
+        //start playing attack animation that plays on loop
     }
 
     public override void Update(FollowAI AI)
     {
         AI.Move();
+        AI.CheckDistance();
     }
 
     public override void Exit(FollowAI AI)
     {
+        //stop playing the attack animation and return to the chase state
         base.Exit(AI);
     }
 }

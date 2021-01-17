@@ -54,7 +54,6 @@ public class GravPower : AbilityBase
         if (Physics.Raycast(camPos.transform.position, forward, out hit, abilityRange)
             && hit.transform.CompareTag("Throwable"))
         {
-           // Debug.Log("Throwabled found");
             //If the gravity object can be interacted with, then activate the interaction
             if (hit.collider.TryGetComponent(out InteractionBase interaction))
             {

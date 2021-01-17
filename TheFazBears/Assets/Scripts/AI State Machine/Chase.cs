@@ -10,12 +10,15 @@ public class Chase : AIState
         base.Enter(AI);
 
         Debug.Log("The AI is chasing the player");
-        AI.CheckPlayers();
+        AI.CheckClosestPlayer();
+        AI.agent.isStopped = false;
     }
 
     public override void Update(FollowAI AI)
     {
         AI.Move();
+        AI.CheckDistance();
+        Debug.Log("New pos found");
     }
 
     public override void Exit(FollowAI AI)

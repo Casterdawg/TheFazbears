@@ -10,6 +10,8 @@ public class Stunned : AIState
         base.Enter(AI);
 
         Debug.Log("The AI is stunned");
+
+        AI.Invoke("EndStun", 3);
     }
 
     public override void Update(FollowAI AI)
@@ -20,5 +22,6 @@ public class Stunned : AIState
     public override void Exit(FollowAI AI)
     {
         base.Exit(AI);
+        Debug.Log("Stun ended");
     }
 }

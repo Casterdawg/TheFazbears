@@ -18,10 +18,6 @@ public class FireBallCollider : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         //This if statement will be used to check to see if the fireball has interacted with an enemy
-        //if (collision.gameObject.CompareTag("Enemy"))
-        //{
-        //    Debug.Log("Fireball hit enemy");
-        //}
         if(collision.gameObject.TryGetComponent(out FollowAI AI))
         {
             AI.OnFireBallHit();
