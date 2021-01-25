@@ -26,6 +26,9 @@ public class PlayerStateController : MonoBehaviour
     public int goldyJumpLimit;
     public AbilityBase gravityPower;
     public AbilityBase electrictyPower;
+    public float electricCoolDown = 1.5f;
+    public bool goldyCanElectricute = true;
+    public float currentGoldyHealth = 100;
 
     //Variables specific for when using foxy
     [Header("Foxy Settings", order = 1)]
@@ -41,6 +44,11 @@ public class PlayerStateController : MonoBehaviour
     public AbilityBase twirlPower;
     public Transform ledgeCheckX;
     public Transform ledgeCheckY;
+    public float fireBallCoolDown = 1f;
+    public float smackCoolDown = 2f;
+    public bool foxyCanFireball = true;
+    public bool foxyCanSmack = true;
+    public float currentFoxyHealth = 150;
 
     //All of the variables below will be shared by both characters and will change depending on which character is active at the time
     [Header("Shared Variables", order = 2)]
@@ -52,6 +60,8 @@ public class PlayerStateController : MonoBehaviour
     public Transform goldyLookPoint;
     //The variable that will be populated with the current look point of the player
     public Transform currentLookPoint;
+    public float currentAimedCoolDown;
+    public float currentNonAimedCoolDown;
 
     //HideInInspector prevents public variables from being visable in the inspector, makes the inspector easier to navigate while keeping the variables easy to work with.
     //These two variables are populated with the abilities that foxy and goldy both have, they will switch when the characters switch.
@@ -169,6 +179,31 @@ public class PlayerStateController : MonoBehaviour
         currentState.Update(this);
     }
 
+    public void DoDamage(float damageValue, GameObject currentChar)
+    {
+        if(currentChar == foxy)
+        {
+            currentFoxyHealth -= damageValue;
+            print(currentFoxyHealth);
+        }
+        else if(currentChar == goldy)
+        {
+            currentGoldyHealth -= damageValue;
+            print(currentGoldyHealth);
+        }
+
+
+        if(currentFoxyHealth <= 0 || currentGoldyHealth <= 0)
+        {
+            GameOver();
+        }
+    }
+
+    public void GameOver()
+    {
+        print("Game over");
+    }
+
     //This method is used for changin the current state of the character
     public void SetState(State state)
     {
@@ -220,6 +255,8 @@ public class PlayerStateController : MonoBehaviour
             //These variables are for setting the current abilities the player can use
             currentAbility = electrictyPower;
             currentAimAbility = gravityPower;
+            currentAimedCoolDown = 0;
+            currentNonAimedCoolDown = electricCoolDown;
 
         }
         //If the current character is foxy, then switch the variables accordingly.
@@ -245,6 +282,8 @@ public class PlayerStateController : MonoBehaviour
 
             currentAbility = twirlPower;
             currentAimAbility = fireBallPower;
+            currentAimedCoolDown = fireBallCoolDown;
+            currentNonAimedCoolDown = smackCoolDown;
         }
     }
 
@@ -414,8 +453,25 @@ public class PlayerStateController : MonoBehaviour
     //When the player uses the ability button, then use the non aimed ability used by the specific character
     private void UseAbility(InputAction.CallbackContext context)
     {
+        //if(currentController = characterControllFoxy)
+        //{
+        //    foxyCanSmack = false;
+        //    StartCoroutine(BoolToggle)
+        //}
+        //else if(currentController = characterControllGoldy)
+        //{
+
+        //}
         currentAbility.enabled = true;
     }
+
+    //private IEnumerator BoolToggle(bool changedValue, float time)
+    //{
+    //    yield return WaitForSeconds()
+    //}
+
+
+   // private void AbilityCoolDownBool
 
     //Function called when the player jump
     private IEnumerator JumpEvent()
@@ -444,6 +500,4 @@ public class PlayerStateController : MonoBehaviour
         //Set the jump bool back to false
         isJumping = false;
     }
-
-
 }

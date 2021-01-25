@@ -24,6 +24,7 @@ public class FollowAI : MonoBehaviour
     public Transform goldy;
     public Transform foxy;
     private Transform currentTarget;
+    public PlayerStateController controller;
 
     private float distanceToGoldy;
     private float distanceToFoxy;
@@ -161,6 +162,10 @@ public class FollowAI : MonoBehaviour
         if(collision.collider.CompareTag("Throwable"))
         {
             DeathCheck();
+        }
+        if (collision.collider.CompareTag("Player"))
+        {
+            controller.DoDamage(15, collision.collider.gameObject);
         }
     }
 

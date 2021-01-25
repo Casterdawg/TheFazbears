@@ -11,7 +11,7 @@ public class Stunned : AIState
 
         Debug.Log("The AI is stunned");
 
-        AI.Invoke("EndStun", 3);
+        AI.Invoke("EndStun", 5);
     }
 
     public override void Update(FollowAI AI)
