@@ -1,0 +1,2794 @@
+fileFormatVersion: 2
+guid: a8aa92d281757d74eb98e116ec2bd553
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -757886471208810119
+    second: Cube|Archipack_snap_helperAction.001
+  - first:
+      74: 9036694105013053538
+    second: Cube|Cube.001Action
+  - first:
+      74: 5677483543417657689
+    second: Cube|Cube.002Action.001
+  - first:
+      74: -3991046003858263727
+    second: Cube|Cube.003Action.001
+  - first:
+      74: 5259475447914872051
+    second: Cube|Cube.004Action
+  - first:
+      74: -7918129362319027497
+    second: Cube|CubeAction.001
+  - first:
+      74: -4954090093107511943
+    second: Cube|CubeAction.003
+  - first:
+      74: -1886024049379352917
+    second: Cube|CylinderAction.001
+  - first:
+      74: -1503162488437755820
+    second: Cube|Faz ValleyAction.001
+  - first:
+      74: 5591489675161525331
+    second: Cube|Faz ValleyAction.002
+  - first:
+      74: 1725937827476812390
+    second: Cube|Faz ValleyAction.004
+  - first:
+      74: 8014497283679988877
+    second: Cube|Faz ValleyAction.005
+  - first:
+      74: -9093026270934574266
+    second: Cube|Faz ValleyAction.006
+  - first:
+      74: 6758767406686333363
+    second: Cube|Faz ValleyAction.007
+  - first:
+      74: -2607784536487214515
+    second: Cube|Faz ValleyAction.009
+  - first:
+      74: 2124600178150206678
+    second: Cube|Faz ValleyAction.010
+  - first:
+      74: -5682509135497943332
+    second: Cube|Faz ValleyAction.011
+  - first:
+      74: 5374782540236320677
+    second: Cube|Faz ValleyAction.012
+  - first:
+      74: 392040406719587699
+    second: Cube|Faz ValleyAction.013
+  - first:
+      74: -664729357190531336
+    second: Cube|Faz ValleyAction.014
+  - first:
+      74: -3339038655628588574
+    second: Cube|Faz ValleyAction.015
+  - first:
+      74: 802923063992245903
+    second: Cube|Faz ValleyAction.016
+  - first:
+      74: 8808092740858407547
+    second: Cube|Faz ValleyAction.017
+  - first:
+      74: -7584823181154539164
+    second: Cube|Faz ValleyAction.018
+  - first:
+      74: 2390623761133501798
+    second: Cube|Faz ValleyAction.019
+  - first:
+      74: 55682417481323701
+    second: Cube|Faz ValleyAction.020
+  - first:
+      74: -2066635043263418358
+    second: Cube|Faz ValleyAction.021
+  - first:
+      74: -294123348038971919
+    second: Cube|Faz ValleyAction.022
+  - first:
+      74: 1640176641634164572
+    second: Cube|greens.004Action.002
+  - first:
+      74: -2341792543444936284
+    second: Cube|PlaneAction.002
+  - first:
+      74: -520944357776194435
+    second: Cube|pPlane1|Take 001|BaseLayer
+  - first:
+      74: 5970831259984367698
+    second: Cylinder|Archipack_snap_helperAction.001
+  - first:
+      74: -5182580781479304208
+    second: Cylinder|Cube.001Action
+  - first:
+      74: -5623699541039495213
+    second: Cylinder|Cube.002Action.001
+  - first:
+      74: 3106954865446750340
+    second: Cylinder|Cube.003Action.001
+  - first:
+      74: 5864986325590357177
+    second: Cylinder|Cube.004Action
+  - first:
+      74: 4266045416369825290
+    second: Cylinder|CubeAction.001
+  - first:
+      74: 4106617356095220484
+    second: Cylinder|CubeAction.003
+  - first:
+      74: -6242241587816052237
+    second: Cylinder|CylinderAction.001
+  - first:
+      74: -1689357150407904055
+    second: Cylinder|Faz ValleyAction.001
+  - first:
+      74: 3159247560490811075
+    second: Cylinder|Faz ValleyAction.002
+  - first:
+      74: -4482423844565321550
+    second: Cylinder|Faz ValleyAction.004
+  - first:
+      74: 8017205007959074099
+    second: Cylinder|Faz ValleyAction.005
+  - first:
+      74: -6754263600020283408
+    second: Cylinder|Faz ValleyAction.006
+  - first:
+      74: -1860353731246465024
+    second: Cylinder|Faz ValleyAction.007
+  - first:
+      74: -1072005944669755269
+    second: Cylinder|Faz ValleyAction.009
+  - first:
+      74: 5640484457677141085
+    second: Cylinder|Faz ValleyAction.010
+  - first:
+      74: 1847942517618742558
+    second: Cylinder|Faz ValleyAction.011
+  - first:
+      74: 1557350143492032070
+    second: Cylinder|Faz ValleyAction.012
+  - first:
+      74: -1402572089053104416
+    second: Cylinder|Faz ValleyAction.013
+  - first:
+      74: -4156877023103858608
+    second: Cylinder|Faz ValleyAction.014
+  - first:
+      74: 9051972846642053920
+    second: Cylinder|Faz ValleyAction.015
+  - first:
+      74: 8833741212247530359
+    second: Cylinder|Faz ValleyAction.016
+  - first:
+      74: 2988951915427055642
+    second: Cylinder|Faz ValleyAction.017
+  - first:
+      74: 3276110941378265866
+    second: Cylinder|Faz ValleyAction.018
+  - first:
+      74: -949683733280735330
+    second: Cylinder|Faz ValleyAction.019
+  - first:
+      74: 4085769859305523232
+    second: Cylinder|Faz ValleyAction.020
+  - first:
+      74: -8318717376665075159
+    second: Cylinder|Faz ValleyAction.021
+  - first:
+      74: 3308283168988976654
+    second: Cylinder|Faz ValleyAction.022
+  - first:
+      74: -4499135912043882034
+    second: Cylinder|greens.004Action.002
+  - first:
+      74: 1118992108148882981
+    second: Cylinder|PlaneAction.002
+  - first:
+      74: 4604038511317938602
+    second: Cylinder|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -4749386463701296655
+    second: greens.004|Archipack_snap_helperAction.001
+  - first:
+      74: -3024040070671375329
+    second: greens.004|Cube.001Action
+  - first:
+      74: -5714700013662619741
+    second: greens.004|Cube.002Action.001
+  - first:
+      74: 6101197184299149483
+    second: greens.004|Cube.003Action.001
+  - first:
+      74: -4113788199521815404
+    second: greens.004|Cube.004Action
+  - first:
+      74: 5066586552328361290
+    second: greens.004|CubeAction.001
+  - first:
+      74: -3719595006862147385
+    second: greens.004|CubeAction.003
+  - first:
+      74: -5742128425462724949
+    second: greens.004|CylinderAction.001
+  - first:
+      74: -6633058889073957748
+    second: greens.004|Faz ValleyAction.001
+  - first:
+      74: 3423000313873748477
+    second: greens.004|Faz ValleyAction.002
+  - first:
+      74: -6153872023007940453
+    second: greens.004|Faz ValleyAction.004
+  - first:
+      74: 2053972559301165688
+    second: greens.004|Faz ValleyAction.005
+  - first:
+      74: 57274304575495290
+    second: greens.004|Faz ValleyAction.006
+  - first:
+      74: 6495135516560554820
+    second: greens.004|Faz ValleyAction.007
+  - first:
+      74: 1153490658847991843
+    second: greens.004|Faz ValleyAction.009
+  - first:
+      74: 2136730001744231852
+    second: greens.004|Faz ValleyAction.010
+  - first:
+      74: 4712537154862514567
+    second: greens.004|Faz ValleyAction.011
+  - first:
+      74: 3824070839717429980
+    second: greens.004|Faz ValleyAction.012
+  - first:
+      74: 8454250335092090170
+    second: greens.004|Faz ValleyAction.013
+  - first:
+      74: 5243497802846367988
+    second: greens.004|Faz ValleyAction.014
+  - first:
+      74: -7361848569496189700
+    second: greens.004|Faz ValleyAction.015
+  - first:
+      74: 3881073067015836156
+    second: greens.004|Faz ValleyAction.016
+  - first:
+      74: -8256004807584841876
+    second: greens.004|Faz ValleyAction.017
+  - first:
+      74: 9201062466823513645
+    second: greens.004|Faz ValleyAction.018
+  - first:
+      74: -5397811647927575525
+    second: greens.004|Faz ValleyAction.019
+  - first:
+      74: 3662463004491643028
+    second: greens.004|Faz ValleyAction.020
+  - first:
+      74: 3790490565747802713
+    second: greens.004|Faz ValleyAction.021
+  - first:
+      74: -2491950161146896409
+    second: greens.004|Faz ValleyAction.022
+  - first:
+      74: -1444357988743222824
+    second: greens.004|greens.004Action.002
+  - first:
+      74: -6869292309716485927
+    second: greens.004|PlaneAction.002
+  - first:
+      74: -3186344351197162965
+    second: greens.004|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -3929300879509611446
+    second: Cube.001|Archipack_snap_helperAction.001
+  - first:
+      74: -8515560403302317629
+    second: Cube.001|Cube.001Action
+  - first:
+      74: -503583810911536189
+    second: Cube.001|Cube.002Action.001
+  - first:
+      74: -1223815770018358419
+    second: Cube.001|Cube.003Action.001
+  - first:
+      74: -8753955325409962159
+    second: Cube.001|Cube.004Action
+  - first:
+      74: 7693504525942378453
+    second: Cube.001|CubeAction.001
+  - first:
+      74: 5656775543181414294
+    second: Cube.001|CubeAction.003
+  - first:
+      74: 5742391347210522988
+    second: Cube.001|CylinderAction.001
+  - first:
+      74: -4614580398771626822
+    second: Cube.001|Faz ValleyAction.001
+  - first:
+      74: -4964863742742047454
+    second: Cube.001|Faz ValleyAction.002
+  - first:
+      74: -7876185586808263314
+    second: Cube.001|Faz ValleyAction.004
+  - first:
+      74: 3045063538606743805
+    second: Cube.001|Faz ValleyAction.005
+  - first:
+      74: 1232034875041505765
+    second: Cube.001|Faz ValleyAction.006
+  - first:
+      74: 801997501852264352
+    second: Cube.001|Faz ValleyAction.007
+  - first:
+      74: -5280680728492616338
+    second: Cube.001|Faz ValleyAction.009
+  - first:
+      74: -7445844433670111833
+    second: Cube.001|Faz ValleyAction.010
+  - first:
+      74: 422323632292252092
+    second: Cube.001|Faz ValleyAction.011
+  - first:
+      74: 2397595517103145808
+    second: Cube.001|Faz ValleyAction.012
+  - first:
+      74: 4262779530349023246
+    second: Cube.001|Faz ValleyAction.013
+  - first:
+      74: 5537158988109008078
+    second: Cube.001|Faz ValleyAction.014
+  - first:
+      74: -1261160833154221746
+    second: Cube.001|Faz ValleyAction.015
+  - first:
+      74: 4450634554768070253
+    second: Cube.001|Faz ValleyAction.016
+  - first:
+      74: 1143476571653057647
+    second: Cube.001|Faz ValleyAction.017
+  - first:
+      74: -1816127218032406384
+    second: Cube.001|Faz ValleyAction.018
+  - first:
+      74: -3178112096944845344
+    second: Cube.001|Faz ValleyAction.019
+  - first:
+      74: -6329152367239794092
+    second: Cube.001|Faz ValleyAction.020
+  - first:
+      74: -4327283622303646823
+    second: Cube.001|Faz ValleyAction.021
+  - first:
+      74: -9218926493045577087
+    second: Cube.001|Faz ValleyAction.022
+  - first:
+      74: -5563314591109571155
+    second: Cube.001|greens.004Action.002
+  - first:
+      74: 2919092215423701927
+    second: Cube.001|PlaneAction.002
+  - first:
+      74: 8067104367883147441
+    second: Cube.001|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -5204240639041443181
+    second: Cube.002|Archipack_snap_helperAction.001
+  - first:
+      74: 978295544477664516
+    second: Cube.002|Cube.001Action
+  - first:
+      74: 6188143692413826237
+    second: Cube.002|Cube.002Action.001
+  - first:
+      74: 4922431519403219206
+    second: Cube.002|Cube.003Action.001
+  - first:
+      74: 9117891803251970930
+    second: Cube.002|Cube.004Action
+  - first:
+      74: -2572907464589091492
+    second: Cube.002|CubeAction.001
+  - first:
+      74: -4885974842977369079
+    second: Cube.002|CubeAction.003
+  - first:
+      74: 6104333808158994455
+    second: Cube.002|CylinderAction.001
+  - first:
+      74: 8751885197158604575
+    second: Cube.002|Faz ValleyAction.001
+  - first:
+      74: -5639749737781771963
+    second: Cube.002|Faz ValleyAction.002
+  - first:
+      74: -556627307015237164
+    second: Cube.002|Faz ValleyAction.004
+  - first:
+      74: -8866377496580168906
+    second: Cube.002|Faz ValleyAction.005
+  - first:
+      74: 5696255962160539451
+    second: Cube.002|Faz ValleyAction.006
+  - first:
+      74: -2352416938393737274
+    second: Cube.002|Faz ValleyAction.007
+  - first:
+      74: -4434737006985372020
+    second: Cube.002|Faz ValleyAction.009
+  - first:
+      74: 4313238615522041129
+    second: Cube.002|Faz ValleyAction.010
+  - first:
+      74: 1011948579071613918
+    second: Cube.002|Faz ValleyAction.011
+  - first:
+      74: -5385675703684030285
+    second: Cube.002|Faz ValleyAction.012
+  - first:
+      74: 8625075595664445120
+    second: Cube.002|Faz ValleyAction.013
+  - first:
+      74: 9115105789884268930
+    second: Cube.002|Faz ValleyAction.014
+  - first:
+      74: 6684912064007972661
+    second: Cube.002|Faz ValleyAction.015
+  - first:
+      74: 121964364763497698
+    second: Cube.002|Faz ValleyAction.016
+  - first:
+      74: 8231127638703581225
+    second: Cube.002|Faz ValleyAction.017
+  - first:
+      74: -8449214866769095271
+    second: Cube.002|Faz ValleyAction.018
+  - first:
+      74: 1789800377844559784
+    second: Cube.002|Faz ValleyAction.019
+  - first:
+      74: -3048696839686450953
+    second: Cube.002|Faz ValleyAction.020
+  - first:
+      74: -8593781772156358146
+    second: Cube.002|Faz ValleyAction.021
+  - first:
+      74: -4833515902434553085
+    second: Cube.002|Faz ValleyAction.022
+  - first:
+      74: -3173686705914415228
+    second: Cube.002|greens.004Action.002
+  - first:
+      74: -5736035498595031719
+    second: Cube.002|PlaneAction.002
+  - first:
+      74: 5832779260239524546
+    second: Cube.002|pPlane1|Take 001|BaseLayer
+  - first:
+      74: 4872099579400558110
+    second: Cube.003|Archipack_snap_helperAction.001
+  - first:
+      74: -4805450742491024743
+    second: Cube.003|Cube.001Action
+  - first:
+      74: 726223806253194669
+    second: Cube.003|Cube.002Action.001
+  - first:
+      74: 1929260646220558803
+    second: Cube.003|Cube.003Action.001
+  - first:
+      74: 2465649831543542797
+    second: Cube.003|Cube.004Action
+  - first:
+      74: 5152686050730697801
+    second: Cube.003|CubeAction.001
+  - first:
+      74: -359328796384786174
+    second: Cube.003|CubeAction.003
+  - first:
+      74: 2337241211573238186
+    second: Cube.003|CylinderAction.001
+  - first:
+      74: -5578292233995357891
+    second: Cube.003|Faz ValleyAction.001
+  - first:
+      74: 2609042002653635006
+    second: Cube.003|Faz ValleyAction.002
+  - first:
+      74: 611062657578842084
+    second: Cube.003|Faz ValleyAction.004
+  - first:
+      74: -5234549160263520514
+    second: Cube.003|Faz ValleyAction.005
+  - first:
+      74: 9076924984711381967
+    second: Cube.003|Faz ValleyAction.006
+  - first:
+      74: 9165053658509327986
+    second: Cube.003|Faz ValleyAction.007
+  - first:
+      74: 2070213845577842756
+    second: Cube.003|Faz ValleyAction.009
+  - first:
+      74: -8380320450465314760
+    second: Cube.003|Faz ValleyAction.010
+  - first:
+      74: -5781051201013529600
+    second: Cube.003|Faz ValleyAction.011
+  - first:
+      74: -3436368681869456789
+    second: Cube.003|Faz ValleyAction.012
+  - first:
+      74: 333946648271189520
+    second: Cube.003|Faz ValleyAction.013
+  - first:
+      74: -8658437374761247401
+    second: Cube.003|Faz ValleyAction.014
+  - first:
+      74: -4722492553921240746
+    second: Cube.003|Faz ValleyAction.015
+  - first:
+      74: 4670624439338752694
+    second: Cube.003|Faz ValleyAction.016
+  - first:
+      74: 7833152206140054977
+    second: Cube.003|Faz ValleyAction.017
+  - first:
+      74: -3730837583802357810
+    second: Cube.003|Faz ValleyAction.018
+  - first:
+      74: 385657013541545648
+    second: Cube.003|Faz ValleyAction.019
+  - first:
+      74: -6583423757925541489
+    second: Cube.003|Faz ValleyAction.020
+  - first:
+      74: 232608347891668114
+    second: Cube.003|Faz ValleyAction.021
+  - first:
+      74: -4278253683087489542
+    second: Cube.003|Faz ValleyAction.022
+  - first:
+      74: -1787278456339900185
+    second: Cube.003|greens.004Action.002
+  - first:
+      74: 2140199439840761923
+    second: Cube.003|PlaneAction.002
+  - first:
+      74: -1258753908716762216
+    second: Cube.003|pPlane1|Take 001|BaseLayer
+  - first:
+      74: 8627320138794466178
+    second: Cube.004|Archipack_snap_helperAction.001
+  - first:
+      74: 194676454379394236
+    second: Cube.004|Cube.001Action
+  - first:
+      74: 8122066950640983009
+    second: Cube.004|Cube.002Action.001
+  - first:
+      74: -1727032445687371412
+    second: Cube.004|Cube.003Action.001
+  - first:
+      74: -5755876124362903034
+    second: Cube.004|Cube.004Action
+  - first:
+      74: 2128774518444081479
+    second: Cube.004|CubeAction.001
+  - first:
+      74: -2221556649856779316
+    second: Cube.004|CubeAction.003
+  - first:
+      74: 4174700296618194558
+    second: Cube.004|CylinderAction.001
+  - first:
+      74: -1990512187100691076
+    second: Cube.004|Faz ValleyAction.001
+  - first:
+      74: 459862940616874893
+    second: Cube.004|Faz ValleyAction.002
+  - first:
+      74: 6510536575036603572
+    second: Cube.004|Faz ValleyAction.004
+  - first:
+      74: 7259551937511077957
+    second: Cube.004|Faz ValleyAction.005
+  - first:
+      74: 5596707726053946022
+    second: Cube.004|Faz ValleyAction.006
+  - first:
+      74: 6499029208366085463
+    second: Cube.004|Faz ValleyAction.007
+  - first:
+      74: 1650741568580139666
+    second: Cube.004|Faz ValleyAction.009
+  - first:
+      74: -4982452459036219601
+    second: Cube.004|Faz ValleyAction.010
+  - first:
+      74: -4096590835305876834
+    second: Cube.004|Faz ValleyAction.011
+  - first:
+      74: 6800939549361556792
+    second: Cube.004|Faz ValleyAction.012
+  - first:
+      74: -8030291880838590928
+    second: Cube.004|Faz ValleyAction.013
+  - first:
+      74: 8418346598595104542
+    second: Cube.004|Faz ValleyAction.014
+  - first:
+      74: 4381673916953436972
+    second: Cube.004|Faz ValleyAction.015
+  - first:
+      74: 7640740386078742146
+    second: Cube.004|Faz ValleyAction.016
+  - first:
+      74: -2615235712385044736
+    second: Cube.004|Faz ValleyAction.017
+  - first:
+      74: -432210480794138839
+    second: Cube.004|Faz ValleyAction.018
+  - first:
+      74: -8270418305210204624
+    second: Cube.004|Faz ValleyAction.019
+  - first:
+      74: -246968792039464216
+    second: Cube.004|Faz ValleyAction.020
+  - first:
+      74: 2937579203194886324
+    second: Cube.004|Faz ValleyAction.021
+  - first:
+      74: -9121248339754195491
+    second: Cube.004|Faz ValleyAction.022
+  - first:
+      74: -198024829534676330
+    second: Cube.004|greens.004Action.002
+  - first:
+      74: -5595338141379537731
+    second: Cube.004|PlaneAction.002
+  - first:
+      74: -7860280720102981462
+    second: Cube.004|pPlane1|Take 001|BaseLayer
+  - first:
+      74: 865735741678348375
+    second: Plane|Archipack_snap_helperAction.001
+  - first:
+      74: -3851250310652265543
+    second: Plane|Cube.001Action
+  - first:
+      74: -5717010350121938596
+    second: Plane|Cube.002Action.001
+  - first:
+      74: -4086190082834051232
+    second: Plane|Cube.003Action.001
+  - first:
+      74: -6233485905928893337
+    second: Plane|Cube.004Action
+  - first:
+      74: 1407310810164928426
+    second: Plane|CubeAction.001
+  - first:
+      74: 5359482341100165683
+    second: Plane|CubeAction.003
+  - first:
+      74: 3294732105317419172
+    second: Plane|CylinderAction.001
+  - first:
+      74: -7757925892370077504
+    second: Plane|Faz ValleyAction.001
+  - first:
+      74: 6517692675088229553
+    second: Plane|Faz ValleyAction.002
+  - first:
+      74: -5306068404478895925
+    second: Plane|Faz ValleyAction.004
+  - first:
+      74: 8181986879724057893
+    second: Plane|Faz ValleyAction.005
+  - first:
+      74: 7652596614342835334
+    second: Plane|Faz ValleyAction.006
+  - first:
+      74: -1664178522310046448
+    second: Plane|Faz ValleyAction.007
+  - first:
+      74: 1903307677429023020
+    second: Plane|Faz ValleyAction.009
+  - first:
+      74: -5107777272886466206
+    second: Plane|Faz ValleyAction.010
+  - first:
+      74: 4517061066051301462
+    second: Plane|Faz ValleyAction.011
+  - first:
+      74: -1204703187380261514
+    second: Plane|Faz ValleyAction.012
+  - first:
+      74: -426700701162627308
+    second: Plane|Faz ValleyAction.013
+  - first:
+      74: -2736799630028387155
+    second: Plane|Faz ValleyAction.014
+  - first:
+      74: -6219049558827795222
+    second: Plane|Faz ValleyAction.015
+  - first:
+      74: 2543213445331411886
+    second: Plane|Faz ValleyAction.016
+  - first:
+      74: -5867281964233118866
+    second: Plane|Faz ValleyAction.017
+  - first:
+      74: -2537181481044767386
+    second: Plane|Faz ValleyAction.018
+  - first:
+      74: 1860626610857214957
+    second: Plane|Faz ValleyAction.019
+  - first:
+      74: 2473685092167872055
+    second: Plane|Faz ValleyAction.020
+  - first:
+      74: 5839010168099099348
+    second: Plane|Faz ValleyAction.021
+  - first:
+      74: 7867897322614499653
+    second: Plane|Faz ValleyAction.022
+  - first:
+      74: -7863752114737843566
+    second: Plane|greens.004Action.002
+  - first:
+      74: 6689390143339556043
+    second: Plane|PlaneAction.002
+  - first:
+      74: 4289744808091972293
+    second: Plane|pPlane1|Take 001|BaseLayer
+  - first:
+      74: 7757384316720103768
+    second: rock|Archipack_snap_helperAction.001
+  - first:
+      74: 8271262401841564660
+    second: rock|Cube.001Action
+  - first:
+      74: 8150369435090405656
+    second: rock|Cube.002Action.001
+  - first:
+      74: 4139149210042913190
+    second: rock|Cube.003Action.001
+  - first:
+      74: 5201718034585901983
+    second: rock|Cube.004Action
+  - first:
+      74: 4219141214867616100
+    second: rock|CubeAction.001
+  - first:
+      74: 3031025171919250621
+    second: rock|CubeAction.003
+  - first:
+      74: 2066077870148227923
+    second: rock|CylinderAction.001
+  - first:
+      74: 5636447031264264466
+    second: rock|Faz ValleyAction.001
+  - first:
+      74: 8353060509733806551
+    second: rock|Faz ValleyAction.002
+  - first:
+      74: 741914945206546484
+    second: rock|Faz ValleyAction.004
+  - first:
+      74: -6478675396626077013
+    second: rock|Faz ValleyAction.005
+  - first:
+      74: -4811938431927678047
+    second: rock|Faz ValleyAction.006
+  - first:
+      74: -3080741966417077996
+    second: rock|Faz ValleyAction.007
+  - first:
+      74: 5712613643188749109
+    second: rock|Faz ValleyAction.009
+  - first:
+      74: -1303686021581140514
+    second: rock|Faz ValleyAction.010
+  - first:
+      74: 7593386362974488386
+    second: rock|Faz ValleyAction.011
+  - first:
+      74: 1793217311204115121
+    second: rock|Faz ValleyAction.012
+  - first:
+      74: -3419695422916808271
+    second: rock|Faz ValleyAction.013
+  - first:
+      74: 2153026402633980218
+    second: rock|Faz ValleyAction.014
+  - first:
+      74: 1697739828705489716
+    second: rock|Faz ValleyAction.015
+  - first:
+      74: -2595470622352980101
+    second: rock|Faz ValleyAction.016
+  - first:
+      74: 2902851847614203860
+    second: rock|Faz ValleyAction.017
+  - first:
+      74: 5883914631581335424
+    second: rock|Faz ValleyAction.018
+  - first:
+      74: 361403847268784853
+    second: rock|Faz ValleyAction.019
+  - first:
+      74: 2055691317414750633
+    second: rock|Faz ValleyAction.020
+  - first:
+      74: -2450919431565727590
+    second: rock|Faz ValleyAction.021
+  - first:
+      74: -5939132531251111495
+    second: rock|Faz ValleyAction.022
+  - first:
+      74: -3273351309999627422
+    second: rock|greens.004Action.002
+  - first:
+      74: -8880794623801419001
+    second: rock|PlaneAction.002
+  - first:
+      74: 8272004876476770323
+    second: rock|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -6230727977911907042
+    second: fence|Archipack_snap_helperAction.001
+  - first:
+      74: 5919114101779962279
+    second: fence|Cube.001Action
+  - first:
+      74: 1955717272422880771
+    second: fence|Cube.002Action.001
+  - first:
+      74: 4118232128522482741
+    second: fence|Cube.003Action.001
+  - first:
+      74: -446127741025749217
+    second: fence|Cube.004Action
+  - first:
+      74: 3774296773991704346
+    second: fence|CubeAction.001
+  - first:
+      74: -6779329807865335624
+    second: fence|CubeAction.003
+  - first:
+      74: 70800543875392352
+    second: fence|CylinderAction.001
+  - first:
+      74: 6599492218390815685
+    second: fence|Faz ValleyAction.001
+  - first:
+      74: 6039083858476639153
+    second: fence|Faz ValleyAction.002
+  - first:
+      74: -3397631158377014360
+    second: fence|Faz ValleyAction.004
+  - first:
+      74: -4578974258349510439
+    second: fence|Faz ValleyAction.005
+  - first:
+      74: 2532729391840004807
+    second: fence|Faz ValleyAction.006
+  - first:
+      74: -822335711552098412
+    second: fence|Faz ValleyAction.007
+  - first:
+      74: 7477018192137499046
+    second: fence|Faz ValleyAction.009
+  - first:
+      74: -6219470191988011425
+    second: fence|Faz ValleyAction.010
+  - first:
+      74: -8897295710251594110
+    second: fence|Faz ValleyAction.011
+  - first:
+      74: -4566060379174437803
+    second: fence|Faz ValleyAction.012
+  - first:
+      74: -2911158793522145305
+    second: fence|Faz ValleyAction.013
+  - first:
+      74: 3296663114703847952
+    second: fence|Faz ValleyAction.014
+  - first:
+      74: -1975245148411092112
+    second: fence|Faz ValleyAction.015
+  - first:
+      74: -1497719395843465971
+    second: fence|Faz ValleyAction.016
+  - first:
+      74: 5432964974448835979
+    second: fence|Faz ValleyAction.017
+  - first:
+      74: 3032079991239941447
+    second: fence|Faz ValleyAction.018
+  - first:
+      74: 4077453204263589045
+    second: fence|Faz ValleyAction.019
+  - first:
+      74: 8143150595261043331
+    second: fence|Faz ValleyAction.020
+  - first:
+      74: -5200400367799424145
+    second: fence|Faz ValleyAction.021
+  - first:
+      74: 4659444729174725196
+    second: fence|Faz ValleyAction.022
+  - first:
+      74: -7069502494841889922
+    second: fence|greens.004Action.002
+  - first:
+      74: -4641628664074870392
+    second: fence|PlaneAction.002
+  - first:
+      74: 8496109780529667317
+    second: fence|pPlane1|Take 001|BaseLayer
+  - first:
+      74: 2509066964352873268
+    second: Faz Valley.003|Archipack_snap_helperAction.001
+  - first:
+      74: -2531248380776440939
+    second: Faz Valley.003|Cube.001Action
+  - first:
+      74: 1493331783482364645
+    second: Faz Valley.003|Cube.002Action.001
+  - first:
+      74: 3428864691892123808
+    second: Faz Valley.003|Cube.003Action.001
+  - first:
+      74: 8278411997049844244
+    second: Faz Valley.003|Cube.004Action
+  - first:
+      74: 339374449078648807
+    second: Faz Valley.003|CubeAction.001
+  - first:
+      74: 6692976795843357464
+    second: Faz Valley.003|CubeAction.003
+  - first:
+      74: -723207011069467113
+    second: Faz Valley.003|CylinderAction.001
+  - first:
+      74: 1712406821623161260
+    second: Faz Valley.003|Faz ValleyAction.001
+  - first:
+      74: -4635265042001637302
+    second: Faz Valley.003|Faz ValleyAction.002
+  - first:
+      74: 2451340319564738761
+    second: Faz Valley.003|Faz ValleyAction.004
+  - first:
+      74: -2885977657878710731
+    second: Faz Valley.003|Faz ValleyAction.005
+  - first:
+      74: 2252438873503823009
+    second: Faz Valley.003|Faz ValleyAction.006
+  - first:
+      74: 901336276990355347
+    second: Faz Valley.003|Faz ValleyAction.007
+  - first:
+      74: -2246734960843408812
+    second: Faz Valley.003|Faz ValleyAction.009
+  - first:
+      74: 4427277840425126793
+    second: Faz Valley.003|Faz ValleyAction.010
+  - first:
+      74: -1734468743589264377
+    second: Faz Valley.003|Faz ValleyAction.011
+  - first:
+      74: -4514940930511645208
+    second: Faz Valley.003|Faz ValleyAction.012
+  - first:
+      74: 3592575957290746635
+    second: Faz Valley.003|Faz ValleyAction.013
+  - first:
+      74: -1478322681608097526
+    second: Faz Valley.003|Faz ValleyAction.014
+  - first:
+      74: -4232356346113283143
+    second: Faz Valley.003|Faz ValleyAction.015
+  - first:
+      74: -8336144988138176674
+    second: Faz Valley.003|Faz ValleyAction.016
+  - first:
+      74: -4036372351589631084
+    second: Faz Valley.003|Faz ValleyAction.017
+  - first:
+      74: -7173630546485909855
+    second: Faz Valley.003|Faz ValleyAction.018
+  - first:
+      74: 4603871020881049900
+    second: Faz Valley.003|Faz ValleyAction.019
+  - first:
+      74: 3239729794325173292
+    second: Faz Valley.003|Faz ValleyAction.020
+  - first:
+      74: 5892711794055328833
+    second: Faz Valley.003|Faz ValleyAction.021
+  - first:
+      74: 5161123102467236150
+    second: Faz Valley.003|Faz ValleyAction.022
+  - first:
+      74: -3284566604971764621
+    second: Faz Valley.003|greens.004Action.002
+  - first:
+      74: -8125211590681947071
+    second: Faz Valley.003|PlaneAction.002
+  - first:
+      74: -6984422075105999684
+    second: Faz Valley.003|pPlane1|Take 001|BaseLayer
+  - first:
+      74: 2733877509815926132
+    second: Faz Valley.005|Archipack_snap_helperAction.001
+  - first:
+      74: -7699472870216799791
+    second: Faz Valley.005|Cube.001Action
+  - first:
+      74: 6115001637643743629
+    second: Faz Valley.005|Cube.002Action.001
+  - first:
+      74: 1452658427597182074
+    second: Faz Valley.005|Cube.003Action.001
+  - first:
+      74: -6972334716763599028
+    second: Faz Valley.005|Cube.004Action
+  - first:
+      74: 240093440756546725
+    second: Faz Valley.005|CubeAction.001
+  - first:
+      74: 7171575161682753436
+    second: Faz Valley.005|CubeAction.003
+  - first:
+      74: -2803192940531516389
+    second: Faz Valley.005|CylinderAction.001
+  - first:
+      74: -6887405533756847465
+    second: Faz Valley.005|Faz ValleyAction.001
+  - first:
+      74: 32790298659954347
+    second: Faz Valley.005|Faz ValleyAction.002
+  - first:
+      74: 1622233572545486303
+    second: Faz Valley.005|Faz ValleyAction.004
+  - first:
+      74: -6191760736034136035
+    second: Faz Valley.005|Faz ValleyAction.005
+  - first:
+      74: 675465650038435725
+    second: Faz Valley.005|Faz ValleyAction.006
+  - first:
+      74: 1764026938140759602
+    second: Faz Valley.005|Faz ValleyAction.007
+  - first:
+      74: 4345573493564031379
+    second: Faz Valley.005|Faz ValleyAction.009
+  - first:
+      74: -3879500929592838399
+    second: Faz Valley.005|Faz ValleyAction.010
+  - first:
+      74: -3787460545457091253
+    second: Faz Valley.005|Faz ValleyAction.011
+  - first:
+      74: -4630458092240690233
+    second: Faz Valley.005|Faz ValleyAction.012
+  - first:
+      74: -1585922916176938854
+    second: Faz Valley.005|Faz ValleyAction.013
+  - first:
+      74: 320665734846282088
+    second: Faz Valley.005|Faz ValleyAction.014
+  - first:
+      74: -6063322277246260769
+    second: Faz Valley.005|Faz ValleyAction.015
+  - first:
+      74: 8413037431971567153
+    second: Faz Valley.005|Faz ValleyAction.016
+  - first:
+      74: -637946911169092574
+    second: Faz Valley.005|Faz ValleyAction.017
+  - first:
+      74: 5572373829935799512
+    second: Faz Valley.005|Faz ValleyAction.018
+  - first:
+      74: -4717816330185634693
+    second: Faz Valley.005|Faz ValleyAction.019
+  - first:
+      74: 7808087338031060467
+    second: Faz Valley.005|Faz ValleyAction.020
+  - first:
+      74: 4383182583833993187
+    second: Faz Valley.005|Faz ValleyAction.021
+  - first:
+      74: 2452979826013936210
+    second: Faz Valley.005|Faz ValleyAction.022
+  - first:
+      74: 2623203256942419980
+    second: Faz Valley.005|greens.004Action.002
+  - first:
+      74: -3773887209252511170
+    second: Faz Valley.005|PlaneAction.002
+  - first:
+      74: 8827358372522153598
+    second: Faz Valley.005|pPlane1|Take 001|BaseLayer
+  - first:
+      74: 3183224464253134149
+    second: Faz Valley.006|Archipack_snap_helperAction.001
+  - first:
+      74: 2284417635584524182
+    second: Faz Valley.006|Cube.001Action
+  - first:
+      74: 3200339743586604592
+    second: Faz Valley.006|Cube.002Action.001
+  - first:
+      74: 2104998883839226639
+    second: Faz Valley.006|Cube.003Action.001
+  - first:
+      74: -3954027428187418060
+    second: Faz Valley.006|Cube.004Action
+  - first:
+      74: -7263585881789807937
+    second: Faz Valley.006|CubeAction.001
+  - first:
+      74: 3386738712027797653
+    second: Faz Valley.006|CubeAction.003
+  - first:
+      74: -7392253799168662078
+    second: Faz Valley.006|CylinderAction.001
+  - first:
+      74: -8094940626704563330
+    second: Faz Valley.006|Faz ValleyAction.001
+  - first:
+      74: -7726202173446335056
+    second: Faz Valley.006|Faz ValleyAction.002
+  - first:
+      74: 2076779331594701282
+    second: Faz Valley.006|Faz ValleyAction.004
+  - first:
+      74: 7530746948741087601
+    second: Faz Valley.006|Faz ValleyAction.005
+  - first:
+      74: 4822542245882660273
+    second: Faz Valley.006|Faz ValleyAction.006
+  - first:
+      74: 8357576870943093084
+    second: Faz Valley.006|Faz ValleyAction.007
+  - first:
+      74: 4146890989981906166
+    second: Faz Valley.006|Faz ValleyAction.009
+  - first:
+      74: 3257327354771117756
+    second: Faz Valley.006|Faz ValleyAction.010
+  - first:
+      74: -8929945327567665666
+    second: Faz Valley.006|Faz ValleyAction.011
+  - first:
+      74: -6143471836878948615
+    second: Faz Valley.006|Faz ValleyAction.012
+  - first:
+      74: -2568533216375810793
+    second: Faz Valley.006|Faz ValleyAction.013
+  - first:
+      74: 6611821418893690347
+    second: Faz Valley.006|Faz ValleyAction.014
+  - first:
+      74: -4916722730024960370
+    second: Faz Valley.006|Faz ValleyAction.015
+  - first:
+      74: -4658622196463596919
+    second: Faz Valley.006|Faz ValleyAction.016
+  - first:
+      74: 1788808456250563021
+    second: Faz Valley.006|Faz ValleyAction.017
+  - first:
+      74: 2129406167465618065
+    second: Faz Valley.006|Faz ValleyAction.018
+  - first:
+      74: -4563324716309166374
+    second: Faz Valley.006|Faz ValleyAction.019
+  - first:
+      74: 1795982835569189054
+    second: Faz Valley.006|Faz ValleyAction.020
+  - first:
+      74: 8330283297015996975
+    second: Faz Valley.006|Faz ValleyAction.021
+  - first:
+      74: -3184188728361045920
+    second: Faz Valley.006|Faz ValleyAction.022
+  - first:
+      74: 5997770936637773061
+    second: Faz Valley.006|greens.004Action.002
+  - first:
+      74: -1438277189125076110
+    second: Faz Valley.006|PlaneAction.002
+  - first:
+      74: 356387212450969863
+    second: Faz Valley.006|pPlane1|Take 001|BaseLayer
+  - first:
+      74: 6886867135735080655
+    second: river|Archipack_snap_helperAction.001
+  - first:
+      74: -2300873969950562558
+    second: river|Cube.001Action
+  - first:
+      74: 4485905088273631222
+    second: river|Cube.002Action.001
+  - first:
+      74: 8648525841303556575
+    second: river|Cube.003Action.001
+  - first:
+      74: -7525857205232339308
+    second: river|Cube.004Action
+  - first:
+      74: -3070344201429995571
+    second: river|CubeAction.001
+  - first:
+      74: 5438287607869862179
+    second: river|CubeAction.003
+  - first:
+      74: 7419261008510123929
+    second: river|CylinderAction.001
+  - first:
+      74: 738302163059605733
+    second: river|Faz ValleyAction.001
+  - first:
+      74: -6850894824904191243
+    second: river|Faz ValleyAction.002
+  - first:
+      74: 7924284243387987009
+    second: river|Faz ValleyAction.004
+  - first:
+      74: 7615405688830622982
+    second: river|Faz ValleyAction.005
+  - first:
+      74: 6897618890399353411
+    second: river|Faz ValleyAction.006
+  - first:
+      74: 775181013180333092
+    second: river|Faz ValleyAction.007
+  - first:
+      74: -2795466310540206599
+    second: river|Faz ValleyAction.009
+  - first:
+      74: -29350943836606720
+    second: river|Faz ValleyAction.010
+  - first:
+      74: 4795767679327021739
+    second: river|Faz ValleyAction.011
+  - first:
+      74: 1858381265981086657
+    second: river|Faz ValleyAction.012
+  - first:
+      74: -2140140439940079641
+    second: river|Faz ValleyAction.013
+  - first:
+      74: -4620517929711364543
+    second: river|Faz ValleyAction.014
+  - first:
+      74: 8433961930588384870
+    second: river|Faz ValleyAction.015
+  - first:
+      74: -2504936284137013221
+    second: river|Faz ValleyAction.016
+  - first:
+      74: -6967918483066288476
+    second: river|Faz ValleyAction.017
+  - first:
+      74: -2783678748965926156
+    second: river|Faz ValleyAction.018
+  - first:
+      74: -6840232410737391836
+    second: river|Faz ValleyAction.019
+  - first:
+      74: 124947295387367840
+    second: river|Faz ValleyAction.020
+  - first:
+      74: 8479003527339732558
+    second: river|Faz ValleyAction.021
+  - first:
+      74: 5384018489561955580
+    second: river|Faz ValleyAction.022
+  - first:
+      74: -908615343309359603
+    second: river|greens.004Action.002
+  - first:
+      74: -9044735406574505038
+    second: river|PlaneAction.002
+  - first:
+      74: -275970170896468562
+    second: river|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -2826345369081757497
+    second: rock.001|Archipack_snap_helperAction.001
+  - first:
+      74: 1567473008729169350
+    second: rock.001|Cube.001Action
+  - first:
+      74: 3645651119167634409
+    second: rock.001|Cube.002Action.001
+  - first:
+      74: -7394242662353441305
+    second: rock.001|Cube.003Action.001
+  - first:
+      74: -3994496709846895738
+    second: rock.001|Cube.004Action
+  - first:
+      74: 5740650411437333330
+    second: rock.001|CubeAction.001
+  - first:
+      74: 830575508171323262
+    second: rock.001|CubeAction.003
+  - first:
+      74: 9085828677675209158
+    second: rock.001|CylinderAction.001
+  - first:
+      74: 1236572904821672679
+    second: rock.001|Faz ValleyAction.001
+  - first:
+      74: -8538699138420983381
+    second: rock.001|Faz ValleyAction.002
+  - first:
+      74: 6448747173187112620
+    second: rock.001|Faz ValleyAction.004
+  - first:
+      74: -462086537598073971
+    second: rock.001|Faz ValleyAction.005
+  - first:
+      74: -7561947337402712002
+    second: rock.001|Faz ValleyAction.006
+  - first:
+      74: 5132424946829111494
+    second: rock.001|Faz ValleyAction.007
+  - first:
+      74: -8231638627095315090
+    second: rock.001|Faz ValleyAction.009
+  - first:
+      74: 6568470512634887937
+    second: rock.001|Faz ValleyAction.010
+  - first:
+      74: -3037634127398377460
+    second: rock.001|Faz ValleyAction.011
+  - first:
+      74: 842988412859434394
+    second: rock.001|Faz ValleyAction.012
+  - first:
+      74: -7488823014799917432
+    second: rock.001|Faz ValleyAction.013
+  - first:
+      74: -8465525045067867225
+    second: rock.001|Faz ValleyAction.014
+  - first:
+      74: -8526792809010693189
+    second: rock.001|Faz ValleyAction.015
+  - first:
+      74: 3857037584789897871
+    second: rock.001|Faz ValleyAction.016
+  - first:
+      74: 3065769930362959378
+    second: rock.001|Faz ValleyAction.017
+  - first:
+      74: -175765111738648997
+    second: rock.001|Faz ValleyAction.018
+  - first:
+      74: 7913686792683903162
+    second: rock.001|Faz ValleyAction.019
+  - first:
+      74: -6540003185261204342
+    second: rock.001|Faz ValleyAction.020
+  - first:
+      74: 2253440350562054658
+    second: rock.001|Faz ValleyAction.021
+  - first:
+      74: -2247900167797656626
+    second: rock.001|Faz ValleyAction.022
+  - first:
+      74: 9066656081841493106
+    second: rock.001|greens.004Action.002
+  - first:
+      74: 994808664497799158
+    second: rock.001|PlaneAction.002
+  - first:
+      74: 8048208667966290899
+    second: rock.001|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -3866431209176585409
+    second: rock.002|Archipack_snap_helperAction.001
+  - first:
+      74: 3341053400209423868
+    second: rock.002|Cube.001Action
+  - first:
+      74: -9024230173035087278
+    second: rock.002|Cube.002Action.001
+  - first:
+      74: -4225869021357042484
+    second: rock.002|Cube.003Action.001
+  - first:
+      74: 3905066262868096951
+    second: rock.002|Cube.004Action
+  - first:
+      74: -5355004783288028262
+    second: rock.002|CubeAction.001
+  - first:
+      74: 425773709541812350
+    second: rock.002|CubeAction.003
+  - first:
+      74: -3900738928660406245
+    second: rock.002|CylinderAction.001
+  - first:
+      74: 5432774011257459695
+    second: rock.002|Faz ValleyAction.001
+  - first:
+      74: -7944863625946543408
+    second: rock.002|Faz ValleyAction.002
+  - first:
+      74: 6498021512107015153
+    second: rock.002|Faz ValleyAction.004
+  - first:
+      74: -3396725440820446891
+    second: rock.002|Faz ValleyAction.005
+  - first:
+      74: -8929983574090174871
+    second: rock.002|Faz ValleyAction.006
+  - first:
+      74: -1502011405728971335
+    second: rock.002|Faz ValleyAction.007
+  - first:
+      74: -6096856962603285027
+    second: rock.002|Faz ValleyAction.009
+  - first:
+      74: 5647101605261519495
+    second: rock.002|Faz ValleyAction.010
+  - first:
+      74: -2462301875190553988
+    second: rock.002|Faz ValleyAction.011
+  - first:
+      74: 3719375629782895216
+    second: rock.002|Faz ValleyAction.012
+  - first:
+      74: -7537846636548463535
+    second: rock.002|Faz ValleyAction.013
+  - first:
+      74: -2550702426029735373
+    second: rock.002|Faz ValleyAction.014
+  - first:
+      74: 2491818464903841061
+    second: rock.002|Faz ValleyAction.015
+  - first:
+      74: 632699451618362942
+    second: rock.002|Faz ValleyAction.016
+  - first:
+      74: 7274991379268493441
+    second: rock.002|Faz ValleyAction.017
+  - first:
+      74: 6389279714034721045
+    second: rock.002|Faz ValleyAction.018
+  - first:
+      74: -7692948354145892936
+    second: rock.002|Faz ValleyAction.019
+  - first:
+      74: 1948583056445952285
+    second: rock.002|Faz ValleyAction.020
+  - first:
+      74: -4243672185236946807
+    second: rock.002|Faz ValleyAction.021
+  - first:
+      74: 3928989622530810824
+    second: rock.002|Faz ValleyAction.022
+  - first:
+      74: 799244069618734055
+    second: rock.002|greens.004Action.002
+  - first:
+      74: 118663273134470063
+    second: rock.002|PlaneAction.002
+  - first:
+      74: -706132841822151343
+    second: rock.002|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -481120774763452529
+    second: rock.012|Archipack_snap_helperAction.001
+  - first:
+      74: -2903803613874464073
+    second: rock.012|Cube.001Action
+  - first:
+      74: -6696041453165258472
+    second: rock.012|Cube.002Action.001
+  - first:
+      74: 6674422238498445973
+    second: rock.012|Cube.003Action.001
+  - first:
+      74: -6716885027301808403
+    second: rock.012|Cube.004Action
+  - first:
+      74: -7054944350043642860
+    second: rock.012|CubeAction.001
+  - first:
+      74: 5197833723917265484
+    second: rock.012|CubeAction.003
+  - first:
+      74: -7565551669198741501
+    second: rock.012|CylinderAction.001
+  - first:
+      74: -5181785643340458200
+    second: rock.012|Faz ValleyAction.001
+  - first:
+      74: -9139658779951118054
+    second: rock.012|Faz ValleyAction.002
+  - first:
+      74: 8131881677107467170
+    second: rock.012|Faz ValleyAction.004
+  - first:
+      74: 1258092262787930031
+    second: rock.012|Faz ValleyAction.005
+  - first:
+      74: 401586325308712478
+    second: rock.012|Faz ValleyAction.006
+  - first:
+      74: -88682095115335184
+    second: rock.012|Faz ValleyAction.007
+  - first:
+      74: 617745371003957832
+    second: rock.012|Faz ValleyAction.009
+  - first:
+      74: 520211133045275305
+    second: rock.012|Faz ValleyAction.010
+  - first:
+      74: -5358581439206155755
+    second: rock.012|Faz ValleyAction.011
+  - first:
+      74: 3494322881606582565
+    second: rock.012|Faz ValleyAction.012
+  - first:
+      74: -1510722097559440388
+    second: rock.012|Faz ValleyAction.013
+  - first:
+      74: 9208016568756901196
+    second: rock.012|Faz ValleyAction.014
+  - first:
+      74: 8613387286783267257
+    second: rock.012|Faz ValleyAction.015
+  - first:
+      74: 8893423389358396900
+    second: rock.012|Faz ValleyAction.016
+  - first:
+      74: 3141065463595115727
+    second: rock.012|Faz ValleyAction.017
+  - first:
+      74: -5907278764574826339
+    second: rock.012|Faz ValleyAction.018
+  - first:
+      74: 6746268773945729694
+    second: rock.012|Faz ValleyAction.019
+  - first:
+      74: 5379914017208632449
+    second: rock.012|Faz ValleyAction.020
+  - first:
+      74: 4403899871121384029
+    second: rock.012|Faz ValleyAction.021
+  - first:
+      74: -8444156332821469352
+    second: rock.012|Faz ValleyAction.022
+  - first:
+      74: -399000473213573501
+    second: rock.012|greens.004Action.002
+  - first:
+      74: -983215541047024829
+    second: rock.012|PlaneAction.002
+  - first:
+      74: -1111059485861232428
+    second: rock.012|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -3276965978082565252
+    second: rock.005|Archipack_snap_helperAction.001
+  - first:
+      74: 6883210038073498417
+    second: rock.005|Cube.001Action
+  - first:
+      74: 2403108037992661538
+    second: rock.005|Cube.002Action.001
+  - first:
+      74: -2174646125883582687
+    second: rock.005|Cube.003Action.001
+  - first:
+      74: -6622818834552055221
+    second: rock.005|Cube.004Action
+  - first:
+      74: 2238586907152856551
+    second: rock.005|CubeAction.001
+  - first:
+      74: -6245397800065875004
+    second: rock.005|CubeAction.003
+  - first:
+      74: -3936168462282172944
+    second: rock.005|CylinderAction.001
+  - first:
+      74: -6367940648460992878
+    second: rock.005|Faz ValleyAction.001
+  - first:
+      74: 7172625135027142501
+    second: rock.005|Faz ValleyAction.002
+  - first:
+      74: 279254406249693305
+    second: rock.005|Faz ValleyAction.004
+  - first:
+      74: -2190659248078398320
+    second: rock.005|Faz ValleyAction.005
+  - first:
+      74: -7101193303246599461
+    second: rock.005|Faz ValleyAction.006
+  - first:
+      74: 1188992256121452390
+    second: rock.005|Faz ValleyAction.007
+  - first:
+      74: 6482823593830685576
+    second: rock.005|Faz ValleyAction.009
+  - first:
+      74: -7629509782168651510
+    second: rock.005|Faz ValleyAction.010
+  - first:
+      74: 8079575267539830791
+    second: rock.005|Faz ValleyAction.011
+  - first:
+      74: 7430031582166187854
+    second: rock.005|Faz ValleyAction.012
+  - first:
+      74: -2347034656750931247
+    second: rock.005|Faz ValleyAction.013
+  - first:
+      74: -7236011916843711703
+    second: rock.005|Faz ValleyAction.014
+  - first:
+      74: -688871898719012171
+    second: rock.005|Faz ValleyAction.015
+  - first:
+      74: -1466839849843029464
+    second: rock.005|Faz ValleyAction.016
+  - first:
+      74: 4425746055935877939
+    second: rock.005|Faz ValleyAction.017
+  - first:
+      74: -3853909734941440085
+    second: rock.005|Faz ValleyAction.018
+  - first:
+      74: -7613909538833592571
+    second: rock.005|Faz ValleyAction.019
+  - first:
+      74: -8412162475867411284
+    second: rock.005|Faz ValleyAction.020
+  - first:
+      74: 4831600360561826614
+    second: rock.005|Faz ValleyAction.021
+  - first:
+      74: 6030383966283457005
+    second: rock.005|Faz ValleyAction.022
+  - first:
+      74: -3737809445906652444
+    second: rock.005|greens.004Action.002
+  - first:
+      74: 6904423682753441935
+    second: rock.005|PlaneAction.002
+  - first:
+      74: 8507796592733360898
+    second: rock.005|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -3105852734416486009
+    second: rock.004|Archipack_snap_helperAction.001
+  - first:
+      74: -4392903860034059100
+    second: rock.004|Cube.001Action
+  - first:
+      74: 3696952192672944768
+    second: rock.004|Cube.002Action.001
+  - first:
+      74: -3201088200801403637
+    second: rock.004|Cube.003Action.001
+  - first:
+      74: 8192220876648364390
+    second: rock.004|Cube.004Action
+  - first:
+      74: -3957857460161857792
+    second: rock.004|CubeAction.001
+  - first:
+      74: -2805288773574276601
+    second: rock.004|CubeAction.003
+  - first:
+      74: -1403053216920757720
+    second: rock.004|CylinderAction.001
+  - first:
+      74: 133974983979515865
+    second: rock.004|Faz ValleyAction.001
+  - first:
+      74: 2144401409262560910
+    second: rock.004|Faz ValleyAction.002
+  - first:
+      74: 3935577840117031214
+    second: rock.004|Faz ValleyAction.004
+  - first:
+      74: 3706202577596355484
+    second: rock.004|Faz ValleyAction.005
+  - first:
+      74: 3736585534881914796
+    second: rock.004|Faz ValleyAction.006
+  - first:
+      74: 8148723283696925723
+    second: rock.004|Faz ValleyAction.007
+  - first:
+      74: -5395674255610569658
+    second: rock.004|Faz ValleyAction.009
+  - first:
+      74: 7872667833468501060
+    second: rock.004|Faz ValleyAction.010
+  - first:
+      74: -3091231124842041639
+    second: rock.004|Faz ValleyAction.011
+  - first:
+      74: 7960607609468065237
+    second: rock.004|Faz ValleyAction.012
+  - first:
+      74: -1984012182708359305
+    second: rock.004|Faz ValleyAction.013
+  - first:
+      74: 1776564250037453543
+    second: rock.004|Faz ValleyAction.014
+  - first:
+      74: 3625902724372616484
+    second: rock.004|Faz ValleyAction.015
+  - first:
+      74: -7172956536553898673
+    second: rock.004|Faz ValleyAction.016
+  - first:
+      74: -6572181898974510664
+    second: rock.004|Faz ValleyAction.017
+  - first:
+      74: 4715654749966134350
+    second: rock.004|Faz ValleyAction.018
+  - first:
+      74: -2269893163927535207
+    second: rock.004|Faz ValleyAction.019
+  - first:
+      74: 7125790327693752832
+    second: rock.004|Faz ValleyAction.020
+  - first:
+      74: 7589365627005897994
+    second: rock.004|Faz ValleyAction.021
+  - first:
+      74: 5258007241747098867
+    second: rock.004|Faz ValleyAction.022
+  - first:
+      74: 4337608892449175247
+    second: rock.004|greens.004Action.002
+  - first:
+      74: 9070910328032824318
+    second: rock.004|PlaneAction.002
+  - first:
+      74: -5554682518788639407
+    second: rock.004|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -3053919028121168685
+    second: rock.003|Archipack_snap_helperAction.001
+  - first:
+      74: -5459949205340967740
+    second: rock.003|Cube.001Action
+  - first:
+      74: -7960486790635485435
+    second: rock.003|Cube.002Action.001
+  - first:
+      74: -965887332181264065
+    second: rock.003|Cube.003Action.001
+  - first:
+      74: 1073623033408509299
+    second: rock.003|Cube.004Action
+  - first:
+      74: -4360487656259374688
+    second: rock.003|CubeAction.001
+  - first:
+      74: 4549139866827850749
+    second: rock.003|CubeAction.003
+  - first:
+      74: 7275552599837085144
+    second: rock.003|CylinderAction.001
+  - first:
+      74: 2440255546290667961
+    second: rock.003|Faz ValleyAction.001
+  - first:
+      74: -3596595170076553097
+    second: rock.003|Faz ValleyAction.002
+  - first:
+      74: 8271696315796293986
+    second: rock.003|Faz ValleyAction.004
+  - first:
+      74: 3538065374591961698
+    second: rock.003|Faz ValleyAction.005
+  - first:
+      74: 4578619216312483749
+    second: rock.003|Faz ValleyAction.006
+  - first:
+      74: 7903000161820460396
+    second: rock.003|Faz ValleyAction.007
+  - first:
+      74: 2251484963000415988
+    second: rock.003|Faz ValleyAction.009
+  - first:
+      74: -7160968307568403018
+    second: rock.003|Faz ValleyAction.010
+  - first:
+      74: 8079574896324867691
+    second: rock.003|Faz ValleyAction.011
+  - first:
+      74: 4775767322080129714
+    second: rock.003|Faz ValleyAction.012
+  - first:
+      74: -8800270553783989714
+    second: rock.003|Faz ValleyAction.013
+  - first:
+      74: 6158889565394341948
+    second: rock.003|Faz ValleyAction.014
+  - first:
+      74: 8080348285108726105
+    second: rock.003|Faz ValleyAction.015
+  - first:
+      74: -8182991352720184145
+    second: rock.003|Faz ValleyAction.016
+  - first:
+      74: -4276670452910125035
+    second: rock.003|Faz ValleyAction.017
+  - first:
+      74: 9209154055165615802
+    second: rock.003|Faz ValleyAction.018
+  - first:
+      74: 16379539966662611
+    second: rock.003|Faz ValleyAction.019
+  - first:
+      74: -2218514858278203012
+    second: rock.003|Faz ValleyAction.020
+  - first:
+      74: 4524591377477711224
+    second: rock.003|Faz ValleyAction.021
+  - first:
+      74: 8815590904664079565
+    second: rock.003|Faz ValleyAction.022
+  - first:
+      74: 5578115882014690713
+    second: rock.003|greens.004Action.002
+  - first:
+      74: 3841178130420532537
+    second: rock.003|PlaneAction.002
+  - first:
+      74: 2518257037001390127
+    second: rock.003|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -1121666698911167085
+    second: rock.011|Archipack_snap_helperAction.001
+  - first:
+      74: 3914844727479312494
+    second: rock.011|Cube.001Action
+  - first:
+      74: 1345841252890619778
+    second: rock.011|Cube.002Action.001
+  - first:
+      74: -5200946911980885187
+    second: rock.011|Cube.003Action.001
+  - first:
+      74: -7434794301168318080
+    second: rock.011|Cube.004Action
+  - first:
+      74: -6904137641785367943
+    second: rock.011|CubeAction.001
+  - first:
+      74: -6194995258865962522
+    second: rock.011|CubeAction.003
+  - first:
+      74: -2499094413021850942
+    second: rock.011|CylinderAction.001
+  - first:
+      74: 4349647641148885187
+    second: rock.011|Faz ValleyAction.001
+  - first:
+      74: 8538262246093498416
+    second: rock.011|Faz ValleyAction.002
+  - first:
+      74: -3810477670552020828
+    second: rock.011|Faz ValleyAction.004
+  - first:
+      74: 3691925100848607959
+    second: rock.011|Faz ValleyAction.005
+  - first:
+      74: -7419512942537526954
+    second: rock.011|Faz ValleyAction.006
+  - first:
+      74: -4154819884348216492
+    second: rock.011|Faz ValleyAction.007
+  - first:
+      74: 4408952785681752431
+    second: rock.011|Faz ValleyAction.009
+  - first:
+      74: 3060504473798357685
+    second: rock.011|Faz ValleyAction.010
+  - first:
+      74: -4471600942714565770
+    second: rock.011|Faz ValleyAction.011
+  - first:
+      74: -4727272655188116870
+    second: rock.011|Faz ValleyAction.012
+  - first:
+      74: 6742724150467331848
+    second: rock.011|Faz ValleyAction.013
+  - first:
+      74: -2982809505551154277
+    second: rock.011|Faz ValleyAction.014
+  - first:
+      74: -5290438924021900540
+    second: rock.011|Faz ValleyAction.015
+  - first:
+      74: 7063158830061771292
+    second: rock.011|Faz ValleyAction.016
+  - first:
+      74: -8757854717278888993
+    second: rock.011|Faz ValleyAction.017
+  - first:
+      74: 4399133207794555151
+    second: rock.011|Faz ValleyAction.018
+  - first:
+      74: 6729161415422749489
+    second: rock.011|Faz ValleyAction.019
+  - first:
+      74: -5008362937829503644
+    second: rock.011|Faz ValleyAction.020
+  - first:
+      74: -7063353894872575836
+    second: rock.011|Faz ValleyAction.021
+  - first:
+      74: 7557777810366056875
+    second: rock.011|Faz ValleyAction.022
+  - first:
+      74: 3505246779094215171
+    second: rock.011|greens.004Action.002
+  - first:
+      74: 3193144982322684947
+    second: rock.011|PlaneAction.002
+  - first:
+      74: -5167829508660427542
+    second: rock.011|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -6453017085963328277
+    second: rock.010|Archipack_snap_helperAction.001
+  - first:
+      74: 9205145253165937657
+    second: rock.010|Cube.001Action
+  - first:
+      74: -1140336935048141084
+    second: rock.010|Cube.002Action.001
+  - first:
+      74: 3590386523673738584
+    second: rock.010|Cube.003Action.001
+  - first:
+      74: -4362003558251377424
+    second: rock.010|Cube.004Action
+  - first:
+      74: 6142328272036130513
+    second: rock.010|CubeAction.001
+  - first:
+      74: 3741237300976585689
+    second: rock.010|CubeAction.003
+  - first:
+      74: -2973871112944455606
+    second: rock.010|CylinderAction.001
+  - first:
+      74: -7986446298367222115
+    second: rock.010|Faz ValleyAction.001
+  - first:
+      74: -6454544934163164459
+    second: rock.010|Faz ValleyAction.002
+  - first:
+      74: -4401676304644019984
+    second: rock.010|Faz ValleyAction.004
+  - first:
+      74: -5668726976714063581
+    second: rock.010|Faz ValleyAction.005
+  - first:
+      74: -4017022578291536850
+    second: rock.010|Faz ValleyAction.006
+  - first:
+      74: -7125579415166815536
+    second: rock.010|Faz ValleyAction.007
+  - first:
+      74: 7050118027661750901
+    second: rock.010|Faz ValleyAction.009
+  - first:
+      74: 3379487213618870267
+    second: rock.010|Faz ValleyAction.010
+  - first:
+      74: 5034541405759329676
+    second: rock.010|Faz ValleyAction.011
+  - first:
+      74: 8963074767349349463
+    second: rock.010|Faz ValleyAction.012
+  - first:
+      74: -1019872040019746291
+    second: rock.010|Faz ValleyAction.013
+  - first:
+      74: -2885771510910988866
+    second: rock.010|Faz ValleyAction.014
+  - first:
+      74: 1055898088674816392
+    second: rock.010|Faz ValleyAction.015
+  - first:
+      74: 307084614101321348
+    second: rock.010|Faz ValleyAction.016
+  - first:
+      74: -4044554851258348958
+    second: rock.010|Faz ValleyAction.017
+  - first:
+      74: -1461849132812859119
+    second: rock.010|Faz ValleyAction.018
+  - first:
+      74: -7374876844690220881
+    second: rock.010|Faz ValleyAction.019
+  - first:
+      74: -5910771821110381921
+    second: rock.010|Faz ValleyAction.020
+  - first:
+      74: 4828376041403885522
+    second: rock.010|Faz ValleyAction.021
+  - first:
+      74: -6220720981578324161
+    second: rock.010|Faz ValleyAction.022
+  - first:
+      74: 640688298752082885
+    second: rock.010|greens.004Action.002
+  - first:
+      74: -5235445225092935300
+    second: rock.010|PlaneAction.002
+  - first:
+      74: 3506622713323226835
+    second: rock.010|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -9211283969668375987
+    second: rocky|Archipack_snap_helperAction.001
+  - first:
+      74: -7336041731944441840
+    second: rocky|Cube.001Action
+  - first:
+      74: 4533200483330756309
+    second: rocky|Cube.002Action.001
+  - first:
+      74: -6465376586212301987
+    second: rocky|Cube.003Action.001
+  - first:
+      74: 4633930409124545238
+    second: rocky|Cube.004Action
+  - first:
+      74: -4442716123666852967
+    second: rocky|CubeAction.001
+  - first:
+      74: -3960610489825792709
+    second: rocky|CubeAction.003
+  - first:
+      74: -7009755611135293959
+    second: rocky|CylinderAction.001
+  - first:
+      74: -3191222777531887379
+    second: rocky|Faz ValleyAction.001
+  - first:
+      74: -2195842880013221417
+    second: rocky|Faz ValleyAction.002
+  - first:
+      74: 5296553361558668157
+    second: rocky|Faz ValleyAction.004
+  - first:
+      74: -3764857778669930370
+    second: rocky|Faz ValleyAction.005
+  - first:
+      74: 7365743975727939391
+    second: rocky|Faz ValleyAction.006
+  - first:
+      74: -1067044096249827103
+    second: rocky|Faz ValleyAction.007
+  - first:
+      74: -1588346759454408021
+    second: rocky|Faz ValleyAction.009
+  - first:
+      74: -4094684158887433564
+    second: rocky|Faz ValleyAction.010
+  - first:
+      74: -4344134323655411983
+    second: rocky|Faz ValleyAction.011
+  - first:
+      74: -5567851987652519826
+    second: rocky|Faz ValleyAction.012
+  - first:
+      74: 2273203888042829885
+    second: rocky|Faz ValleyAction.013
+  - first:
+      74: 2727723867330516511
+    second: rocky|Faz ValleyAction.014
+  - first:
+      74: 8745521623996221840
+    second: rocky|Faz ValleyAction.015
+  - first:
+      74: 2576632458590027969
+    second: rocky|Faz ValleyAction.016
+  - first:
+      74: -6848275046280059073
+    second: rocky|Faz ValleyAction.017
+  - first:
+      74: -2227559550855394120
+    second: rocky|Faz ValleyAction.018
+  - first:
+      74: -6366194065019955298
+    second: rocky|Faz ValleyAction.019
+  - first:
+      74: 3218093439196440677
+    second: rocky|Faz ValleyAction.020
+  - first:
+      74: -5018698374080338402
+    second: rocky|Faz ValleyAction.021
+  - first:
+      74: 8870624467032574608
+    second: rocky|Faz ValleyAction.022
+  - first:
+      74: -4353070703103740223
+    second: rocky|greens.004Action.002
+  - first:
+      74: -1651126316461943935
+    second: rocky|PlaneAction.002
+  - first:
+      74: 1666959675144008756
+    second: rocky|pPlane1|Take 001|BaseLayer
+  - first:
+      74: 2742478515610597036
+    second: rock.009|Archipack_snap_helperAction.001
+  - first:
+      74: -3640199922490687537
+    second: rock.009|Cube.001Action
+  - first:
+      74: -4063497890933211808
+    second: rock.009|Cube.002Action.001
+  - first:
+      74: 4566341723608323863
+    second: rock.009|Cube.003Action.001
+  - first:
+      74: 7203597056697837074
+    second: rock.009|Cube.004Action
+  - first:
+      74: 856886495170035730
+    second: rock.009|CubeAction.001
+  - first:
+      74: 795560819096966399
+    second: rock.009|CubeAction.003
+  - first:
+      74: -3594919095228101089
+    second: rock.009|CylinderAction.001
+  - first:
+      74: -3656976564269710757
+    second: rock.009|Faz ValleyAction.001
+  - first:
+      74: 6132533573517385577
+    second: rock.009|Faz ValleyAction.002
+  - first:
+      74: 8399872413448574791
+    second: rock.009|Faz ValleyAction.004
+  - first:
+      74: -2587343664690071818
+    second: rock.009|Faz ValleyAction.005
+  - first:
+      74: 8540243063244473275
+    second: rock.009|Faz ValleyAction.006
+  - first:
+      74: 8124817045507421246
+    second: rock.009|Faz ValleyAction.007
+  - first:
+      74: 638300511562488608
+    second: rock.009|Faz ValleyAction.009
+  - first:
+      74: 7557795430482139850
+    second: rock.009|Faz ValleyAction.010
+  - first:
+      74: 7252527425059174181
+    second: rock.009|Faz ValleyAction.011
+  - first:
+      74: -4603995955987568582
+    second: rock.009|Faz ValleyAction.012
+  - first:
+      74: 2772023570202345471
+    second: rock.009|Faz ValleyAction.013
+  - first:
+      74: 107818697303442702
+    second: rock.009|Faz ValleyAction.014
+  - first:
+      74: 6125075333779321338
+    second: rock.009|Faz ValleyAction.015
+  - first:
+      74: -8117705150743520947
+    second: rock.009|Faz ValleyAction.016
+  - first:
+      74: 6372156705829852020
+    second: rock.009|Faz ValleyAction.017
+  - first:
+      74: 4276635066253205083
+    second: rock.009|Faz ValleyAction.018
+  - first:
+      74: -4292273935732912206
+    second: rock.009|Faz ValleyAction.019
+  - first:
+      74: 394668809804126227
+    second: rock.009|Faz ValleyAction.020
+  - first:
+      74: -3400547550810381103
+    second: rock.009|Faz ValleyAction.021
+  - first:
+      74: 503614518651442275
+    second: rock.009|Faz ValleyAction.022
+  - first:
+      74: 6524111088021186411
+    second: rock.009|greens.004Action.002
+  - first:
+      74: -2598076369945948525
+    second: rock.009|PlaneAction.002
+  - first:
+      74: 2093083913126518586
+    second: rock.009|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -960254123828315632
+    second: rock.008|Archipack_snap_helperAction.001
+  - first:
+      74: -6110491636185535109
+    second: rock.008|Cube.001Action
+  - first:
+      74: 1021579430894918477
+    second: rock.008|Cube.002Action.001
+  - first:
+      74: -2412892912106443906
+    second: rock.008|Cube.003Action.001
+  - first:
+      74: -8090205044694676242
+    second: rock.008|Cube.004Action
+  - first:
+      74: 7112586701336553152
+    second: rock.008|CubeAction.001
+  - first:
+      74: 8528724210634377126
+    second: rock.008|CubeAction.003
+  - first:
+      74: -3200801578390432203
+    second: rock.008|CylinderAction.001
+  - first:
+      74: -4578138851573752825
+    second: rock.008|Faz ValleyAction.001
+  - first:
+      74: -6472469827268316435
+    second: rock.008|Faz ValleyAction.002
+  - first:
+      74: -6968623616894331507
+    second: rock.008|Faz ValleyAction.004
+  - first:
+      74: 6027085509080952000
+    second: rock.008|Faz ValleyAction.005
+  - first:
+      74: -4479974901364844085
+    second: rock.008|Faz ValleyAction.006
+  - first:
+      74: 1140191875644905796
+    second: rock.008|Faz ValleyAction.007
+  - first:
+      74: 6282554950603387526
+    second: rock.008|Faz ValleyAction.009
+  - first:
+      74: -3110519964744977319
+    second: rock.008|Faz ValleyAction.010
+  - first:
+      74: -3045823078720680255
+    second: rock.008|Faz ValleyAction.011
+  - first:
+      74: 1417335499698603440
+    second: rock.008|Faz ValleyAction.012
+  - first:
+      74: 759737369641021807
+    second: rock.008|Faz ValleyAction.013
+  - first:
+      74: -7660844022306752441
+    second: rock.008|Faz ValleyAction.014
+  - first:
+      74: 1041992336836546052
+    second: rock.008|Faz ValleyAction.015
+  - first:
+      74: 7135144608635918420
+    second: rock.008|Faz ValleyAction.016
+  - first:
+      74: 6089518086554932703
+    second: rock.008|Faz ValleyAction.017
+  - first:
+      74: -5788544979290973645
+    second: rock.008|Faz ValleyAction.018
+  - first:
+      74: -5592637459787155316
+    second: rock.008|Faz ValleyAction.019
+  - first:
+      74: 8928777824314931932
+    second: rock.008|Faz ValleyAction.020
+  - first:
+      74: -2841403726040804579
+    second: rock.008|Faz ValleyAction.021
+  - first:
+      74: -2771427481491709899
+    second: rock.008|Faz ValleyAction.022
+  - first:
+      74: 3847400726952148475
+    second: rock.008|greens.004Action.002
+  - first:
+      74: 1119964591815324052
+    second: rock.008|PlaneAction.002
+  - first:
+      74: 1243060453985170356
+    second: rock.008|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -9217647648716765550
+    second: rock.007|Archipack_snap_helperAction.001
+  - first:
+      74: 8807072561401043437
+    second: rock.007|Cube.001Action
+  - first:
+      74: -4270161576019648783
+    second: rock.007|Cube.002Action.001
+  - first:
+      74: -6624040901412819480
+    second: rock.007|Cube.003Action.001
+  - first:
+      74: 262525110372894451
+    second: rock.007|Cube.004Action
+  - first:
+      74: 2257029114617177647
+    second: rock.007|CubeAction.001
+  - first:
+      74: -8971233565964813285
+    second: rock.007|CubeAction.003
+  - first:
+      74: 8941410123021729490
+    second: rock.007|CylinderAction.001
+  - first:
+      74: -469888663869783053
+    second: rock.007|Faz ValleyAction.001
+  - first:
+      74: 6048081810991482891
+    second: rock.007|Faz ValleyAction.002
+  - first:
+      74: -721384630995627205
+    second: rock.007|Faz ValleyAction.004
+  - first:
+      74: 7484535674645474156
+    second: rock.007|Faz ValleyAction.005
+  - first:
+      74: -8215219554463342943
+    second: rock.007|Faz ValleyAction.006
+  - first:
+      74: 4096816195894688256
+    second: rock.007|Faz ValleyAction.007
+  - first:
+      74: 8214259932706851909
+    second: rock.007|Faz ValleyAction.009
+  - first:
+      74: -4982086821738111296
+    second: rock.007|Faz ValleyAction.010
+  - first:
+      74: -2905030016073916557
+    second: rock.007|Faz ValleyAction.011
+  - first:
+      74: 995337404450684405
+    second: rock.007|Faz ValleyAction.012
+  - first:
+      74: 2441481197872260794
+    second: rock.007|Faz ValleyAction.013
+  - first:
+      74: -4496478703255862045
+    second: rock.007|Faz ValleyAction.014
+  - first:
+      74: -1235305829243111958
+    second: rock.007|Faz ValleyAction.015
+  - first:
+      74: 5937413837932959318
+    second: rock.007|Faz ValleyAction.016
+  - first:
+      74: -899746148679637703
+    second: rock.007|Faz ValleyAction.017
+  - first:
+      74: 8914166967390617685
+    second: rock.007|Faz ValleyAction.018
+  - first:
+      74: 8968612043261764124
+    second: rock.007|Faz ValleyAction.019
+  - first:
+      74: -6130620440957043873
+    second: rock.007|Faz ValleyAction.020
+  - first:
+      74: -7414960276620451197
+    second: rock.007|Faz ValleyAction.021
+  - first:
+      74: 2608898335408400629
+    second: rock.007|Faz ValleyAction.022
+  - first:
+      74: -6159725257825266939
+    second: rock.007|greens.004Action.002
+  - first:
+      74: 7862926602498959888
+    second: rock.007|PlaneAction.002
+  - first:
+      74: 7613578010327069438
+    second: rock.007|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -2184546043352573905
+    second: rock.006|Archipack_snap_helperAction.001
+  - first:
+      74: 3368957706092930918
+    second: rock.006|Cube.001Action
+  - first:
+      74: -7952883501502548692
+    second: rock.006|Cube.002Action.001
+  - first:
+      74: 8043207986326814722
+    second: rock.006|Cube.003Action.001
+  - first:
+      74: 8897394989443289264
+    second: rock.006|Cube.004Action
+  - first:
+      74: -1028328528440927697
+    second: rock.006|CubeAction.001
+  - first:
+      74: -3605402243306146965
+    second: rock.006|CubeAction.003
+  - first:
+      74: -1058900986516618668
+    second: rock.006|CylinderAction.001
+  - first:
+      74: 4475141397689325235
+    second: rock.006|Faz ValleyAction.001
+  - first:
+      74: -7981873127012233429
+    second: rock.006|Faz ValleyAction.002
+  - first:
+      74: 5883414020511296653
+    second: rock.006|Faz ValleyAction.004
+  - first:
+      74: 195622883897437330
+    second: rock.006|Faz ValleyAction.005
+  - first:
+      74: 3537776030284373287
+    second: rock.006|Faz ValleyAction.006
+  - first:
+      74: 3679875245491462130
+    second: rock.006|Faz ValleyAction.007
+  - first:
+      74: 7722770357905811202
+    second: rock.006|Faz ValleyAction.009
+  - first:
+      74: -1930320404420527457
+    second: rock.006|Faz ValleyAction.010
+  - first:
+      74: -7501583029958133074
+    second: rock.006|Faz ValleyAction.011
+  - first:
+      74: -1987860286193893564
+    second: rock.006|Faz ValleyAction.012
+  - first:
+      74: -6806989889863611963
+    second: rock.006|Faz ValleyAction.013
+  - first:
+      74: 8846350618212373375
+    second: rock.006|Faz ValleyAction.014
+  - first:
+      74: 3144017000786621298
+    second: rock.006|Faz ValleyAction.015
+  - first:
+      74: 7325685650751315992
+    second: rock.006|Faz ValleyAction.016
+  - first:
+      74: 6207321664016873021
+    second: rock.006|Faz ValleyAction.017
+  - first:
+      74: 4365475854292405705
+    second: rock.006|Faz ValleyAction.018
+  - first:
+      74: 4775029789352428056
+    second: rock.006|Faz ValleyAction.019
+  - first:
+      74: 8030391934049599800
+    second: rock.006|Faz ValleyAction.020
+  - first:
+      74: 4291660027006149349
+    second: rock.006|Faz ValleyAction.021
+  - first:
+      74: 8404341621982951245
+    second: rock.006|Faz ValleyAction.022
+  - first:
+      74: -5473746915671893923
+    second: rock.006|greens.004Action.002
+  - first:
+      74: -5572482229309069781
+    second: rock.006|PlaneAction.002
+  - first:
+      74: -5911479573509060570
+    second: rock.006|pPlane1|Take 001|BaseLayer
+  - first:
+      74: -3801704793246163863
+    second: rock.013|Archipack_snap_helperAction.001
+  - first:
+      74: 5672686159209507224
+    second: rock.013|Cube.001Action
+  - first:
+      74: 2813278497705928365
+    second: rock.013|Cube.002Action.001
+  - first:
+      74: 5716367490416325846
+    second: rock.013|Cube.003Action.001
+  - first:
+      74: -3400587737289310304
+    second: rock.013|Cube.004Action
+  - first:
+      74: -3114699670861542473
+    second: rock.013|CubeAction.001
+  - first:
+      74: 1579406726184116456
+    second: rock.013|CubeAction.003
+  - first:
+      74: 8738047986279599520
+    second: rock.013|CylinderAction.001
+  - first:
+      74: -6134021183868348261
+    second: rock.013|Faz ValleyAction.001
+  - first:
+      74: 4266263592371386038
+    second: rock.013|Faz ValleyAction.002
+  - first:
+      74: 8908180672938459406
+    second: rock.013|Faz ValleyAction.004
+  - first:
+      74: 817658834425986757
+    second: rock.013|Faz ValleyAction.005
+  - first:
+      74: 5151961330994629554
+    second: rock.013|Faz ValleyAction.006
+  - first:
+      74: 4795161964293436296
+    second: rock.013|Faz ValleyAction.007
+  - first:
+      74: 4908224631975999370
+    second: rock.013|Faz ValleyAction.009
+  - first:
+      74: 5522523555079486900
+    second: rock.013|Faz ValleyAction.010
+  - first:
+      74: -6847907908524694685
+    second: rock.013|Faz ValleyAction.011
+  - first:
+      74: 1149451554357500297
+    second: rock.013|Faz ValleyAction.012
+  - first:
+      74: 1635755222999594078
+    second: rock.013|Faz ValleyAction.013
+  - first:
+      74: -6185764458512085857
+    second: rock.013|Faz ValleyAction.014
+  - first:
+      74: 3578703980791905657
+    second: rock.013|Faz ValleyAction.015
+  - first:
+      74: -2763809505915462860
+    second: rock.013|Faz ValleyAction.016
+  - first:
+      74: -998121164513632287
+    second: rock.013|Faz ValleyAction.017
+  - first:
+      74: -409478653533587625
+    second: rock.013|Faz ValleyAction.018
+  - first:
+      74: 7599634264412308519
+    second: rock.013|Faz ValleyAction.019
+  - first:
+      74: 5815218455908198993
+    second: rock.013|Faz ValleyAction.020
+  - first:
+      74: -7516686083100549562
+    second: rock.013|Faz ValleyAction.021
+  - first:
+      74: 3846275117373229153
+    second: rock.013|Faz ValleyAction.022
+  - first:
+      74: -5384596004533485730
+    second: rock.013|greens.004Action.002
+  - first:
+      74: -447241332913387327
+    second: rock.013|PlaneAction.002
+  - first:
+      74: 1114102961638463521
+    second: rock.013|pPlane1|Take 001|BaseLayer
+  - first:
+      74: 416839213715228720
+    second: Cube.005|Archipack_snap_helperAction.001
+  - first:
+      74: 2927015479693793665
+    second: Cube.005|Cube.001Action
+  - first:
+      74: -2629895177351667927
+    second: Cube.005|Cube.002Action.001
+  - first:
+      74: 5759577093792042569
+    second: Cube.005|Cube.003Action.001
+  - first:
+      74: -8772235445958307840
+    second: Cube.005|Cube.004Action
+  - first:
+      74: -4866820202435575814
+    second: Cube.005|CubeAction.001
+  - first:
+      74: -815694618995950882
+    second: Cube.005|CubeAction.003
+  - first:
+      74: -2953183187411009506
+    second: Cube.005|CylinderAction.001
+  - first:
+      74: 1419706997414334558
+    second: Cube.005|Faz ValleyAction.001
+  - first:
+      74: -9044304808093592601
+    second: Cube.005|Faz ValleyAction.002
+  - first:
+      74: -6296948287948644872
+    second: Cube.005|Faz ValleyAction.004
+  - first:
+      74: -8929270447005264410
+    second: Cube.005|Faz ValleyAction.005
+  - first:
+      74: -3094607383840045202
+    second: Cube.005|Faz ValleyAction.006
+  - first:
+      74: 3247519580997070797
+    second: Cube.005|Faz ValleyAction.007
+  - first:
+      74: 3088312735083967108
+    second: Cube.005|Faz ValleyAction.009
+  - first:
+      74: 4336339540359246457
+    second: Cube.005|Faz ValleyAction.010
+  - first:
+      74: 5873618248986449052
+    second: Cube.005|Faz ValleyAction.011
+  - first:
+      74: 3636590708440164058
+    second: Cube.005|Faz ValleyAction.012
+  - first:
+      74: -4210967398121739916
+    second: Cube.005|Faz ValleyAction.013
+  - first:
+      74: 4891442936871295362
+    second: Cube.005|Faz ValleyAction.014
+  - first:
+      74: 2709772097896127558
+    second: Cube.005|Faz ValleyAction.015
+  - first:
+      74: -66617308296394443
+    second: Cube.005|Faz ValleyAction.016
+  - first:
+      74: 5907167402212622369
+    second: Cube.005|Faz ValleyAction.017
+  - first:
+      74: 3602481461380543259
+    second: Cube.005|Faz ValleyAction.018
+  - first:
+      74: 468552372127583513
+    second: Cube.005|Faz ValleyAction.019
+  - first:
+      74: 4425285303852172736
+    second: Cube.005|Faz ValleyAction.020
+  - first:
+      74: -1004204980552293549
+    second: Cube.005|Faz ValleyAction.021
+  - first:
+      74: 4297939743635871414
+    second: Cube.005|Faz ValleyAction.022
+  - first:
+      74: -8939884849323679826
+    second: Cube.005|greens.004Action.002
+  - first:
+      74: 9050912691949716602
+    second: Cube.005|PlaneAction.002
+  - first:
+      74: 2779061966177028907
+    second: Cube.005|pPlane1|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
