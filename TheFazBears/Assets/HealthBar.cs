@@ -5,28 +5,29 @@ using UnityEngine;
 public class HealthBar : MonoBehaviour
 {
 
-    private float AnimationTime = 1;
-    private RectTransform transform;
-    public RectTransform healthBar;
+    private float animationTime = 0.25f;
+    public Transform healthBar;
 
-    void Start()
-    {
-        transform = gameObject.GetComponent<RectTransform>();
-       // Shrink();
-    }
+    //private void Shrink()
+    //{
+    //    //LeanTween.scale(transform, new Vector3(.5f, .5f, .5f), AnimationTime);
+    //}
 
-    private void Shrink()
-    {
-        LeanTween.scale(transform, new Vector3(.5f, .5f, .5f), AnimationTime);
-    }
+    //private void Grow()
+    //{
+    //    //LeanTween.scale(transform, new Vector3(1f, 1f, 1f), AnimationTime);
+    //}
 
-    private void Grow()
+    public void UpdateValue(float currentHealth, float totalHealth)
     {
-        LeanTween.scale(transform, new Vector3(1f, 1f, 1f), AnimationTime);
-    }
-
-    private void UpdateValue(float healthDecrease, float totalHealth)
-    {
-        
+        if (currentHealth > 0)
+        {
+            Vector3 newScale = new Vector3((currentHealth / totalHealth), 1, 1);
+            LeanTween.scale(healthBar.gameObject, newScale, animationTime);
+        }
+        else
+        {
+            healthBar.localScale = Vector3.zero;
+        }
     }
 }

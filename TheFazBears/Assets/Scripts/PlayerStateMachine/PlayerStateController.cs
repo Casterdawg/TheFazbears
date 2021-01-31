@@ -29,6 +29,8 @@ public class PlayerStateController : MonoBehaviour
     public float electricCoolDown = 1.5f;
     public bool goldyCanElectricute = true;
     public float currentGoldyHealth = 100;
+    public GameObject goldyHealthBar;
+    private float totalGoldyHealth;
 
     //Variables specific for when using foxy
     [Header("Foxy Settings", order = 1)]
@@ -49,6 +51,8 @@ public class PlayerStateController : MonoBehaviour
     public bool foxyCanFireball = true;
     public bool foxyCanSmack = true;
     public float currentFoxyHealth = 150;
+    public GameObject foxyHealthBar;
+    private float totalFoxyHealth;
 
     //All of the variables below will be shared by both characters and will change depending on which character is active at the time
     [Header("Shared Variables", order = 2)]
@@ -62,6 +66,7 @@ public class PlayerStateController : MonoBehaviour
     public Transform currentLookPoint;
     public float currentAimedCoolDown;
     public float currentNonAimedCoolDown;
+    private HealthBar changedHealthBar;
 
     //HideInInspector prevents public variables from being visable in the inspector, makes the inspector easier to navigate while keeping the variables easy to work with.
     //These two variables are populated with the abilities that foxy and goldy both have, they will switch when the characters switch.
@@ -138,6 +143,10 @@ public class PlayerStateController : MonoBehaviour
     //When the class starts, perform the following actions
     private void Awake()
     {
+        totalFoxyHealth = currentFoxyHealth;
+        totalGoldyHealth = currentGoldyHealth;
+
+
         //Populate variables for the camera, the input manager, and setting the default state of the character
         camTransform = Camera.main.transform;
         masterInput = new PlayerControls();
@@ -185,11 +194,13 @@ public class PlayerStateController : MonoBehaviour
         {
             currentFoxyHealth -= damageValue;
             print(currentFoxyHealth);
+            changedHealthBar.UpdateValue(currentFoxyHealth, totalFoxyHealth);
         }
         else if(currentChar == goldy)
         {
             currentGoldyHealth -= damageValue;
             print(currentGoldyHealth);
+            changedHealthBar.UpdateValue(currentGoldyHealth, totalGoldyHealth);
         }
 
 
@@ -258,6 +269,10 @@ public class PlayerStateController : MonoBehaviour
             currentAimedCoolDown = 0;
             currentNonAimedCoolDown = electricCoolDown;
 
+            goldyHealthBar.SetActive(true);
+            foxyHealthBar.SetActive(false);
+            changedHealthBar = goldyHealthBar.GetComponent<HealthBar>();
+
         }
         //If the current character is foxy, then switch the variables accordingly.
         else
@@ -284,6 +299,10 @@ public class PlayerStateController : MonoBehaviour
             currentAimAbility = fireBallPower;
             currentAimedCoolDown = fireBallCoolDown;
             currentNonAimedCoolDown = smackCoolDown;
+
+            goldyHealthBar.SetActive(false);
+            foxyHealthBar.SetActive(true);
+            changedHealthBar = foxyHealthBar.GetComponent<HealthBar>();
         }
     }
 
