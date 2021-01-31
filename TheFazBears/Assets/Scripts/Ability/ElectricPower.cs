@@ -25,6 +25,8 @@ public class ElectricPower : AbilityBase
         lightning.Stop();
         lightning.Play();
 
+        print("electric power used");
+
         //Produce a raycast that will check for enemies of interactables
         if(Physics.Raycast(transform.position, forward, out hit, stunRange))
         {

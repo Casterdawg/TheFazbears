@@ -49,6 +49,22 @@ public class Aiming : State
     //When the user uses an ability, then enable the current aimed ability.
     private void AbilityUsed(InputAction.CallbackContext context)
     {
+        IEnumerator coroutine = null;
+        if (privateController.currentController == privateController.characterControllFoxy && privateController.foxyCanFireball)
+        {
+            privateController.foxyCanFireball = false;
+            coroutine = privateController.BoolToggle("fireBall", privateController.fireBallCoolDown);
+        }
+        else if(privateController.currentController == privateController.characterControllFoxy && !privateController.foxyCanFireball)
+        {
+            return;
+        }
+
+        if (coroutine != null)
+        {
+            privateController.StartCoroutine(coroutine);
+        }
+
         privateController.currentAimAbility.enabled = true;
     }
 

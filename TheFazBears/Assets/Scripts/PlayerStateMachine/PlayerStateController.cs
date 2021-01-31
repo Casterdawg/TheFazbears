@@ -64,8 +64,6 @@ public class PlayerStateController : MonoBehaviour
     public Transform goldyLookPoint;
     //The variable that will be populated with the current look point of the player
     public Transform currentLookPoint;
-    public float currentAimedCoolDown;
-    public float currentNonAimedCoolDown;
     private HealthBar changedHealthBar;
 
     //HideInInspector prevents public variables from being visable in the inspector, makes the inspector easier to navigate while keeping the variables easy to work with.
@@ -266,8 +264,6 @@ public class PlayerStateController : MonoBehaviour
             //These variables are for setting the current abilities the player can use
             currentAbility = electrictyPower;
             currentAimAbility = gravityPower;
-            currentAimedCoolDown = 0;
-            currentNonAimedCoolDown = electricCoolDown;
 
             goldyHealthBar.SetActive(true);
             foxyHealthBar.SetActive(false);
@@ -297,8 +293,6 @@ public class PlayerStateController : MonoBehaviour
 
             currentAbility = twirlPower;
             currentAimAbility = fireBallPower;
-            currentAimedCoolDown = fireBallCoolDown;
-            currentNonAimedCoolDown = smackCoolDown;
 
             goldyHealthBar.SetActive(false);
             foxyHealthBar.SetActive(true);
@@ -472,22 +466,45 @@ public class PlayerStateController : MonoBehaviour
     //When the player uses the ability button, then use the non aimed ability used by the specific character
     private void UseAbility(InputAction.CallbackContext context)
     {
-        //if(currentController = characterControllFoxy)
-        //{
-        //    foxyCanSmack = false;
-        //    StartCoroutine(BoolToggle)
-        //}
-        //else if(currentController = characterControllGoldy)
-        //{
-
-        //}
+        IEnumerator coroutine;
+        if (currentController == characterControllFoxy && foxyCanSmack)
+        {
+            foxyCanSmack = false;
+            coroutine = BoolToggle("smack", smackCoolDown);
+        }
+        else if (currentController == characterControllGoldy && goldyCanElectricute)
+        {
+            goldyCanElectricute = false;
+            coroutine = BoolToggle("electricute", electricCoolDown);
+        }
+        else
+        {
+            return;
+        }
+        StartCoroutine(coroutine);
         currentAbility.enabled = true;
     }
 
-    //private IEnumerator BoolToggle(bool changedValue, float time)
-    //{
-    //    yield return WaitForSeconds()
-    //}
+    public IEnumerator BoolToggle(string ability, float time)
+    {
+       yield return new WaitForSeconds(time);
+
+        switch (ability)
+        {
+            case "smack":
+                foxyCanSmack = true;
+            break;
+
+            case "electricute":
+                goldyCanElectricute = true;
+            break;
+
+            case "fireBall":
+                foxyCanFireball = true;
+            break;
+        }
+       print("Cooldown ended");
+    }
 
 
    // private void AbilityCoolDownBool

@@ -26,7 +26,7 @@ public class Attack : AIState
         //set up if statement checking the animation frame that deals damage
         forward = AI.transform.TransformDirection(Vector3.forward);
 
-        Debug.DrawRay(AI.transform.position, forward * attackRange, Color.green, 1);
+       // Debug.DrawRay(AI.transform.position, forward * attackRange, Color.green, 1);
 
         if (Physics.SphereCast(AI.transform.position, attackRange, forward, out RaycastHit hit, attackRange))
         {
