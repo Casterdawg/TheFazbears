@@ -53,6 +53,7 @@ public class PlayerStateController : MonoBehaviour
     public float currentFoxyHealth = 150;
     public GameObject foxyHealthBar;
     private float totalFoxyHealth;
+    
 
     //All of the variables below will be shared by both characters and will change depending on which character is active at the time
     [Header("Shared Variables", order = 2)]

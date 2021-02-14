@@ -11,10 +11,17 @@ public class TwirlAttack : AbilityBase
     private RaycastHit hit;
     private Vector3 forward;
 
+    public AudioSource audioSource;
+    public AudioClip[] impact;
+    public AudioClip[] miss;
+
     //When the ability starts, cast a raycast from the player to check for an enemy
     public override void AbilityStart()
     {
+        int randNum = Random.Range(0, miss.Length - 1);
         base.AbilityStart();
+
+        audioSource.clip = miss[randNum];
 
         forward = transform.TransformDirection(Vector3.forward);
 
@@ -22,9 +29,13 @@ public class TwirlAttack : AbilityBase
         {
             if (hit.collider.TryGetComponent(out FollowAI AI))
             {
+                randNum = Random.Range(0, impact.Length - 1);
+                audioSource.clip = impact[randNum];
                 AI.OnSmacked();
             }
         }
+
+        audioSource.Play();
 
         //Later on, when an animation for this attack is made, it will be activated here
 

@@ -15,10 +15,12 @@ public class ElectricPower : AbilityBase
     private RaycastHit hit;
     private Vector3 forward;
 
+    public AudioSource audioSource;
 
     //When the ability starts, populate variables and play the animation for the lighting effect
     public override void AbilityStart()
     {
+        audioSource.Play();
         base.AbilityStart();
         forward = transform.TransformDirection(Vector3.forward);
         lightning.gameObject.SetActive(true);

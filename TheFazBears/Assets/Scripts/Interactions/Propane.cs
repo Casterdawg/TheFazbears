@@ -12,6 +12,9 @@ public class Propane : MonoBehaviour
     private readonly float explosionPower = 300;
     private readonly float upwardForce = 30;
 
+    public SoundEffectManager soundManager;
+    public AudioClip explosionSound;
+
     void Start()
     {
         rig = GetComponent<Rigidbody>();
@@ -23,6 +26,7 @@ public class Propane : MonoBehaviour
         if (rig.velocity.magnitude >= neededSpeed)
         {
             Debug.Log("Exploded");
+            soundManager.PlaySound(explosionSound, transform);
             Explode();
         }
     }

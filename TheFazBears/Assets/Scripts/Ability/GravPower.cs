@@ -30,7 +30,9 @@ public class GravPower : AbilityBase
     //The forward vector used to ensure that the raycast detects the object in the right direction
     private Vector3 forward;
 
-    //private Ray ray;
+    public AudioSource audioSource;
+    public AudioClip pickUpSound;
+    public AudioClip throwSound;
 
 
     public override void AbilityStart()
@@ -70,6 +72,9 @@ public class GravPower : AbilityBase
 
             //This line adds an event listener for when the player presses left click, it will call the shoot object function
             player.masterInput.Player.AimAbility.started += ShootObject;
+
+            audioSource.clip = pickUpSound;
+            audioSource.Play();
         }
         else
         {
@@ -107,6 +112,8 @@ public class GravPower : AbilityBase
         if (targetRig != null)
         {
             targetRig.AddForce(floatPoint.transform.forward * launchSpeed, ForceMode.Impulse);
+            audioSource.clip = throwSound;
+            audioSource.Play();
         }
     }
 
