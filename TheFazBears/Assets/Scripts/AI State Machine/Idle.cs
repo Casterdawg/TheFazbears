@@ -9,9 +9,9 @@ public class Idle : AIState
     {
         base.Enter(AI);
 
-        Debug.Log("The AI is idle");
+       // Debug.Log("The AI is idle");
         AI.agent.isStopped = true;
-
+        AI.animation.SetTrigger("Idle");
     }
 
     public override void Update(FollowAI AI)
@@ -22,5 +22,7 @@ public class Idle : AIState
     public override void Exit(FollowAI AI)
     {
         base.Exit(AI);
+        AI.animation.ResetTrigger("Idle");
+        AI.audioManager.ScreamHuntsman();
     }
 }

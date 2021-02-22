@@ -12,7 +12,7 @@ public class FollowAI : MonoBehaviour
 
     private bool unmasked = false;
 
-    private GameObject mask;
+    public GameObject mask;
 
     public GameObject axe;
     private Rigidbody axeRig;
@@ -42,10 +42,11 @@ public class FollowAI : MonoBehaviour
 
     public NavMeshAgent agent;
 
+    public Animator animation;
+    public HuntsManAudioManager audioManager;
+
     private void Awake()
     {
-        mask = transform.GetChild(0).gameObject;
-
         agent = GetComponent<NavMeshAgent>();
 
         axeRig = axe.GetComponent<Rigidbody>();

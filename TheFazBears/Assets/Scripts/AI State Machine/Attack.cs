@@ -17,6 +17,7 @@ public class Attack : AIState
 
         Debug.Log("The AI is attacking");
         //start playing attack animation that plays on loop
+        AI.animation.SetTrigger("Attack");
     }
 
     public override void Update(FollowAI AI)
@@ -30,7 +31,7 @@ public class Attack : AIState
 
         if (Physics.SphereCast(AI.transform.position, attackRange, forward, out RaycastHit hit, attackRange))
         {
-            Debug.Log(hit);
+            //Debug.Log(hit);
             if (hit.collider.CompareTag("Player"))
             {
                 AI.controller.DoDamage(damage, hit.collider.gameObject);
@@ -43,5 +44,6 @@ public class Attack : AIState
     {
         //stop playing the attack animation and return to the chase state
         base.Exit(AI);
+        AI.animation.ResetTrigger("Attack");
     }
 }

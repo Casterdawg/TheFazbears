@@ -12,6 +12,9 @@ public class Stunned : AIState
         Debug.Log("The AI is stunned");
 
         AI.Invoke("EndStun", 5);
+
+        AI.animation.SetTrigger("Stun");
+        AI.audioManager.StunHuntsman();
     }
 
     public override void Update(FollowAI AI)
@@ -23,5 +26,6 @@ public class Stunned : AIState
     {
         base.Exit(AI);
         Debug.Log("Stun ended");
+        AI.animation.ResetTrigger("Stun");
     }
 }

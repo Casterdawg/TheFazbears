@@ -9,7 +9,7 @@ public class FloorButton : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        activatedObject.SetActive(false);   
+        activatedObject.SetActive(false); 
     }
 
     private void OnTriggerExit(Collider other)

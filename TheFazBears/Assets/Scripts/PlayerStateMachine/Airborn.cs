@@ -74,9 +74,9 @@ public class Airborn : State
 
     //When you exit the airborn state, switch to grounded animations
     //I will have to look into this later, but I have noticed cases where the player is stuck in the airborn animations even when they exit the state.
-    public override void Exit(PlayerStateController goldy)
+    public override void Exit(PlayerStateController controller)
     {
-        goldy.currentAnimator.SetTrigger("Grounded");
+        controller.currentAnimator.ResetTrigger("Jump");
     }
 }
 

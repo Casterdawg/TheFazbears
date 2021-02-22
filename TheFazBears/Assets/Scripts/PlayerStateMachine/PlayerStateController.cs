@@ -149,7 +149,6 @@ public class PlayerStateController : MonoBehaviour
         //Populate variables for the camera, the input manager, and setting the default state of the character
         camTransform = Camera.main.transform;
         masterInput = new PlayerControls();
-        SetState(new Grounded());
 
         //Input listeners for various actions in the game
         masterInput.Player.Sprint.performed += Running;
@@ -192,13 +191,13 @@ public class PlayerStateController : MonoBehaviour
         if(currentChar == foxy)
         {
             currentFoxyHealth -= damageValue;
-            print(currentFoxyHealth);
+           // print(currentFoxyHealth);
             changedHealthBar.UpdateValue(currentFoxyHealth, totalFoxyHealth);
         }
         else if(currentChar == goldy)
         {
             currentGoldyHealth -= damageValue;
-            print(currentGoldyHealth);
+            //print(currentGoldyHealth);
             changedHealthBar.UpdateValue(currentGoldyHealth, totalGoldyHealth);
         }
 
@@ -299,6 +298,8 @@ public class PlayerStateController : MonoBehaviour
             foxyHealthBar.SetActive(true);
             changedHealthBar = foxyHealthBar.GetComponent<HealthBar>();
         }
+
+        SetState(new Grounded());
     }
 
     //This is the base movement the player has when in the grounded and airborn state
@@ -450,7 +451,7 @@ public class PlayerStateController : MonoBehaviour
     }
 
     //When the player pressed space, then check to see if the player can jump.
-    private void JumpInput(InputAction.CallbackContext context)
+    public void JumpInput(InputAction.CallbackContext context)
     {
         //If you can jump, stop the current Jump event, set is jumping to true, reset y velcity and restart the jumpEvent
         if (jumpCount <= midAirjumpLimit)
@@ -518,7 +519,7 @@ public class PlayerStateController : MonoBehaviour
             SetState(new Airborn());
 
         //Adjust the slope limit of the character so that they can navigate steep terrain more easily while jumping
-        currentController.slopeLimit = 90.0f;
+       // currentController.slopeLimit = 90.0f;
         //Reset the time spent in the air
         float timeInAir = 0.0f;
 
@@ -532,7 +533,7 @@ public class PlayerStateController : MonoBehaviour
         } while (!currentController.isGrounded && currentController.collisionFlags != CollisionFlags.Above);
 
         //When the jump is over, reset the slopelimit of the character back to default so they can't walk up walls
-        currentController.slopeLimit = 45.0f;
+        //currentController.slopeLimit = 45.0f;
 
         //Set the jump bool back to false
         isJumping = false;

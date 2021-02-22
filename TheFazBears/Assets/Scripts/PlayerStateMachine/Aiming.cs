@@ -7,6 +7,8 @@ public class Aiming : State
 {
     //This variable is used so that the playercontroller can be accessed in the non override methods
     private PlayerStateController privateController;
+    private RaycastHit hit;
+    private float distanceToGround = 10f;
 
     //When the player enters the aiming state, set up event listeners for when the user lets go of the aiming button and uses aimed abilities
     public override void Enter(PlayerStateController controller)
@@ -29,11 +31,25 @@ public class Aiming : State
         float animationSpeedPercent = ((controller.running) ? controller.currentSpeed / controller.runSpeed : controller.currentSpeed / controller.walkSpeed * .5f);
         controller.currentAnimator.SetFloat("speedPercent", animationSpeedPercent, controller.speedSmoothTime, Time.deltaTime);
 
+        Transform transform = privateController.currentController.transform;
+
+        Vector3 downward = transform.TransformDirection(Vector3.down);
+
         //If if the player is not on the ground, exit the aiming state and move to the airborn state
         if (controller.currentController.isGrounded == false)
         {
             controller.SetState(new Airborn());
         }
+
+        //Changed the prior if statement due to the terrain causing the player to frequently lose aiming ability. Using a racast distance check for it to work
+        //if (Physics.Raycast(transform.position, downward, out hit,  distanceToGround)){
+        //    //Touching the ground
+        //    if(Vector3.Distance(hit.transform.position, transform.position) >= 2)
+        //    {
+        //        controller.SetState(new Airborn());
+        //    }
+        //}
+
     }
 
     //When the player leaves the aiming state, disable event listeners that were started earlier, turn off the reticle, turn off the aim camera and reset the lookpoint to default rotation.

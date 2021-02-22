@@ -12,13 +12,15 @@ public class Die : AIState
         Debug.Log("The AI has died");
 
         //start playing death animation
+        AI.animation.SetTrigger("Death");
+        AI.audioManager.DeathHuntsman();
     }
 
     public override void Update(FollowAI AI)
     {
         //When the death animation finishes playing, exit the state
 
-        if (true)
+        if (AI.animation.GetCurrentAnimatorStateInfo(0).normalizedTime == 1)
         {
             Exit(AI);
         }
