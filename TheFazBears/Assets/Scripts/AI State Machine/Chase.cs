@@ -12,7 +12,7 @@ public class Chase : AIState
         Debug.Log("The AI is chasing the player");
         AI.CheckClosestPlayer();
         AI.agent.isStopped = false;
-        AI.animation.SetTrigger("Walk");
+        AI.animator.SetTrigger("Walk");
     }
 
     public override void Update(FollowAI AI)
@@ -24,6 +24,6 @@ public class Chase : AIState
     public override void Exit(FollowAI AI)
     {
         base.Exit(AI);
-        AI.animation.ResetTrigger("Walk");
+        AI.animator.ResetTrigger("Walk");
     }
 }

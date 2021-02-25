@@ -13,7 +13,7 @@ public class Stunned : AIState
 
         AI.Invoke("EndStun", 5);
 
-        AI.animation.SetTrigger("Stun");
+        AI.animator.SetTrigger("Stun");
         AI.audioManager.StunHuntsman();
     }
 
@@ -26,6 +26,6 @@ public class Stunned : AIState
     {
         base.Exit(AI);
         Debug.Log("Stun ended");
-        AI.animation.ResetTrigger("Stun");
+        AI.animator.ResetTrigger("Stun");
     }
 }

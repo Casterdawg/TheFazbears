@@ -12,7 +12,7 @@ public class Die : AIState
         Debug.Log("The AI has died");
 
         //start playing death animation
-        AI.animation.SetTrigger("Death");
+        AI.animator.SetTrigger("Death");
         AI.audioManager.DeathHuntsman();
     }
 
@@ -20,7 +20,7 @@ public class Die : AIState
     {
         //When the death animation finishes playing, exit the state
 
-        if (AI.animation.GetCurrentAnimatorStateInfo(0).normalizedTime == 1)
+        if (AI.animator.GetCurrentAnimatorStateInfo(0).normalizedTime == 1)
         {
             Exit(AI);
         }

@@ -17,7 +17,7 @@ public class Attack : AIState
 
         Debug.Log("The AI is attacking");
         //start playing attack animation that plays on loop
-        AI.animation.SetTrigger("Attack");
+        AI.animator.SetTrigger("Attack");
     }
 
     public override void Update(FollowAI AI)
@@ -44,6 +44,6 @@ public class Attack : AIState
     {
         //stop playing the attack animation and return to the chase state
         base.Exit(AI);
-        AI.animation.ResetTrigger("Attack");
+        AI.animator.ResetTrigger("Attack");
     }
 }

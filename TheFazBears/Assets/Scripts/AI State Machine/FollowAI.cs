@@ -42,7 +42,7 @@ public class FollowAI : MonoBehaviour
 
     public NavMeshAgent agent;
 
-    public Animator animation;
+    public Animator animator;
     public HuntsManAudioManager audioManager;
 
     private void Awake()

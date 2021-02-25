@@ -7,8 +7,6 @@ public class Aiming : State
 {
     //This variable is used so that the playercontroller can be accessed in the non override methods
     private PlayerStateController privateController;
-    private RaycastHit hit;
-    private float distanceToGround = 10f;
 
     //When the player enters the aiming state, set up event listeners for when the user lets go of the aiming button and uses aimed abilities
     public override void Enter(PlayerStateController controller)
@@ -21,6 +19,7 @@ public class Aiming : State
         //Enable the aim camera so it will take priority over the freelook camera
         controller.aimCam.gameObject.SetActive(true);
 
+        controller.masterInput.Player.Jump.Disable();
     }
 
     //While in the aim state, have the player use a different movement to make shooting and aiming easier, play walking and running animations and check to see if the player is on the ground.
@@ -30,25 +29,6 @@ public class Aiming : State
 
         float animationSpeedPercent = ((controller.running) ? controller.currentSpeed / controller.runSpeed : controller.currentSpeed / controller.walkSpeed * .5f);
         controller.currentAnimator.SetFloat("speedPercent", animationSpeedPercent, controller.speedSmoothTime, Time.deltaTime);
-
-        Transform transform = privateController.currentController.transform;
-
-        Vector3 downward = transform.TransformDirection(Vector3.down);
-
-        //If if the player is not on the ground, exit the aiming state and move to the airborn state
-        if (controller.currentController.isGrounded == false)
-        {
-            controller.SetState(new Airborn());
-        }
-
-        //Changed the prior if statement due to the terrain causing the player to frequently lose aiming ability. Using a racast distance check for it to work
-        //if (Physics.Raycast(transform.position, downward, out hit,  distanceToGround)){
-        //    //Touching the ground
-        //    if(Vector3.Distance(hit.transform.position, transform.position) >= 2)
-        //    {
-        //        controller.SetState(new Airborn());
-        //    }
-        //}
 
     }
 
@@ -60,6 +40,8 @@ public class Aiming : State
         controller.reticle.SetActive(false);
         controller.aimCam.gameObject.SetActive(false);
         controller.currentLookPoint.transform.localRotation = Quaternion.identity;
+
+        controller.masterInput.Player.Jump.Enable();
     }
 
     //When the user uses an ability, then enable the current aimed ability.

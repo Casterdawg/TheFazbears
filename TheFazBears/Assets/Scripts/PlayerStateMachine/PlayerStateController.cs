@@ -12,6 +12,7 @@ public class PlayerStateController : MonoBehaviour
 {
     //Variable used for player input actions
     public PlayerControls masterInput;
+    public UIManager uiManager;
 
     //All of these variables are specific to goldy, with his hown gravity, animator, jump limit and powers.
     //Further explination of the variables that both characters share will be below.
@@ -155,6 +156,7 @@ public class PlayerStateController : MonoBehaviour
         masterInput.Player.Sprint.canceled += Stopped;
         masterInput.Player.Jump.performed += JumpInput;
         masterInput.Player.Ability.started += UseAbility;
+        masterInput.Player.PauseExit.performed += Paused;
 
         //Lock the cursor so that camera movement feels better and set the cursor to be invisable to remove screen clutter
         Cursor.lockState = CursorLockMode.Locked;
@@ -210,7 +212,9 @@ public class PlayerStateController : MonoBehaviour
 
     public void GameOver()
     {
-        print("Game over");
+        //print("Game over");
+        uiManager.gameOverView.Show();
+        uiManager.PauseToggle(true);
     }
 
     //This method is used for changin the current state of the character
@@ -382,7 +386,7 @@ public class PlayerStateController : MonoBehaviour
             velocityY = 0.0f;
     }
 
-    private void UpdateMouseLook()
+    public void UpdateMouseLook()
     {
         //Get the deta change of how the mouse moves across the screen
         Vector2 targetMouseDelta = masterInput.Player.Look.ReadValue<Vector2>();
@@ -405,6 +409,7 @@ public class PlayerStateController : MonoBehaviour
         if (angle > 180 && angle < 280)
         {
             //If the if statement condition is met, then prevent the lookPoint from moving beyond the range
+           // print(angle);
             angles.x = 280;
         }
         else if (angle < 180 && angle > 80)
@@ -448,6 +453,11 @@ public class PlayerStateController : MonoBehaviour
     private void Stopped(InputAction.CallbackContext context)
     {
         running = false;
+    }
+
+    private void Paused(InputAction.CallbackContext context)
+    {
+        uiManager.EscapeKeyPressed();
     }
 
     //When the player pressed space, then check to see if the player can jump.
