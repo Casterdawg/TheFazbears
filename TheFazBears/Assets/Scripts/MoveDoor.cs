@@ -2,40 +2,44 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveDoor : MonoBehaviour
+public class MoveDoor : InteractionBase
 {
-    // Start is called before the first frame update
 
     public Vector3 distanceToMove;
     public float movementSpeed;
     private Vector3 startingPos;
     private Vector3 endingPos;
+    private Transform parent;
 
     private void Awake()
     {
-        startingPos = transform.position;
+        parent = transform.parent;
+        startingPos = parent.transform.position;
         endingPos = startingPos - distanceToMove;
+       // print(endingPos);
     }
 
-    private void OnEnable()
+    public override void InteractSucessful()
     {
+        base.InteractSucessful();
         StopAllCoroutines();
-        MoveEvent(endingPos);
+        StartCoroutine(MoveEvent(endingPos));
     }
 
-    private void OnDisable()
+    public override void InteractCancel()
     {
+        base.InteractCancel();
         StopAllCoroutines();
-        MoveEvent(startingPos);
+        StartCoroutine(MoveEvent(startingPos));
     }
 
     private IEnumerator MoveEvent(Vector3 postion)
     {
         do
         {
-            transform.position = Vector3.MoveTowards(transform.position, postion, movementSpeed);
+            parent.transform.position = Vector3.MoveTowards(parent.transform.position, postion, movementSpeed);
             yield return null;
-        } while (Vector3.Distance(transform.position, postion) >= 1);
+        } while (Vector3.Distance(parent.transform.position, postion) >= 1);
 
     }
 }

@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class Genorator : InteractionBase
 {
+    public InteractionBase interactedObject;
     public override void InteractSucessful()
     {
         base.InteractSucessful();
         Debug.Log("Electronic Interaction");
-    }
-
-    public override void InteractFail()
-    {
-        base.InteractFail();
+        interactedObject.OnInteracted();
     }
 }

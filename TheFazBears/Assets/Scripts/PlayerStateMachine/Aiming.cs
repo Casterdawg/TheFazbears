@@ -20,6 +20,7 @@ public class Aiming : State
         controller.aimCam.gameObject.SetActive(true);
 
         controller.masterInput.Player.Jump.Disable();
+        controller.masterInput.Player.Ability.Disable();
     }
 
     //While in the aim state, have the player use a different movement to make shooting and aiming easier, play walking and running animations and check to see if the player is on the ground.
@@ -42,6 +43,7 @@ public class Aiming : State
         controller.currentLookPoint.transform.localRotation = Quaternion.identity;
 
         controller.masterInput.Player.Jump.Enable();
+        controller.masterInput.Player.Ability.Enable();
     }
 
     //When the user uses an ability, then enable the current aimed ability.

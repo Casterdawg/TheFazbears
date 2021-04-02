@@ -13,6 +13,8 @@ public class HuntsManAudioManager : MonoBehaviour
     public AudioClip stun;
     public AudioClip[] swings;
 
+    public FollowAI aiConnection;
+
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -55,6 +57,7 @@ public class HuntsManAudioManager : MonoBehaviour
         int rand = Random.Range(0, swings.Length - 1);
         audioSource.clip = swings[rand];
         audioSource.Play();
+        aiConnection.Swing();
     }
 
 }

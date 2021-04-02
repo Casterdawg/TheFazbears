@@ -8,19 +8,30 @@ public class InteractionBase : MonoBehaviour
 
     private bool interacted;
 
+    public bool interactionCancelable;
+
+    private void Start()
+    {
+        interacted = false;
+    }
+
     public void OnInteracted()
     {
         if(interacted == false)
         {
             InteractSucessful();
         }
-        else if(multiInteraction == true)
+        else if(multiInteraction == true && interacted == true)
         {
             InteractSucessful();
         }
-        else
+    }
+
+    public void OnInteractCancel()
+    {
+        if(interacted == true && interactionCancelable == true)
         {
-            InteractFail();
+            OnInteractCancel();
         }
     }
 
@@ -29,8 +40,8 @@ public class InteractionBase : MonoBehaviour
         interacted = true;
     }
 
-    public virtual void InteractFail()
+    public virtual void InteractCancel()
     {
-
+        interacted = false;
     }
 }

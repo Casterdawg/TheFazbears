@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class Torch : InteractionBase
 {
+    public InteractionBase interactedObject;
+
     public override void InteractSucessful()
     {
         base.InteractSucessful();
         Debug.Log("Fire interaction");
-    }
-
-    public override void InteractFail()
-    {
-        base.InteractFail();
+        interactedObject.OnInteracted();
     }
 }

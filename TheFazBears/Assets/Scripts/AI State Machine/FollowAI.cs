@@ -14,11 +14,13 @@ public class FollowAI : MonoBehaviour
 
     public GameObject mask;
 
-    public GameObject axe;
-    private Rigidbody axeRig;
+    public GameObject[] axes;
+    private Rigidbody[] axeRig = new Rigidbody[2];
+
+    private float damage = 15;
 
     private Vector3 forward;
-    private readonly float coneRadius = 3;
+    private readonly float coneRadius = 5;
     private readonly float maxDistance = 10;
 
     public Transform goldy;
@@ -31,6 +33,7 @@ public class FollowAI : MonoBehaviour
     private float distanceToTarget;
     private readonly float distanceToAttack = 2;
     private readonly float distanceToIdle = 20;
+    private readonly float distanceToHit = 1.5f;
 
     private int distaceCount = 0;
     private int timeToIdle = 20;
@@ -49,7 +52,8 @@ public class FollowAI : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
 
-        axeRig = axe.GetComponent<Rigidbody>();
+        axeRig[0] = axes[0].GetComponent<Rigidbody>();
+        axeRig[1] = axes[1].GetComponent<Rigidbody>();
 
         SetState(new Idle());
 
@@ -69,9 +73,19 @@ public class FollowAI : MonoBehaviour
     {
         forward = transform.TransformDirection(Vector3.forward);
 
-        if(Physics.SphereCast(transform.position, coneRadius, forward, out RaycastHit hit, maxDistance))
+        //if(Physics.SphereCast(transform.position, coneRadius, forward, out RaycastHit hit, maxDistance))
+        //{
+        //    if(hit.collider.CompareTag("Player"))
+        //    {
+        //        SetState(new Chase());
+        //    }
+        //}
+
+        RaycastHit[] hits = Physics.SphereCastAll(transform.position, 2, forward, maxDistance);
+
+        foreach (RaycastHit hit in hits)
         {
-            if(hit.collider.CompareTag("Player"))
+            if (hit.collider.CompareTag("Player"))
             {
                 SetState(new Chase());
             }
@@ -149,12 +163,50 @@ public class FollowAI : MonoBehaviour
         {
             unmasked = true;
             mask.SetActive(false);
-            axeRig.constraints = RigidbodyConstraints.None;
-            axe.tag = "Throwable";
-            axe.transform.parent = null;
-            axeRig.AddExplosionForce(explosionForce, transform.position, explosionRadius, upwardForce);
+
+            for (int index = 0; index < axes.Length; index++)
+            {
+                axeRig[index].constraints = RigidbodyConstraints.None;
+                axes[index].tag = "Throwable";
+                axes[index].transform.parent = null;
+                axeRig[index].AddExplosionForce(explosionForce, transform.position, explosionRadius, upwardForce);
+            }
+
+            Invoke("ChangeLayer", 2);
 
             SetState(new Stunned());
+        }
+    }
+
+    private void ChangeLayer()
+    {
+        foreach(GameObject axe in axes)
+        axe.layer = 0;
+    }
+
+    public void Swing()
+    {
+        //if (distanceToTarget <= distanceToHit)
+        //{
+        //    controller.DoDamage(damage, currentTarget.gameObject);
+        //}
+
+        forward = transform.TransformDirection(Vector3.forward);
+
+        if (distanceToTarget <= distanceToHit)
+        {
+            //Debug.Log(hit);
+
+            RaycastHit[] hits = Physics.SphereCastAll(transform.position, 1, forward, distanceToHit);
+
+           foreach (RaycastHit hit in hits){
+                if (hit.collider.CompareTag("Player"))
+                {
+                    controller.DoDamage(damage, hit.collider.gameObject);
+                    Debug.Log("Attacked");
+                }
+            }
+            
         }
     }
 
@@ -162,7 +214,16 @@ public class FollowAI : MonoBehaviour
     {
         if(collision.collider.CompareTag("Throwable"))
         {
-            DeathCheck();
+            if (collision.collider.name.Contains("Saw") && !unmasked)
+            {
+                BuzzSawHit();
+                Destroy(collision.gameObject);
+            }
+            else
+            {
+                DeathCheck();
+            }
+
         }
         if (collision.collider.CompareTag("Player"))
         {
@@ -202,6 +263,7 @@ public class FollowAI : MonoBehaviour
         {
             SetState(new Die());
         }
+
     }
 
     public void SetState(AIState state)
@@ -231,7 +293,9 @@ public class FollowAI : MonoBehaviour
 
     public void Destroy()
     {
+        foreach (GameObject axe in axes)
         Destroy(axe);
+
         Destroy(gameObject);
     }
 }

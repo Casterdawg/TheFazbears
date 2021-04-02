@@ -157,14 +157,13 @@ public class PlayerStateController : MonoBehaviour
         masterInput.Player.Jump.performed += JumpInput;
         masterInput.Player.Ability.started += UseAbility;
         masterInput.Player.PauseExit.performed += Paused;
+        masterInput.Player.SwitchCharacter.performed += SwitchChar;
 
         //Lock the cursor so that camera movement feels better and set the cursor to be invisable to remove screen clutter
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        //If the player can switch characters, then add an input action for switching characters
-        if (canSwitchChar)
-            masterInput.Player.SwitchCharacter.performed += SwitchChar;
+            
         //Link the variables for the active character
         LinkCharacter();
     }
@@ -435,12 +434,16 @@ public class PlayerStateController : MonoBehaviour
     //The method called when the switch character button is pressed.
     private void SwitchChar(InputAction.CallbackContext context)
     {
-        //Switch which character is currently active
-        isGoldy = !isGoldy;
-        //Relink the character after the active character is changed
-        LinkCharacter();
-        //Apply gravity to the other character that is not active
-        OtherCharGravity();
+        if (canSwitchChar)
+        {
+            //Switch which character is currently active
+            isGoldy = !isGoldy;
+            //Relink the character after the active character is changed
+            LinkCharacter();
+            //Apply gravity to the other character that is not active
+            OtherCharGravity();
+        }
+        
     }
 
     //If the player pressed down on the shift key, set the running bool to true

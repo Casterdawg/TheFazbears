@@ -4,16 +4,26 @@ using UnityEngine;
 
 public class FloorButton : MonoBehaviour
 {
-    public GameObject activatedObject;
 
+    public InteractionBase interactionController;
+    public Material interactedColor;
+    private Renderer rend;
 
-    private void OnTriggerEnter(Collider other)
+    private void Start()
     {
-        activatedObject.SetActive(false); 
+        rend = GetComponent<Renderer>();
     }
 
-    private void OnTriggerExit(Collider other)
+
+    private void OnCollisionEnter(Collision collision)
     {
-        activatedObject.SetActive(true);
+        Destroy(collision.gameObject);
+        interactionController.OnInteracted();
+        rend.material = interactedColor;
     }
+
+    //private void OnCollisionExit(Collision collision)
+    //{
+    //    interactionController.OnInteractCancel();
+    //}
 }
